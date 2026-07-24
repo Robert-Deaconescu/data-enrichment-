@@ -53,7 +53,7 @@ if new_file:
     w.writeheader()
 
 # firmele care si-au epuizat toate tiparele fara valid
-if os.path.exists(VERIF):
+if not new_file:
     v = pd.read_csv(VERIF, dtype=str).fillna("")
     for _, r in df.iterrows():
         fid = r["id_firma"]

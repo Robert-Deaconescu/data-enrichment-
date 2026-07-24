@@ -24,3 +24,17 @@
 - Firme cu email generic dupa merge: 867
 - Firme cu persoana dupa merge: 1921
 - Firme cu posibil CUI: 613
+
+## Pas 2+3 - ANAF + domenii
+
+- CUI rezolvat: 1958/2495
+- Firme excluse (radiate/inactive): 7
+- Persoana completata din administratori ANAF: 412
+- Total firme cu persoana: 2333
+- Firme cu domeniu propriu (din email generic): 650
+
+## Pas 4 - Tipare e-mail
+
+- Firme eligibile (Pending + persoana + domeniu propriu): 587
+- Total tipare generate: 3552
+- Medie tipare/firma: 6.1
