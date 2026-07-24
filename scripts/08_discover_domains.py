@@ -21,9 +21,11 @@ GENERIC = {"COM", "PROD", "SERV", "SERVICE", "SERVICII", "GRUP", "GROUP", "TRANS
            "INDUSTRIES", "CONSTRUCT", "CONSULTING", "TRADING", "HOLDING", "AGRO"}
 TLDS = [".ro", ".com", ".eu", ".net"]
 
+from concurrent.futures import ThreadPoolExecutor
+
 resolver = dns.resolver.Resolver()
-resolver.timeout = 4
-resolver.lifetime = 6
+resolver.timeout = 1.5
+resolver.lifetime = 2.5
 
 sess = requests.Session()
 sess.headers["User-Agent"] = UA
@@ -139,9 +141,11 @@ print(f"De cautat domenii pentru {len(todo)} firme", flush=True)
 found = 0
 for n, (_, r) in enumerate(todo.iterrows()):
     best = {"id_firma": r["id_firma"], "domeniu": "", "mx": "", "validare": ""}
-    for dom in candidates(r["firma"]):
-        if not has_dns(dom):
-            continue
+    cands = candidates(r["firma"])
+    # DNS in paralel: pastreaza doar candidatii care exista
+    with ThreadPoolExecutor(max_workers=10) as ex:
+        alive = [d for d, ok in zip(cands, ex.map(has_dns, cands)) if ok]
+    for dom in alive:
         m = page_matches(dom, r["firma"], r["cui"], r["judet"], r["localitate"])
         if m:
             best.update(domeniu=dom, mx="da" if has_mx(dom) else "nu", validare=m)
