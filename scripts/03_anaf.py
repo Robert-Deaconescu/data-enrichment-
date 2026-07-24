@@ -91,13 +91,13 @@ for n, r in enumerate(todo):
     # 2) cautare dupa nume
     if not best["cui"]:
         q = key if len(key) >= 3 else firma
-        resp = get(f"{BASE}/search", params={"q": q, "limit": 100})
+        resp = get(f"{BASE}/search", params={"q": q, "limit": 50})
         time.sleep(DELAY)
         cands = []
         if resp is not None and resp.status_code == 200:
             cands = resp.json().get("data", []) or []
         if not cands and len(key.split()) > 2:
-            resp = get(f"{BASE}/search", params={"q": " ".join(key.split()[:2]), "limit": 100})
+            resp = get(f"{BASE}/search", params={"q": " ".join(key.split()[:2]), "limit": 50})
             time.sleep(DELAY)
             if resp is not None and resp.status_code == 200:
                 cands = resp.json().get("data", []) or []
