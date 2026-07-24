@@ -84,8 +84,12 @@ def has_mx(dom):
         return False
 
 
-def page_matches(dom, name, cui):
-    """Descarca homepage si cauta numele firmei (tokenuri distinctive) sau CUI."""
+def page_matches(dom, name, cui, judet, localitate):
+    """Descarca homepage si cauta numele firmei sau CUI. Conservator:
+    - CUI in pagina = acceptare sigura
+    - >=2 tokenuri distinctive, toate prezente = nume-complet
+    - 1 singur token distinctiv: cere token in titlu SAU pagina + judet/localitate
+      in pagina (altfel domeniile generice dau fals-pozitive)"""
     for scheme in ("https", "http"):
         try:
             r = sess.get(f"{scheme}://{dom}", timeout=10, allow_redirects=True)
@@ -98,13 +102,17 @@ def page_matches(dom, name, cui):
             if cui and re.search(rf"\b(RO)?{re.escape(cui)}\b", text):
                 return "cui"
             t = [x for x in toks(name) if x not in GENERIC]
-            if not t:
-                t = toks(name)
-            hits = sum(1 for x in t if x in text)
-            if t and hits == len(t):
-                return "nume-complet"
-            if t and (t[0] in title or (hits >= max(1, len(t) - 1) and len(t) > 1)):
-                return "nume-partial"
+            geo = [unidecode(g).upper() for g in (judet, localitate) if g]
+            geo_hit = any(g in text for g in geo)
+            if len(t) >= 2:
+                hits = sum(1 for x in t if x in text)
+                if hits == len(t):
+                    return "nume-complet"
+                if hits >= len(t) - 1 and geo_hit:
+                    return "nume-partial+geo"
+            elif len(t) == 1:
+                if (t[0] in title or t[0] in text) and geo_hit:
+                    return "nume+geo"
         except requests.RequestException:
             continue
         finally:
@@ -134,7 +142,7 @@ for n, (_, r) in enumerate(todo.iterrows()):
     for dom in candidates(r["firma"]):
         if not has_dns(dom):
             continue
-        m = page_matches(dom, r["firma"], r["cui"])
+        m = page_matches(dom, r["firma"], r["cui"], r["judet"], r["localitate"])
         if m:
             best.update(domeniu=dom, mx="da" if has_mx(dom) else "nu", validare=m)
             found += 1
