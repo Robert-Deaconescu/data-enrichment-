@@ -38,3 +38,20 @@
 - Firme eligibile (Pending + persoana + domeniu propriu): 587
 - Total tipare generate: 3552
 - Medie tipare/firma: 6.1
+
+## Pas 5 - Calibrare Reoon (esantion, credite gratuite)
+
+- Firme testate: 33 (esantion din cele 587 eligibile)
+- Credite consumate: 146 (toate creditele gratuite disponibile azi)
+- Rezultat: 5 firme cu adresa nominala valida (15%), 7 catch-all, 21 fara rezultat
+- Cost mediu: 4.4 credite/firma
+- Concluzie: tiparele singure au randament scazut; scrapingul + descoperirea
+  de domenii sunt necesare pentru a creste acoperirea
+
+## Plafonul structural
+
+- Doar 648/2488 firme Pending au domeniu web propriu (dedus din emailul generic)
+- 1840 firme nu au niciun domeniu cunoscut -> nicio adresa nominala posibila
+  fara un pas de descoperire a site-urilor
+- Tinta contractuala 50-70% nominale = 1244-1742 firme; plafonul actual
+  fara descoperire domenii: ~587 firme (24%) chiar la randament 100%
