@@ -25,16 +25,17 @@ sess = requests.Session()
 sess.headers["User-Agent"] = "TB-enrichment/1.0 (proiect date B2B; contact: robertdeaconescu2020@gmail.com)"
 
 
-def get(url, params=None, tries=4):
+def get(url, params=None, tries=5):
+    """404 = raspuns valid (negasit). Orice alta eroare (429/403/5xx/retea)
+    se reincearca cu backoff, ca sa nu marcam gresit firme drept negasite."""
     for a in range(tries):
         try:
             r = sess.get(url, params=params, timeout=25)
-            if r.status_code == 429:
-                time.sleep(5 * (a + 1))
-                continue
-            return r
+            if r.status_code in (200, 404):
+                return r
+            time.sleep(min(60, 5 * 2 ** a))
         except requests.RequestException:
-            time.sleep(2 ** a)
+            time.sleep(min(60, 2 ** a))
     return None
 
 
@@ -101,6 +102,14 @@ for n, r in enumerate(todo):
             time.sleep(DELAY)
             if resp is not None and resp.status_code == 200:
                 cands = resp.json().get("data", []) or []
+        # fereastra de 50 plina de omonime din alte judete? reia cu forma juridica
+        lf = re.search(r"\b(SRL|SA|PFA)\b", firma)
+        if lf and len(cands) >= 50 and jud and not any(
+                njud(c.get("county", "")) == jud for c in cands):
+            resp = get(f"{BASE}/search", params={"q": f"{key} {lf.group(1)}", "limit": 50})
+            time.sleep(DELAY)
+            if resp is not None and resp.status_code == 200:
+                cands += resp.json().get("data", []) or []
         scored = []
         for c in cands:
             sc = fuzz.token_sort_ratio(nkey(c.get("name", "")), key)
