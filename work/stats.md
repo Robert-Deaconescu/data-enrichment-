@@ -83,3 +83,14 @@
 - Firme eligibile (Pending + persoana + domeniu propriu): 1038
 - Total tipare generate: 6268
 - Medie tipare/firma: 6.0
+
+## Rezumat pre-verificare (toate procesele gratuite complete)
+
+- Domenii descoperite web: 626 gasite / 1840 firme fara domeniu (568 cu MX)
+- Audit subagenti (2 runde): 588 domenii auditate -> 462 corecte, 32 gresite,
+  94 incerte; 113 excluse la verificare manuala (domenii_de_verificat_manual.csv)
+- Firme cu domeniu validat: 1105 (fata de 648 initial)
+- Firme eligibile tipare: 1038 (6268 tipare)
+- Scraping 2 runde: 1178 domenii scanate, 612 cu adrese publicate
+- Dedup arbitrat de agenti: 1 duplicat confirmat (MATEROM), 12 distincte, 2 incerte
+- Necesar credite Reoon: ~6290 (+20% marja = ~7550) -> pachet 10K ($11.90)
