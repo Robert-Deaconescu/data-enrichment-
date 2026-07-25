@@ -105,3 +105,14 @@
 
 - Firme candidate: 588; excluse de filtrul de siguranta: 30
 - Firme in coada MX: 558; tipare totale (max): 3808
+
+## Pas 8 - Export final
+
+- Total firme: 2495
+- Catch-all: 325 (13.0%)
+- Exclus-fara-email: 1446 (58.0%)
+- Exclus-inactiv: 7 (0.3%)
+- Generic: 359 (14.4%)
+- Incert-mx: 58 (2.3%)
+- Nominal: 300 (12.0%)
+- Credite Reoon consumate: 8044
