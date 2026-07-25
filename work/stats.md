@@ -94,3 +94,9 @@
 - Scraping 2 runde: 1178 domenii scanate, 612 cu adrese publicate
 - Dedup arbitrat de agenti: 1 duplicat confirmat (MATEROM), 12 distincte, 2 incerte
 - Necesar credite Reoon: ~6290 (+20% marja = ~7550) -> pachet 10K ($11.90)
+
+## Runda recuperare MX (sugestia clientului)
+
+- 588 firme fara site au totusi domeniu candidat cu server email activ (MX)
+- Regula de acceptare: tipar administrator valid = nominal; doar office@ = generic 'incert'
+- Plafonul teoretic creste: 1105 + 588 = 1693 firme cu o cale spre adresa (68%)
