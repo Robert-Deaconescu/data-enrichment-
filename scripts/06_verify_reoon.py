@@ -43,7 +43,7 @@ if os.path.exists(VERIF):
         seen[r["email"]] = r["status"]
     for fid, g in v.groupby("id_firma"):
         sts = set(g["status"])
-        if "valid" in sts or "safe" in sts:
+        if "valid" in sts or "safe" in sts or "catch_all" in sts:
             firm_done.add(fid)
 
 new_file = not os.path.exists(VERIF)
