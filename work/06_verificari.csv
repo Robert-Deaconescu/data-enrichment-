@@ -155,3 +155,6 @@ id_firma,email,status,is_catch_all,credite
 4,porkolab@nexxon.ro,catch_all,True,1
 6,nicoale@bilstein.ro,catch_all,True,1
 10,ilie.mihai@agricultorul.com,safe,False,1
+11,ghinia.gheorghe@agritehnica.ro,invalid,False,1
+11,ghinia@agritehnica.ro,invalid,False,1
+11,gheorghe.ghinia@agritehnica.ro,invalid,False,1
