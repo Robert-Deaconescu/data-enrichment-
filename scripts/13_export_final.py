@@ -57,7 +57,12 @@ for _, r in df.iterrows():
         rows.append(base); stats["Exclus-inactiv"] = stats.get("Exclus-inactiv", 0) + 1
         continue
     g = by_firm.get(fid)
-    ok = g[g["status"].isin(["valid", "safe"])] if g is not None else None
+    # valid/safe = verificat plin; *_del = SMTP a acceptat (role_account/unknown
+    # livrabile) - acceptat doar pentru adrese generice/office, nu ca nominal
+    ok = None
+    if g is not None:
+        ok = g[g["status"].isin(["valid", "safe"]) |
+               (g["status"].str.endswith("_del") & g["src"].isin(["generic", "office-mx"]))]
     if ok is not None and len(ok):
         best = ok.iloc[0]
         if best["src"] in ("tipar-verificat", "site", "tipar-mx"):
@@ -73,7 +78,7 @@ for _, r in df.iterrows():
                         Observatii="office@ pe domeniu ghicit (MX activ, neconfirmat)")
             rows.append(base); stats["Incert-mx"] = stats.get("Incert-mx", 0) + 1
             continue
-    ca = g[g["status"] == "catch_all"] if g is not None else None
+    ca = g[g["status"].str.startswith("catch_all")] if g is not None else None
     if ca is not None and len(ca):
         best = ca.iloc[0]
         base.update(Email=best["email"], Status="Catch-all",

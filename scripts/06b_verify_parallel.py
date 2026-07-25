@@ -43,7 +43,7 @@ if os.path.exists(VERIF):
         seen[r["email"]] = r["status"]
     for fid, g in v.groupby("id_firma"):
         sts = set(g["status"])
-        if sts & {"valid", "safe", "catch_all"}:
+        if sts & {"valid", "safe"} or any(s.startswith("catch_all") for s in sts):
             firm_done.add(fid)
     # firme care si-au epuizat toate tiparele fara rezultat
     tried_by_firm = v.groupby("id_firma")["email"].apply(set).to_dict()
@@ -97,6 +97,11 @@ def process_firm(row):
             if d is None:
                 continue
             st = d.get("status", "error")
+            # role_account/unknown pot fi totusi livrabile (SMTP a acceptat) -
+            # pastram semnalul, altfel cozile de generice (office@) s-ar
+            # exclude in bloc la export
+            if st not in ("valid", "safe") and d.get("is_deliverable") is True:
+                st = st + "_del"
             catch = d.get("is_catch_all_email", d.get("is_catch_all", ""))
             with lock:
                 if email in seen:          # alt thread a apucat sa-l verifice
@@ -112,7 +117,7 @@ def process_firm(row):
             with lock:
                 stats["found"] += 1
             break
-        if st == "catch_all":
+        if st.startswith("catch_all"):
             break
     with lock:
         stats["done"] += 1
