@@ -79,12 +79,17 @@ for n, (_, r) in enumerate(todo.iterrows()):
         if email in seen:
             st = seen[email]
         else:
-            try:
-                resp = requests.get(API, params={"email": email, "key": KEY, "mode": "power"}, timeout=45)
-                time.sleep(DELAY)
-                d = resp.json() if resp.status_code == 200 else {}
-            except Exception:
-                time.sleep(3)
+            d = None
+            for attempt in range(2):
+                try:
+                    resp = requests.get(API, params={"email": email, "key": KEY, "mode": "power"}, timeout=75)
+                    time.sleep(DELAY)
+                    d = resp.json() if resp.status_code == 200 else {}
+                    break
+                except Exception as e:
+                    print(f"  ! {email}: {type(e).__name__} (incercarea {attempt+1}/2)", flush=True)
+                    time.sleep(5)
+            if d is None:
                 continue
             st = d.get("status", "error")
             catch = d.get("is_catch_all_email", d.get("is_catch_all", ""))
