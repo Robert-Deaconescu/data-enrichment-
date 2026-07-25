@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Bash(python3 *)",
+      "Read",
+      "Grep",
+      "Glob"
+    ]
+  }
+}
