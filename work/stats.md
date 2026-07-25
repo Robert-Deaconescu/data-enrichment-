@@ -100,3 +100,8 @@
 - 588 firme fara site au totusi domeniu candidat cu server email activ (MX)
 - Regula de acceptare: tipar administrator valid = nominal; doar office@ = generic 'incert'
 - Plafonul teoretic creste: 1105 + 588 = 1693 firme cu o cale spre adresa (68%)
+
+## Runda MX - coada construita
+
+- Firme candidate: 588; excluse de filtrul de siguranta: 30
+- Firme in coada MX: 558; tipare totale (max): 3808
