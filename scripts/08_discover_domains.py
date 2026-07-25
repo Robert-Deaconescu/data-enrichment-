@@ -2,8 +2,11 @@
 """Pas suplimentar (gratuit) - Descoperirea domeniului web pentru firmele fara
 domeniu cunoscut. Genereaza candidati din numele firmei, verifica DNS + MX,
 apoi valideaza continutul site-ului (numele firmei sau CUI in pagina).
-Checkpoint: work/08_domenii.csv"""
+Checkpoint: work/08_domenii.csv (+ .shardN pentru rulari paralele)
+Utilizare paralela: --shard I --of N (I in 0..N-1)"""
+import argparse
 import csv
+import glob as globmod
 import os
 import re
 import time
@@ -122,21 +125,34 @@ def page_matches(dom, name, cui, judet, localitate):
     return ""
 
 
+ap = argparse.ArgumentParser()
+ap.add_argument("--shard", type=int, default=0)
+ap.add_argument("--of", type=int, default=1)
+args = ap.parse_args()
+
 df = pd.read_csv("work/04_imbogatit.csv", dtype=str).fillna("")
 todo = df[(df["status"] == "Pending") & (df["domeniu"] == "")]
 
+# done = randurile din checkpointul principal + toate shardurile
 done = set()
-if os.path.exists(OUT):
-    done = set(pd.read_csv(OUT, dtype=str)["id_firma"].astype(str))
+for p in [OUT] + globmod.glob(OUT + ".shard*"):
+    if os.path.exists(p):
+        try:
+            done |= set(pd.read_csv(p, dtype=str)["id_firma"].astype(str))
+        except Exception:
+            pass
 
-new_file = not os.path.exists(OUT)
-f = open(OUT, "a", newline="")
+out_path = OUT if args.of == 1 else f"{OUT}.shard{args.shard}"
+new_file = not os.path.exists(out_path)
+f = open(out_path, "a", newline="")
 w = csv.DictWriter(f, fieldnames=["id_firma", "domeniu", "mx", "validare"])
 if new_file:
     w.writeheader()
 
 todo = todo[~todo["id_firma"].isin(done)]
-print(f"De cautat domenii pentru {len(todo)} firme", flush=True)
+todo = todo.reset_index(drop=True)
+todo = todo[todo.index % args.of == args.shard]
+print(f"[shard {args.shard}/{args.of}] de cautat: {len(todo)} firme", flush=True)
 
 found = 0
 for n, (_, r) in enumerate(todo.iterrows()):

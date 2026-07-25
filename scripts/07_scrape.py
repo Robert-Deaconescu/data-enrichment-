@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """Pasul 6 - Scraping pagini de contact (gratuit), pentru firmele fara adresa
 nominala verificata. 1 cerere/secunda, robots.txt respectat, doar pagini de
-contact/echipa. Checkpoint: work/07_scrape.csv"""
+contact/echipa. Checkpoint: work/07_scrape.csv (+ .shardN pentru paralel).
+Utilizare paralela: --shard I --of N"""
+import argparse
 import csv
+import glob as globmod
 import os
 import re
 import signal
@@ -28,12 +31,22 @@ if os.path.exists("work/06_verificari.csv"):
     v = pd.read_csv("work/06_verificari.csv", dtype=str).fillna("")
     verified = set(v[v["status"].isin(["valid", "safe"])]["id_firma"])
 
-done = set()
-if os.path.exists(OUT):
-    done = set(pd.read_csv(OUT, dtype=str)["id_firma"].astype(str))
+ap = argparse.ArgumentParser()
+ap.add_argument("--shard", type=int, default=0)
+ap.add_argument("--of", type=int, default=1)
+args = ap.parse_args()
 
-new_file = not os.path.exists(OUT)
-fout = open(OUT, "a", newline="")
+done = set()
+for p in [OUT] + globmod.glob(OUT + ".shard*"):
+    if os.path.exists(p):
+        try:
+            done |= set(pd.read_csv(p, dtype=str)["id_firma"].astype(str))
+        except Exception:
+            pass
+
+out_path = OUT if args.of == 1 else f"{OUT}.shard{args.shard}"
+new_file = not os.path.exists(out_path)
+fout = open(out_path, "a", newline="")
 w = csv.DictWriter(fout, fieldnames=["id_firma", "domeniu", "emailuri", "pagini_ok", "nota"])
 if new_file:
     w.writeheader()
@@ -41,7 +54,9 @@ if new_file:
 # tinta: Pending, cu domeniu, fara adresa nominala verificata deja
 todo = df[(df["status"] == "Pending") & (df["domeniu"] != "")
           & (~df["id_firma"].isin(verified)) & (~df["id_firma"].isin(done))]
-print(f"De scanat: {len(todo)} domenii", flush=True)
+todo = todo.reset_index(drop=True)
+todo = todo[todo.index % args.of == args.shard]
+print(f"[shard {args.shard}/{args.of}] de scanat: {len(todo)} domenii", flush=True)
 
 sess = requests.Session()
 sess.headers["User-Agent"] = UA
