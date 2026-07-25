@@ -185,3 +185,405 @@ id_firma,domeniu,verdict,motiv
 250,conarg.com,incert,Grupul romanesc Conarg a folosit istoric conarg.ro; conarg.com ar putea apartine grupului sau unei entitati straine; neverificabil in acest mediu.
 255,conversionmarketing.com,incert,Agentia romaneasca Conversion foloseste conversion.ro; conversionmarketing.com (.com generic) poate apartine unei agentii straine omonime; neverificabil in acest mediu.
 257,corteva.ro,corect,Corteva Agriscience are subsidiara in Romania; corteva.ro este domeniul local oficial al companiei.
+593,travelcommunication.ro,corect,"nume exact, domeniu .ro dedicat"
+605,unitygroup.ro,incert,"nume foarte generic, multiple entitati Unity Group posibile; neverificabil"
+617,valtec.ro,incert,"VALTEC este si brand international de instalatii/incalzire; posibil site de brand, nu al SRL-ului de lubrifianti"
+649,willemen-carpati.ro,corect,filiala romaneasca a grupului belgian Willemen
+656,3pillarglobal.com,corect,3Pillar Global are entitate si birouri in Romania (Cluj/Timisoara)
+710,chindustrial.com,incert,".com generic, risc de confuzie (ex. CNH Industrial); neverificabil"
+717,conexinstal.ro,corect,nume distinctiv + geo Cluj confirmat
+768,evozon.ro,corect,"Evozon, firma software cunoscuta din Cluj"
+792,gamasoftware.ro,corect,"nume complet gasit pe site, domeniu .ro"
+804,gormet.eu,corect,nume distinctiv + geo Cluj confirmat
+810,haak.ro,corect,"studio din Cluj, nume complet confirmat pe site"
+828,imperialdevelopment.ro,corect,"dezvoltator imobiliar Cluj, nume complet"
+846,lalorraine.ro,corect,La Lorraine Bakery Group are fabrica la Campia Turzii
+852,logicsystems.ro,corect,"firma IT Cluj, nume complet confirmat"
+864,medisprof.ro,corect,clinica oncologica cunoscuta din Cluj
+896,nordconforest.ro,corect,constructor cunoscut din Cluj
+939,remsrealestate.com,incert,agentia REMS Cluj foloseste istoric alte domenii; .com neverificabil
+976,somlea.ro,corect,"casa de avocatura/insolventa Cluj, nume distinctiv"
+1018,ulmapackaging.ro,corect,subsidiara romaneasca a grupului spaniol ULMA
+1042,weberbau.ro,corect,nume distinctiv + geo Cluj confirmat
+1061,adodistriconsult.ro,corect,"nume exact, foarte specific"
+1073,baby.com,gresit,"baby.com este domeniu global generic (apartine unei corporatii straine), nu al unui SRL din Galati"
+1085,citygas.ro,corect,"City Gas, distribuitor de gaz cunoscut din Galati"
+1091,demcar.ro,corect,dealer auto cunoscut din Galati
+1122,nevada-butnaru.ro,corect,"nume foarte specific, potrivire exacta"
+1134,revival.ro,corect,validat prin CUI gasit pe site
+1140,tancrad.com,corect,"Tancrad, constructor cunoscut din Galati, nume distinctiv"
+1146,medwarehouse.com,incert,".com generic in engleza, prefixul distinctiv A&S lipseste din domeniu; risc site strain"
+1164,automarket.ro,gresit,"automarket.ro este portal media auto national, nu dealerul Auto Market SRL din Iasi"
+1170,axafarm.ro,corect,validat prin CUI gasit pe site
+1194,conduent.com,corect,Conduent are centru mare in Iasi; site-ul corporativ al grupului
+1236,inovalabel.ro,corect,"nume distinctiv, producator etichete Iasi"
+1248,mennekes.com,corect,Mennekes are fabrica in judetul Iasi; site-ul grupului german
+1272,romfour.com,corect,"Romfour, transportator cunoscut din Iasi"
+1284,snack-trade.com,corect,"nume complet confirmat, denumire suficient de specifica"
+1290,transoil.ro,incert,"potrivire doar partiala de nume; Trans-Oil este si grup agro-industrial moldovean, posibila alta entitate"
+1296,viosand.ro,corect,nume distinctiv Viosand + geo Pascani
+1361,agrosen.ro,corect,"nume distinctiv, firma agricola Mures"
+1674,farmacia-horvath.ro,corect,"potrivire exacta, farmacie locala Reghin"
+1701,fomcowood.ro,corect,"parte din grupul Fomco (Mures), validat prin CUI"
+2132,smartdeliveryservices.com,incert,"nume generic in engleza pe .com, firma infiintata recent; risc site strain"
+2191,tmgip.ro,corect,"acronim specific, validat prin CUI"
+2204,total.com,gresit,"total.com apartine TotalEnergies (Franta), nu unui SRL din Targu Mures"
+2287,zsofia.ro,corect,nume + geo Reghin confirmate
+2299,cersanitromania.ro,corect,"site-ul romanesc al grupului polonez Cersanit, fabrica la Roman"
+2317,merlinsbeverages.com,corect,"nume foarte distinctiv, potrivire exacta"
+2323,rifil.ro,corect,"Rifil Savinesti, producator de fire cunoscut"
+2343,albertinostar.ro,corect,validat prin CUI gasit pe site
+2355,carpatis.ro,corect,"Carpatis, producator alimentar cunoscut din Suceava, validat CUI"
+2361,dornamedical.ro,corect,"retea de laboratoare/clinici cunoscuta, Vatra Dornei"
+2367,eurotehnic.ro,corect,validat prin CUI gasit pe site
+2397,radburgcenter.ro,corect,"nume distinctiv, potrivire completa cu brandul Radburg (anvelope)"
+2415,testprima.ro,corect,"potrivire exacta nume-domeniu, nume suficient de distinctiv"
+2430,enachemorarit.ro,corect,"moara cunoscuta din Husi, nume foarte distinctiv"
+2442,redcon.ro,corect,validat prin CUI gasit pe site
+496,scando.ro,corect,Scando - producator cunoscut de scaune/mobilier birou din Bucuresti
+516,sirgrup.ro,corect,"potrivire nume+geo, nume distinctiv"
+552,synevo.ro,corect,brand cunoscut - retea nationala de laboratoare medicale
+606,universalsolution.ro,incert,"nume foarte generic, multe firme omonime; necesita verificare CUI pe site"
+618,vapro.ro,corect,"nume distinctiv, validare nume+geo trecuta"
+625,veridio.ro,corect,"nume distinctiv, validare nume+geo"
+644,wellkept.ro,corect,"Wellkept Group - firma reala de facility management Bucuresti, validat CUI"
+650,wipro.com,corect,subsidiara locala a grupului global Wipro; domeniul corporate e cel folosit
+669,arobs.ro,corect,"AROBS - companie software cunoscuta Cluj, detine arobs.ro/.com"
+675,astecomedical.ro,corect,potrivire exacta nume distinctiv
+711,chtransbeton.ro,corect,potrivire exacta nume distinctiv
+748,ecolor.ro,corect,Ecolor Jucu - producator cunoscut de mobilier (furnizor IKEA)
+799,generalsecurity.ro,corect,validat prin CUI gasit pe site
+811,halcyonmobile.com,corect,"agentie de software cunoscuta din Cluj, domeniu oficial"
+817,hexagon.ro,incert,potrivire doar partiala; hexagon.ro poate apartine altei entitati Hexagon (brand global/alte firme)
+823,ibcfocus.ro,corect,IBC Focus - firma cunoscuta de date constructii Cluj
+835,iquesttechnologies.com,incert,iQuest Cluj folosea oficial iquestgroup.com (acum Nagarro); apartenenta domeniului nesigura
+841,klain.ro,corect,"agentie de marketing Cluj, domeniu = numele brandului"
+847,lappinsulators.com,corect,grup global LAPP Insulators cu fabrica la Turda
+871,mibprodcom.ro,corect,potrivire exacta nume distinctiv
+903,oncos.ro,corect,Oncos Floresti - producator avicol cunoscut din Cluj
+915,plantextrakt.ro,corect,"PlantExtrakt Radaia - producator cunoscut de gemoderivate, validat CUI"
+927,puiul-regal.ro,corect,potrivire exacta nume distinctiv
+934,rebeldot.ro,corect,RebelDot - firma software cunoscuta Cluj (rebeldot.com/.ro)
+940,reproinvest.ro,corect,potrivire exacta nume distinctiv
+959,sarmatec.ro,corect,"nume distinctiv, validare nume+geo (Apahida)"
+1025,upvision.net,incert,"TLD .net atipic pentru firma romaneasca, nume relativ generic; neverificabil"
+1031,verbau.ro,corect,"nume distinctiv, validare nume+geo"
+1068,apacanal.ro,incert,nume generic (multe operatoare Apa Canal); Galati foloseste apa-canal.ro cu cratima - varianta fara cratima poate fi alta entitate
+1092,dicorland.ro,corect,Dicor Land - dealer cunoscut de utilaje agricole Galati
+1165,autopadova.ro,corect,Auto Padova - dealer auto cunoscut din zona Iasi
+1183,casaauto.ro,corect,Casa Auto Iasi - dealer auto cunoscut
+1201,cramelecotnari.ro,corect,validat prin CUI; brandul Cramele Cotnari (Colocviu) e distinct de Cotnari SA
+1219,fitermandistribution.ro,corect,"brandul Fiterman (Fiterman Pharma) din Iasi, potrivire completa"
+1231,htr-spedition.ro,corect,"transportator cunoscut Iasi, potrivire exacta"
+1237,interuno.ro,corect,"potrivire exacta nume, firma cunoscuta Iasi"
+1243,mambu.com,corect,Mambu Tech SRL e subsidiara romaneasca (Iasi) a fintech-ului global Mambu
+1255,nera.ro,incert,"potrivire doar partiala; nera.ro poate apartine altei entitati (nume scurt, polisemantic)"
+1285,sunrisemotors.com,incert,"nume generic + .com - probabil dealer strain omonim; firma din Letcani e recenta, neverificabil"
+1291,transgor-logistik.ro,corect,"transportator cunoscut Iasi, potrivire exacta"
+1297,zeelandia.ro,corect,"subsidiara romaneasca a grupului olandez Zeelandia, sediu langa Iasi"
+1484,cambrio.com,gresit,"cambrio.com apartine companiei americane de software CAD/CAM Cambrio (GibbsCAM/Cimatron), nu unei firme auto din Reghin"
+1566,danutrition.ro,corect,"nume distinctiv, validare nume+geo (nutritie animala Mures)"
+1739,happyfamilylife.net,incert,"nume foarte generic + TLD .net atipic; risc ridicat de omonimie, neverificabil"
+1762,ibanesti.ro,gresit,"potrivire doar partiala; ibanesti.ro este site-ul comunei Ibanesti (primaria), nu al firmei private"
+1822,lanuovasartoria.com,incert,"nume italian pe .com - poate fi sartoria italiana omonima, nu fabrica din Sighisoara; neverificabil"
+1859,marcelinycmr.ro,corect,potrivire exacta nume foarte distinctiv
+1166,avastar.ro,corect,validat prin CUI pe site
+1238,iulius.ro,corect,"Grupul Iulius (Iulius Mall), sediu Iasi - brand cunoscut"
+1256,nova.ro,gresit,"domeniu premium generic; potrivire doar pe 'nova', improbabil sa apartina unui SRL din Targu Frumos"
+1268,ralconstruct.ro,corect,nume distinctiv complet in domeniu
+1388,ambasadorgroupsecurity.ro,corect,"validat prin CUI, nume complet in domeniu"
+1707,framo.ro,corect,"Framo Romania Gurghiu, producator mobilier cunoscut; .ro local"
+1727,glodenienergy.ro,corect,nume complet + localitate Glodeni
+1877,maurerimobiliare.ro,corect,"brand Maurer Imobiliare, dezvoltator cu proiecte in Sighisoara"
+2031,professionalrecycle.ro,corect,potrivire distinctiva de nume
+2053,raulagrocom.ro,corect,nume complet distinctiv in domeniu
+2103,samarcu.ro,corect,nume unic distinctiv + geo
+2166,talentstore.com,incert,TLD .com si nume comun in recrutare; posibila alta entitate straina - necesita verificare
+2195,topgaz.ro,corect,nume complet in domeniu .ro
+2227,turbocam.ro,corect,Turbocam are fabrica in Mures; .ro = filiala romana
+2295,autonom.ro,corect,"Autonom rent-a-car, sediu Piatra Neamt - brand cunoscut"
+2301,comes.ro,corect,"COMES SA Savinesti, producator echipamente cunoscut"
+2369,expresseuroscan.ro,corect,nume complet distinctiv
+2381,lindaecotil.ro,corect,nume complet distinctiv
+2393,primagra-romania.com,corect,nume complet inclusiv 'romania' in domeniu
+2411,symmetrica.ro,corect,"Symmetrica Veresti, producator pavaje cunoscut, validat CUI"
+2438,morandicom.ro,corect,nume complet + geo Vaslui
+2444,safir.ro,corect,"Safir Vaslui, grup avicol cunoscut"
+2462,comcereal.ro,corect,"exista mai multe Comcereal pe judete, dar validarea prin CUI confirma entitatea"
+2480,pandora-prod.ro,corect,"Pandora Prod Focsani, producator incaltaminte cunoscut"
+556,takeda.ro,corect,site local al Takeda Pharmaceuticals Romania
+564,tecsa.ro,corect,token distinctiv 'tecsa' pe .ro local; atentie exista si TECSA Spania (tecsa.es)
+584,tonicagroup.ro,corect,"validat prin CUI, nume complet"
+608,unpirbucuresti.ro,corect,"filiala Bucuresti a UNPIR, nume complet"
+659,acicluj.com,corect,"ACI Cluj SA, constructor cunoscut; site oficial pe .com"
+665,agoproiect.com,corect,nume distinctiv complet in domeniu
+671,artsoft-consult.ro,corect,"Artsoft Consult, firma software Cluj cunoscuta"
+684,bissoft.ro,corect,nume complet pe .ro
+690,bonas.ro,corect,"Bonas, distribuitor ambalaje Cluj cunoscut"
+706,centrulmedical.com,gresit,"domeniu generic .com; potrivire doar pe partea generica 'centrul medical', nu pe 'Novoengrama'"
+720,coratim.ro,corect,nume unic distinctiv + geo Cluj
+728,csiromania.ro,corect,nume complet inclusiv 'romania'
+743,ducfarm.ro,corect,"Ducfarm, lant farmacii Cluj"
+777,fehenergy.ro,corect,nume complet distinctiv
+783,firsttechnology.net,incert,nume generic + TLD .net; exista grupuri straine 'First Technology' - necesita verificare
+789,fujikura.com,gresit,"domeniul global al Fujikura Ltd (Japonia); divizia auto foloseste fujikura-automotive.com, nu domeniul parintelui"
+807,greenweee.ro,corect,"GreenWEEE International, reciclator DEEE cunoscut"
+813,hecoschrauben.com,incert,"brandul apartine grupului german HECO-Schrauben (heco-schrauben.de); posibil domeniul parintelui, nu al filialei romane"
+825,icpiaf.ro,corect,"acronim unic ICPIAF, institut/firma Cluj"
+861,marinaproperties.ro,corect,potrivire stransa de nume pe .ro
+867,metalicplas.ro,corect,"Metalicplas Dej, validat prin CUI"
+873,mmmautoparts.ro,corect,nume complet distinctiv
+879,mostserv.ro,corect,nume complet + geo Cluj
+891,nervia.ro,corect,nume distinctiv + geo Cluj
+899,novaservis.ro,corect,"Novaservis - brand al grupului Ferro, firma este chiar filiala acestuia"
+923,prodvinalco.ro,corect,"Prodvinalco Cluj, producator bauturi cunoscut"
+936,reif-infra.ro,corect,"nume complet distinctiv (grup REIF, sucursala Cluj)"
+1927,mures.ro,gresit,"mures.ro este portal geografic/institutional al judetului Mures, nu al unui SRL; potrivirea nume+geo e falsa (numele firmei = numele judetului)"
+1952,noke.ro,corect,validare prin CUI gasit pe site
+1980,oxtrade.ro,corect,"nume distinctiv, potrivire completa"
+2085,romsafe.ro,corect,"nume distinctiv (seifuri/securitate), potrivire completa"
+2226,tuia.ro,corect,"pepiniera de tuia, nume+geo concordante"
+2237,valeaizvoarelor.com,incert,"Valea Izvoarelor e si nume de localitate; .com generic, riscul unui site turistic/alt profil; necesita verificare"
+2318,mithrasbuild.ro,corect,"nume distinctiv, potrivire completa"
+2344,alexianagroup.ro,corect,"nume distinctiv, nume+geo"
+2374,harivex.ro,corect,firma cunoscuta de materiale de constructii din Suceava
+2386,marelvi.ro,corect,"Marelvi Impex Radauti, distribuitor electrocasnice cunoscut"
+2398,radburg.ro,incert,radburg.ro e afacerea de anvelope Radburg din Marginea; entitatea juridica operatoare poate fi alta decat Radburg Soft SRL
+2410,superstarcom.ro,corect,"producator de incaltaminte din Radauti, nume identic"
+2416,trutzirealestate.ro,corect,validare prin CUI; grupul Trutzi din Scheia e cunoscut
+2449,vanbet.ro,corect,"Vanbet, grup agrozootehnic cunoscut din Vaslui"
+2461,beciuldomnesc.ro,incert,"brandul de vin Beciul Domnesc apartine Vincon Vrancea; domeniul poate fi al Vincon, nu al societatii Beciul Domnesc SA"
+2485,premiumporc.com,corect,"Premium Porc Group, grup danez de ferme din Vrancea, foloseste domeniul de grup .com"
+538,spitalulmonza.ro,corect,spital privat cunoscut din Bucuresti
+555,syscomdigital.ro,corect,"companie cunoscuta de servicii digitale/SMS, validare CUI"
+563,techventuresbank.com,incert,domeniul oficial al bancii este techventures.bank; techventuresbank.com poate fi parcat sau al altcuiva
+595,trustmotors.ro,corect,"Trust Motors, importator Peugeot cunoscut"
+632,vistabank.ro,corect,"Vista Bank Romania, banca cunoscuta"
+638,vonconsulting.ro,corect,firma cunoscuta de consultanta HR/IT Bucuresti
+645,westfourtharchitecture.com,corect,birou de arhitectura cunoscut (Vladimir Arsene)
+664,agis.ro,corect,"Agis Computer Cluj, validare prin CUI"
+670,arosaindustries.ro,corect,"nume distinctiv, nume+geo"
+749,edelwand.ro,corect,"nume distinctiv, nume+geo"
+806,grandemar.ro,corect,"Grandemar SA, cariere de piatra Cluj, cunoscuta"
+824,icia.ro,corect,ICIA = Institutul de Cercetari pentru Instrumentatie Analitica Cluj
+836,ircem.ro,corect,"IRCEM, institut de cercetare in economie circulara, Cluj"
+866,megamix.ro,incert,nume semi-generic; nu pot confirma ca megamix.ro apartine Megamix Comimpex Cluj si nu altei entitati Megamix
+878,morphoza.ro,corect,"Morphoza, firma cunoscuta de design/fit-out din Cluj"
+898,nova.ro,gresit,Nova Power & Gas foloseste novapg.ro; nova.ro e domeniu scurt generic apartinand altei entitati
+904,osma.ro,corect,OSMA brand de tevi/drenaj; Osma Plast Romania Turda este reprezentanta locala
+910,pehart.ro,corect,grupul Pehart (hartie/tissue) cu fabrica la Dej
+922,pro-tools-expert.com,gresit,"pro-tools-expert.com este cunoscutul blog britanic despre software-ul audio Avid Pro Tools, nu un retailer de scule din Cluj"
+935,recognos.ro,corect,"Recognos, firma software cunoscuta din Cluj"
+954,safeway.ro,corect,nume+geo concordante; firma de echipamente protectie Cluj
+966,sinterom.ro,corect,"Sinterom SA Cluj, producator piese sinterizate cunoscut"
+978,sortilemn.ro,corect,"Sortilemn Gherla, producator mobila cunoscut"
+990,technicglass.ro,corect,"nume distinctiv, potrivire completa"
+1014,trasmec.com,corect,"domeniul grupului italian Trasmec, a carui subsidiara de productie este in Cluj"
+1032,verla.ro,corect,"nume distinctiv, nume+geo"
+1038,vitrina.ro,corect,"Vitrina Advertising, agentie cunoscuta din Cluj"
+1044,windenergy.eu,incert,"domeniu .eu foarte generic, improbabil detinut de un SRL mic din Cluj; posibil portal/entitate straina; necesita verificare"
+1063,alewijnse.ro,corect,"subsidiara romaneasca a grupului olandez Alewijnse, site local .ro"
+1087,combavipor.ro,corect,"Combavipor SA Galati, nume unic"
+1099,fierctc.ro,corect,"Fier CTC, comerciant de otel cunoscut din Galati"
+1105,inlandshipping.ro,corect,"nume identic, profil naval specific Galati"
+1111,liometal.ro,corect,"nume distinctiv, potrivire completa"
+1142,utchimsteel.ro,corect,"nume distinctiv, potrivire completa"
+1160,arcadis.ro,corect,"domeniul Arcadis Romania, acelasi grup cu Arcadis Excellence Center Iasi"
+752,electrogrup.ro,corect,"Brand cunoscut Cluj, constructii energetice"
+758,energobit.eu,corect,Energobit grup cunoscut Cluj; .eu apartine grupului (site principal energobit.com)
+686,blade.ro,incert,"Domeniu scurt/premium, potrivire doar pe 'blade', posibil alt detinator"
+698,ccsas.ro,corect,"CC SAS instalatii Cluj, acronim specific"
+707,centrulmedical.com,incert,"Domeniu .com generic, nume partial; risc ridicat sa fie alt centru medical"
+729,cucinaturea.com,corect,"Nume foarte specific (Cucina + Turea, sat in Cluj)"
+737,darian.ro,corect,"Darian DRS, firma de evaluari cunoscuta din Cluj"
+759,englmayer.ro,corect,"Grup logistic austriac Englmayer, filiala Gilau"
+765,europeanfabrications.ro,corect,Nume complet distinctiv
+820,hirsch-porozell.ro,corect,"Hirsch Porozell, producator EPS cunoscut, Bontida"
+838,kazal.ro,corect,Nume distinctiv + validare geo Dej
+844,kovostroj.ro,corect,Nume distinctiv + geo
+906,p4bit.com,corect,Potrivire exacta nume distinctiv
+912,pilkington.ro,corect,"Brand global NSG/Pilkington, prezent in Romania"
+918,porscheengineering.ro,corect,Porsche Engineering are centru la Cluj
+924,promedis.ro,corect,Nume distinctiv + geo Cluj
+930,pyronova.ro,corect,"Pyronova, grup protectie la incendiu cu filiala in Romania"
+937,rematinvest.ro,corect,"Rematinvest, reciclare Cluj, cunoscut"
+950,rottaprint.com,corect,"Rottaprint Apahida, producator etichete cunoscut, site .com oficial"
+956,samus-tec.ro,corect,"Nume complet distinctiv, Dej"
+998,terragres.ro,corect,Nume complet distinctiv
+1004,topmarket.ro,incert,Nume generic 'Top Market'; domeniul poate fi magazin online fara legatura cu Comimpex Cluj
+1016,trendfurniture.ro,corect,"Trend Furniture, producator mobilier Cluj"
+1040,volvo.ro,gresit,"volvo.ro e site-ul national Volvo Cars (importator auto), entitate diferita de Volvo Trucks Romania (site volvotrucks.ro)"
+1071,arcif.ro,corect,"Acronim distinctiv, constructii Galati"
+1083,cipsor.ro,corect,Nume distinctiv + geo Galati
+1113,mairon.ro,corect,"Mairon Galati, distribuitor otel cunoscut"
+1132,racricom.ro,corect,Nume distinctiv + geo
+1156,antibiotice.ro,corect,"Antibiotice Iasi, companie farma cunoscuta"
+1168,avitop.ro,corect,"Avi-Top, avicola Iasi cunoscuta"
+1174,bmtaerospace.com,corect,"BMT Aerospace, grup belgian cu fabrica la Iasi; site de grup"
+1192,colectmetal.ro,corect,Nume complet distinctiv
+1204,das.ro,corect,"DAS Iasi, firma mare de instalatii; das.ro e site-ul ei istoric"
+1210,ekysam.ro,corect,"Eky Sam Targu Frumos, nume distinctiv"
+1216,fermador.ro,corect,"Fermador, brand avicol Iasi cunoscut"
+1222,fondal.ro,corect,Validare prin CUI gasit pe site
+1228,grupconstructiiest.ro,corect,Nume complet distinctiv
+1240,lincortrans.ro,corect,Nume distinctiv + geo
+1246,meconiasi.ro,corect,Nume complet + Iasi in domeniu
+1252,moldova.ro,gresit,"Domeniu generic regional; nu apartine firmei Moldova Seminte, potrivire doar pe cuvantul 'Moldova'"
+1264,primaconstruct.ro,incert,"Nume comun; exista mai multe firme 'Prima Construct' in tara, geo trebuie reconfirmat"
+1270,resonance.ro,incert,"Cuvant generic englezesc, potrivire partiala; posibil alt detinator"
+1649,europati.com,corect,"Euro Pati, patiserie Targu Mures, nume distinctiv"
+1672,farma.ro,gresit,"Domeniu ultra-generic farmaceutic; potrivire doar pe 'farma', foarte probabil alt detinator decat Farma Dan Pres"
+1845,macosolar.ro,corect,Nume complet distinctiv
+1975,ormatin.ro,corect,"Ormatin, nume distinctiv, colectare deseuri Mures"
+1997,petry.ro,corect,"Petry, brand macelarie/mezeluri cunoscut din Targu Mures"
+2062,reief.ro,corect,Validare prin CUI
+2095,rsdiagnostics.com,incert,Acronim scurt pe .com; exista si alte 'RS Diagnostics' internationale
+2187,timkobrut.ro,corect,Nume complet foarte distinctiv
+2202,tordai.ro,corect,"Tordai, brand macelarie cunoscut Targu Mures"
+955,salice.ro,incert,"Salice e brand italian de feronerie; potrivire doar partiala, posibil alt detinator (verificare online indisponibila)"
+961,secpral.ro,gresit,"secpral.ro apartine SECPRAL COM SRL (sisteme securitate, Cluj); Secpral Pro Instalatii foloseste secpralpro.ro"
+973,solvendi.ro,corect,"Solvendi SPRL, practician in insolventa Cluj, nume distinctiv"
+1015,traust.ro,corect,"Traust, constructii Gilau/Cluj, nume distinctiv complet"
+1045,wipindustries.ro,corect,Nume distinctiv identic + geo Apahida/Cluj
+1064,almera.ro,corect,"Almera International Galati, producator cunoscut de articole menaj; nume+geo confirmat"
+1082,chorus.ro,incert,Chorus e nume generic cu multe entitati; domeniul scurt poate apartine altei firme
+1094,doladelacompany.ro,corect,"Nume foarte distinctiv, identic cu firma"
+1143,valrotrade.ro,corect,Nume complet distinctiv identic
+1179,buildcorp.ro,corect,"Buildcorp, constructor cunoscut din Iasi; nume complet potrivit"
+1203,daroconstruct.ro,corect,Nume distinctiv identic + geo Iasi
+1239,larafarm.ro,corect,"Lara Farm, farmacii Iasi; nume complet potrivit"
+1263,polirom-packaging.com,corect,Domeniul distinge explicit divizia packaging de editura Polirom; potrivire exacta
+1269,rcbetonbau.com,corect,Nume distinctiv identic (RC Beton Bau)
+1281,signanthealth.com,corect,"Site global al grupului Signant Health, care are filiala/centru in Iasi"
+1287,termo.com,gresit,Domeniu .com generic strain; Termo Service Iasi foloseste termo-service.ro
+1433,balinttrans.eu,corect,"Nume distinctiv identic, transportator Mures"
+1645,euselectcars.ro,corect,Nume complet distinctiv identic
+1689,flexipro.net,incert,Nume generic + TLD .net atipic pentru firma romaneasca; posibil alt detinator
+1817,krispeed.ro,corect,Nume distinctiv identic
+1909,moldviocom.ro,corect,Nume foarte distinctiv identic + geo Reghin
+1984,pallbox.ro,corect,Nume distinctiv (Pallbox ambalaje) potrivit
+2039,promarktrade.com,corect,Nume complet identic; .com dar denumire suficient de specifica
+2141,sprintdiesel.ro,corect,Nume complet distinctiv identic
+2172,telog.ro,corect,Nume identic + validare geo pe site; exista si Telog strain dar pe alt TLD
+2198,topmed.ro,incert,"topmed.ro pare clinica TopMed Targu Mures; entitatea juridica poate diferi de Topmed Invest Logistic, desi acelasi oras/brand"
+2219,transilvania.com,gresit,Domeniu .com generic pe un termen geografic comun; nu apartine unei statii de betoane din Cristesti
+2332,volta.ro,corect,"Volta Grup Piatra Neamt, distribuitor materiale electrice; validat prin CUI"
+2358,darex.ro,incert,Darex Auto Suceava foloseste uzual darexauto.ro; darex.ro poate apartine altei firme Darex
+2370,gamar.ro,corect,Validat prin CUI gasit pe site
+2376,iulius.ro,corect,"Site-ul grupului Iulius, proprietarul Iulius Mall Suceava"
+2382,loial.ro,corect,"Loial Impex Suceava, firma cunoscuta; nume+geo"
+2394,promobila.ro,corect,"Pro Mobila, producator mobila Suceava; nume complet potrivit"
+2433,gazest.ro,corect,"Gaz Est Vaslui, distribuitor gaze cunoscut; validat prin CUI"
+2439,nutriva.ro,corect,"Nutriva, furaje Vaslui; nume+geo"
+2457,autobestcenter.ro,corect,Nume complet identic; validat prin CUI
+2469,dmfpoliplast.ro,corect,Nume distinctiv identic
+483,saaten-union.ro,corect,Filiala romaneasca a grupului german de seminte Saaten-Union
+522,smartpoint.ro,incert,"Nume foarte generic, multe firme Smart Point in Bucuresti; risc de alt detinator"
+541,stalfort.ro,corect,"STALFORT Legal Tax Audit, casa de avocatura cunoscuta din Bucuresti"
+548,studioartconstruct.ro,corect,Nume complet distinctiv identic
+585,topline.ro,incert,Nume generic (Top Line); domeniul scurt poate apartine altei firme decat Top Line Europa
+603,unitedmarketingpartner.com,incert,Nume complet identic dar .com si denumire generica; posibila entitate straina omonima
+609,uponor.ro,corect,"Brand global Uponor, site-ul filialei romanesti"
+622,veolia.ro,corect,"Brand global Veolia, site-ul operatiunilor din Romania"
+641,walmark.ro,corect,Brand cunoscut de suplimente Walmark; validat prin CUI
+660,adaprodcom.ro,corect,Nume distinctiv identic + geo Cluj
+672,asacons.ro,corect,"ASA Cons Romania Turda, constructor cunoscut"
+691,brantner.ro,corect,"Grupul austriac Brantner (servicii ecologice), site-ul din Romania"
+715,comlact.ro,corect,"Comlact, procesator lactate cunoscut din Cluj"
+740,distral.ro,corect,"Distral Cluj, echipamente termice; nume+geo validat"
+2212,trafic.ro,gresit,"trafic.ro este serviciul cunoscut de masurare a traficului web, nu firma de transport din Sovata"
+2221,travel.ro,gresit,"domeniu generic premium, portal/agentie de turism nationala, improbabil al unui SRL din Ghindari"
+2230,tututrans.ro,corect,"nume distinctiv, potrivire exacta"
+2282,zappaelectric.ro,corect,potrivire exacta nume distinctiv
+2303,cuiul.ro,corect,"nume distinctiv, potrivire exacta + geo"
+2315,marsat.ro,corect,"Marsat SA Roman, operator cablu/telecom cunoscut"
+2327,termoplast.ro,incert,"exista mai multe firme Termoplast in Romania, nu e sigur ca domeniul e al celei din Roman"
+2333,volta.ro,gresit,"potrivire doar partiala; volta.ro e domeniu generic de brand comun, foarte probabil alta entitate"
+2347,anasped.ro,corect,"transportator cunoscut din Suceava, nume distinctiv"
+2353,calcarul.ro,corect,"Calcarul SA Pojorata, cariera cunoscuta"
+2359,deltafarm.ro,corect,"retea farmaceutica din Suceava, potrivire exacta"
+2365,electroaxa.ro,corect,"nume distinctiv, potrivire exacta"
+2371,generalconstruct.ro,corect,"General Construct Suceava, constructor regional cunoscut"
+2389,mopansuceava.ro,corect,"Mopan Suceava, producator panificatie cunoscut"
+2395,prolisok.ro,corect,"nume foarte distinctiv, potrivire exacta"
+2413,tehnoworld.ro,corect,"Tehnoworld Baia, distribuitor utilaje agricole cunoscut"
+2434,katar.ro,incert,"domeniul acopera doar jumatate din nume (Katar vs Katar Conneg), risc de alta entitate/tematica Qatar"
+2440,perpetuus.ro,incert,"cuvant latin generic, potrivire partiala (lipseste COM), neverificabil"
+2446,taviany.ro,corect,"nume foarte distinctiv, potrivire exacta"
+2458,avicolafocsani.ro,corect,"Avicola Focsani SA, companie cunoscuta, validare CUI"
+2464,conbeta.ro,corect,"constructor cunoscut din Vrancea, validare CUI"
+2494,velmi.ro,incert,"domeniul acopera doar 'Velmi' din nume, posibila alta entitate"
+580,tiriacauto.ro,corect,brand national cunoscut Tiriac Auto
+586,total.com,gresit,"total.com apartine TotalEnergies (grup petrolier francez), nu firmei de PR"
+592,transenergo.ro,corect,"Transenergo Com SA, trader de energie cunoscut, validare CUI"
+616,valoria.ro,corect,"Valoria Business Solutions, firma de consultanta cunoscuta din Bucuresti"
+635,vitalis.ro,incert,"Vitalis e nume folosit de mai multe entitati (farma, consultanta), neverificabil"
+687,blitznetwork.com,incert,grupul imobiliar Blitz din Cluj foloseste alte domenii; .com neconfirmat
+699,ccne.ro,corect,acronim exact al Colonia Cluj-Napoca Energie
+745,eastgrain.ro,corect,"East Grain, trader de cereale cunoscut din Cluj"
+753,elite.ro,gresit,"domeniu generic premium; Elite e brand cunoscut (cafea etc.), improbabil al firmei Elite Grup Cluj; validarea 'cui' e implauzibila pt un asemenea domeniu"
+779,fendercables.com,incert,"'fender cables' e termen generic international (cabluri chitara/baloti marini), .com neconfirmat pt firma din Cluj"
+797,gearefrigeration.com,corect,"subsidiara locala a grupului global GEA, domeniul apartine aceluiasi grup"
+815,heldfashion.ro,corect,"Held Fashion, producator de confectii cunoscut din Cluj"
+833,interservisan.ro,corect,"nume foarte distinctiv, potrivire exacta"
+839,kesz.ro,corect,filiala romaneasca a grupului maghiar de constructii KESZ
+851,lemnconfex.ro,corect,"nume distinctiv, potrivire exacta"
+857,madd.ro,corect,"MADD Electronics Cluj, distribuitor componente electronice cunoscut, foloseste madd.ro"
+863,medimages.ro,corect,"nume distinctiv, potrivire exacta + geo"
+881,mrdentalmed.ro,corect,potrivire exacta nume distinctiv
+901,nuevoconstruct.ro,corect,"nume distinctiv, potrivire exacta"
+907,pablo.ro,incert,"Pablo Sign foloseste probabil pablosign.ro; pablo.ro e prenume generic, posibila alta entitate"
+919,powerbelt.ro,corect,"Power Belt Cluj, benzi transportoare, potrivire exacta"
+925,promelek.ro,corect,"Promelek XXI Apahida, distribuitor electric cunoscut"
+938,remediumfarm.ro,corect,retea de farmacii cunoscuta din Cluj
+963,selectadvertising.ro,corect,potrivire exacta nume
+969,softech.ro,incert,"Softech e nume IT foarte comun, mai multe firme omonime in Romania"
+981,studiumgreen.ro,corect,"Studium Green, dezvoltator imobiliar cunoscut din Cluj"
+999,terrahabitat.eu,corect,"potrivire exacta nume distinctiv, TLD .eu plauzibil"
+1011,transilvaniaconstructii.ro,corect,"Transilvania Constructii Cluj, companie listata cunoscuta"
+1041,voslogistics.ro,corect,"entitatea din Cluj face parte din grupul olandez Vos Logistics, domeniul apartine grupului"
+1066,andrada.ro,incert,"nume generic (prenume), fara CUI; domeniul poate apartine altei firme Andrada"
+1078,bulrompetroleum.ro,corect,nume distinctiv complet in domeniu
+1084,citadina98.ro,corect,"Citadina 98 Galati, societate cunoscuta de gospodarire urbana, nume+an distinctiv"
+1090,davideconstruct.ro,corect,nume distinctiv complet
+1096,ecometalrecycling.com,incert,.com cu sintagma engleza generica; exista multi recicladori straini cu acest nume
+1108,lemacons.ro,corect,"Lemacons, constructor cunoscut din Galati, nume coined distinctiv"
+1114,mairon-tubes.ro,corect,"Mairon Galati, producator cunoscut de tevi otel"
+1127,patisgal.ro,corect,nume coined distinctiv (patiserie Galati)
+1133,remico-comprest.ro,corect,"validat prin CUI pe site, nume distinctiv"
+1139,staer.ro,corect,"STAER, brand national de mobila cu sediul in Galati"
+1151,agricrops.ro,corect,"nume coined distinctiv, potrivire directa"
+1157,apavital.ro,corect,"ApaVital, operatorul de apa al judetului Iasi, site oficial cunoscut"
+1169,avis.ro,gresit,"avis.ro apartine Avis Rent a Car Romania, nu firmei Avis Trans Iasi"
+1199,cotnari.ro,corect,"Cotnari SA, crama celebra, site oficial cunoscut"
+1217,fertilstar.ro,corect,"validat prin CUI, nume distinctiv"
+1223,garomfood.ro,corect,nume distinctiv complet
+1247,mediaromgrup.ro,corect,nume distinctiv complet
+1253,moldova.ro,gresit,"moldova.ro este domeniu generic regional/portal, nu al societatii agricole din Tiganasi"
+1259,panifcom.ro,corect,"Panifcom, brand cunoscut de panificatie din Iasi"
+1265,proinvestgroup.ro,corect,"Proinvest Group Pascani, producator industrial cunoscut"
+1277,salubris.ro,corect,"Salubris SA, operatorul de salubritate al Iasului"
+1289,tokyomotors.com,incert,".com cu nume generic de dealer auto; posibil site strain, necesita verificare"
+1490,carmaco.ro,incert,"carmaco.ro pare a fi furnizor de utilaje carmangerie (Bucuresti), nu neaparat Carmaco Agro Reghin"
+1512,citadinprest.ro,corect,"Citadin Prest Targu Mures, societate de servicii publice, nume distinctiv"
+1680,fastener.ro,corect,"fastener.ro este distribuitorul de organe de asamblare din zona Targu Mures, geografia se potriveste"
+1697,fomcosolarsolutions.ro,corect,"parte din Fomco Group Cristesti Mures, grup cunoscut"
+1848,magnetic-power.com,incert,".com cu sintagma engleza generica, posibil site strain"
+1855,mansartcorporate.ro,corect,nume distinctiv complet
+1867,marplastwest.ro,corect,nume distinctiv complet
+2063,reief.ro,corect,"REIEF, colector de neferoase din Targu Mures, nume distinctiv"
+2231,twinserv.ro,corect,"nume distinctiv, geografie potrivita"
+2304,danlin.ro,corect,"Danlin XXL Neamt, nume coined distinctiv"
+2310,jiffypackaging.ro,corect,"Jiffy Packaging Piatra Neamt, producator cunoscut de ambalaje, domeniul .ro corespunde"
+2316,medasimpex.ro,corect,nume distinctiv complet
+2366,euroestdecorative.ro,corect,nume distinctiv complet
+2372,globaldesign.ro,incert,"nume foarte generic, fara CUI; multe firme Global Design in Romania"
+2378,killer.ro,corect,validat prin CUI gasit pe site; brand de mobilier din Suceava
+2396,promoplus.ro,corect,validat prin CUI gasit pe site
+2408,simos.ro,incert,"nume scurt, potential ambiguu; nu am putut confirma apartenenta la firma din Falticeni"
+2420,woodchipper.com,gresit,"termen generic englez pe .com, foarte probabil site strain despre tocatoare de lemn, nu SRL-ul din Cornu Luncii"
+2435,kredianis.ro,corect,nume coined distinctiv
+2453,altdorf-tehnik.ro,corect,"validat prin CUI; Altdorf Tehnik, producator cunoscut de remorci din Vrancea"
+2477,metaleinternational.ro,corect,"nume distinctiv complet, geografie potrivita"
+2489,smartestproiect.ro,corect,nume distinctiv complet
+2495,vrancart.ro,corect,"Vrancart Adjud, producator cunoscut de hartie si carton, site oficial"

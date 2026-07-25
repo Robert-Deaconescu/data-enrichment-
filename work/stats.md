@@ -69,3 +69,17 @@
 - Firme eligibile (Pending + persoana + domeniu propriu): 1114
 - Total tipare generate: 6734
 - Medie tipare/firma: 6.0
+
+## Pas 2+3 - ANAF + domenii
+
+- CUI rezolvat: 1958/2495
+- Firme excluse (radiate/inactive): 7
+- Persoana completata din administratori ANAF: 412
+- Total firme cu persoana: 2333
+- Firme cu domeniu propriu (din email generic): 1105
+
+## Pas 4 - Tipare e-mail
+
+- Firme eligibile (Pending + persoana + domeniu propriu): 1038
+- Total tipare generate: 6268
+- Medie tipare/firma: 6.0

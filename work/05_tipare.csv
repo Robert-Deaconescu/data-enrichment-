@@ -173,7 +173,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 509,SIDEROM STEEL SRL,Trakadas Michail,siderom.vionet.gr,trakadas.michail@siderom.vionet.gr;trakadas@siderom.vionet.gr;michail.trakadas@siderom.vionet.gr;michail@siderom.vionet.gr;trakadasmichail@siderom.vionet.gr;t.michail@siderom.vionet.gr,6
 516,SIR GRUP,Giza Elena,sirgrup.ro,giza.elena@sirgrup.ro;giza@sirgrup.ro;elena.giza@sirgrup.ro;elena@sirgrup.ro;gizaelena@sirgrup.ro;g.elena@sirgrup.ro,6
 518,SKANSKA CONSTRUCTION ROMANIA,Andrada Nut,skanska.ro,andrada.nut@skanska.ro;andrada@skanska.ro;nut.andrada@skanska.ro;nut@skanska.ro;andradanut@skanska.ro;a.nut@skanska.ro,6
-522,SMART POINT,Patrasescu Catalin,smartpoint.ro,patrasescu.catalin@smartpoint.ro;patrasescu@smartpoint.ro;catalin.patrasescu@smartpoint.ro;catalin@smartpoint.ro;patrasescucatalin@smartpoint.ro;p.catalin@smartpoint.ro,6
 530,SOF MEDICA SA,Grigorescu Petruta Cristina,sofmedica.com,grigorescu.cristina@sofmedica.com;grigorescu@sofmedica.com;cristina.grigorescu@sofmedica.com;cristina@sofmedica.com;grigorescucristina@sofmedica.com;g.cristina@sofmedica.com,6
 533,SOMACO GRUP PREFABRICATE,Miron Sorin,somaco.ro,miron.sorin@somaco.ro;miron@somaco.ro;sorin.miron@somaco.ro;sorin@somaco.ro;mironsorin@somaco.ro;m.sorin@somaco.ro,6
 538,SPITALUL MONZA,Dragan Carmen,spitalulmonza.ro,dragan.carmen@spitalulmonza.ro;dragan@spitalulmonza.ro;carmen.dragan@spitalulmonza.ro;carmen@spitalulmonza.ro;dragancarmen@spitalulmonza.ro;d.carmen@spitalulmonza.ro,6
@@ -185,30 +184,22 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 553,SYNOTECH GLOBAL SERVICES ROMANIA SRL,Popescu Manuela Carolina,synotech.com,popescu.carolina@synotech.com;popescu@synotech.com;carolina.popescu@synotech.com;carolina@synotech.com;popescucarolina@synotech.com;p.carolina@synotech.com,6
 555,SYSCOM DIGITAL,Ana Maria Novolan,syscomdigital.ro,ana.novolan@syscomdigital.ro;ana@syscomdigital.ro;novolan.ana@syscomdigital.ro;novolan@syscomdigital.ro;ananovolan@syscomdigital.ro;a.novolan@syscomdigital.ro,6
 556,TAKEDA PHARMACEUTICALS SRL,Dominika Kovacs,takeda.ro,dominika.kovacs@takeda.ro;dominika@takeda.ro;kovacs.dominika@takeda.ro;kovacs@takeda.ro;dominikakovacs@takeda.ro;d.kovacs@takeda.ro,6
-563,TECHVENTURES BANK,Cristian Nae,techventuresbank.com,cristian.nae@techventuresbank.com;cristian@techventuresbank.com;nae.cristian@techventuresbank.com;nae@techventuresbank.com;cristiannae@techventuresbank.com;c.nae@techventuresbank.com,6
 564,TECSA BUSINESS SRL,Aydogan Murat,tecsa.ro,aydogan.murat@tecsa.ro;aydogan@tecsa.ro;murat.aydogan@tecsa.ro;murat@tecsa.ro;aydoganmurat@tecsa.ro;a.murat@tecsa.ro,6
 567,TELEKOM ROMANIA MOBILE COMMUNICATIONS SA,Konstantinos Liamidis,telekom.ro,konstantinos.liamidis@telekom.ro;konstantinos@telekom.ro;liamidis.konstantinos@telekom.ro;liamidis@telekom.ro;konstantinosliamidis@telekom.ro;k.liamidis@telekom.ro,6
 569,TEMA ENERGY SA,Manole Mihai Marian,tema-energy.ro,manole.marian@tema-energy.ro;manole@tema-energy.ro;marian.manole@tema-energy.ro;marian@tema-energy.ro;manolemarian@tema-energy.ro;m.marian@tema-energy.ro,6
 580,TIRIAC AUTO,Marius Marian Mihail,tiriacauto.ro,marius.mihail@tiriacauto.ro;marius@tiriacauto.ro;mihail.marius@tiriacauto.ro;mihail@tiriacauto.ro;mariusmihail@tiriacauto.ro;m.mihail@tiriacauto.ro,6
 584,TONICA GROUP SRL,Vlad Anca,tonicagroup.ro,vlad.anca@tonicagroup.ro;vlad@tonicagroup.ro;anca.vlad@tonicagroup.ro;anca@tonicagroup.ro;vladanca@tonicagroup.ro;v.anca@tonicagroup.ro,6
-585,TOP LINE EUROPA,Diana Baicu,topline.ro,diana.baicu@topline.ro;diana@topline.ro;baicu.diana@topline.ro;baicu@topline.ro;dianabaicu@topline.ro;d.baicu@topline.ro,6
-586,TOTAL PR BUSINESS,Mares Constantin - Cosmin,total.com,mares.cosmin@total.com;mares@total.com;cosmin.mares@total.com;cosmin@total.com;marescosmin@total.com;m.cosmin@total.com,6
 592,TRANSENERGO COM SA,Rada Coman,transenergo.ro,rada.coman@transenergo.ro;rada@transenergo.ro;coman.rada@transenergo.ro;coman@transenergo.ro;radacoman@transenergo.ro;r.coman@transenergo.ro,6
 593,TRAVEL COMMUNICATION,Razvan Pascu,travelcommunication.ro,razvan.pascu@travelcommunication.ro;razvan@travelcommunication.ro;pascu.razvan@travelcommunication.ro;pascu@travelcommunication.ro;razvanpascu@travelcommunication.ro;r.pascu@travelcommunication.ro,6
 595,TRUST MOTORS SRL,Iacob Andrei Stefan,trustmotors.ro,iacob.stefan@trustmotors.ro;iacob@trustmotors.ro;stefan.iacob@trustmotors.ro;stefan@trustmotors.ro;iacobstefan@trustmotors.ro;i.stefan@trustmotors.ro,6
-603,UNITED MARKETING PARTNER,Dan Cirstea,unitedmarketingpartner.com,dan.cirstea@unitedmarketingpartner.com;dan@unitedmarketingpartner.com;cirstea.dan@unitedmarketingpartner.com;cirstea@unitedmarketingpartner.com;dancirstea@unitedmarketingpartner.com;d.cirstea@unitedmarketingpartner.com,6
-605,UNITY GROUP,Ciprian Dron,unitygroup.ro,ciprian.dron@unitygroup.ro;ciprian@unitygroup.ro;dron.ciprian@unitygroup.ro;dron@unitygroup.ro;cipriandron@unitygroup.ro;c.dron@unitygroup.ro,6
-606,UNIVERSAL SOLUTION SRL,Elvira Munteanu,universalsolution.ro,elvira.munteanu@universalsolution.ro;elvira@universalsolution.ro;munteanu.elvira@universalsolution.ro;munteanu@universalsolution.ro;elviramunteanu@universalsolution.ro;e.munteanu@universalsolution.ro,6
 608,UNPIR BUCURESTI,Catalin Andrei Dascal,unpirbucuresti.ro,catalin.dascal@unpirbucuresti.ro;catalin@unpirbucuresti.ro;dascal.catalin@unpirbucuresti.ro;dascal@unpirbucuresti.ro;catalindascal@unpirbucuresti.ro;c.dascal@unpirbucuresti.ro,6
 609,UPONOR ROMANIA,Ionut Cabuz,uponor.ro,ionut.cabuz@uponor.ro;ionut@uponor.ro;cabuz.ionut@uponor.ro;cabuz@uponor.ro;ionutcabuz@uponor.ro;i.cabuz@uponor.ro,6
 616,VALORIA BUSINESS SOLUTIONS,Gabriela Streza,valoria.ro,gabriela.streza@valoria.ro;gabriela@valoria.ro;streza.gabriela@valoria.ro;streza@valoria.ro;gabrielastreza@valoria.ro;g.streza@valoria.ro,6
-617,VALTEC PREMIUM LUBRICANTS SRL,Ionut Herzberg,valtec.ro,ionut.herzberg@valtec.ro;ionut@valtec.ro;herzberg.ionut@valtec.ro;herzberg@valtec.ro;ionutherzberg@valtec.ro;i.herzberg@valtec.ro,6
 618,VAPRO ROMANIA,Irina Zugravu,vapro.ro,irina.zugravu@vapro.ro;irina@vapro.ro;zugravu.irina@vapro.ro;zugravu@vapro.ro;irinazugravu@vapro.ro;i.zugravu@vapro.ro,6
 620,VECTRA EUROLIFT SERVICE SRL,Badescu George,vectra.ro,badescu.george@vectra.ro;badescu@vectra.ro;george.badescu@vectra.ro;george@vectra.ro;badescugeorge@vectra.ro;b.george@vectra.ro,6
 622,VEOLIA ENERGIE ROMANIA,Ovidiu Gabor,veolia.ro,ovidiu.gabor@veolia.ro;ovidiu@veolia.ro;gabor.ovidiu@veolia.ro;gabor@veolia.ro;ovidiugabor@veolia.ro;o.gabor@veolia.ro,6
 625,VERIDIO SRL,Adrian Vascu,veridio.ro,adrian.vascu@veridio.ro;adrian@veridio.ro;vascu.adrian@veridio.ro;vascu@veridio.ro;adrianvascu@veridio.ro;a.vascu@veridio.ro,6
 632,VISTA BANK,Stavros Lekkakos,vistabank.ro,stavros.lekkakos@vistabank.ro;stavros@vistabank.ro;lekkakos.stavros@vistabank.ro;lekkakos@vistabank.ro;stavroslekkakos@vistabank.ro;s.lekkakos@vistabank.ro,6
-635,VITALIS CONSULTING,Laurentiu Popa,vitalis.ro,laurentiu.popa@vitalis.ro;laurentiu@vitalis.ro;popa.laurentiu@vitalis.ro;popa@vitalis.ro;laurentiupopa@vitalis.ro;l.popa@vitalis.ro,6
 638,VON CONSULTING SRL,Untaru Elena Vivien,vonconsulting.ro,untaru.vivien@vonconsulting.ro;untaru@vonconsulting.ro;vivien.untaru@vonconsulting.ro;vivien@vonconsulting.ro;untaruvivien@vonconsulting.ro;u.vivien@vonconsulting.ro,6
 639,VOYATZOGLU ROMANIA SRL,Spyridon Mallioglou,eurofit.ro,spyridon.mallioglou@eurofit.ro;spyridon@eurofit.ro;mallioglou.spyridon@eurofit.ro;mallioglou@eurofit.ro;spyridonmallioglou@eurofit.ro;s.mallioglou@eurofit.ro,6
 641,WALMARK ROMANIA SRL,Ofelia Savu,walmark.ro,ofelia.savu@walmark.ro;ofelia@walmark.ro;savu.ofelia@walmark.ro;savu@walmark.ro;ofeliasavu@walmark.ro;o.savu@walmark.ro,6
@@ -228,15 +219,10 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 672,ASA CONS ROMANIA SRL,Bulgaria Bogdan,asacons.ro,bulgaria.bogdan@asacons.ro;bulgaria@asacons.ro;bogdan.bulgaria@asacons.ro;bogdan@asacons.ro;bulgariabogdan@asacons.ro;b.bogdan@asacons.ro,6
 675,ASTECO MEDICAL,Copcea Adrian,astecomedical.ro,copcea.adrian@astecomedical.ro;copcea@astecomedical.ro;adrian.copcea@astecomedical.ro;adrian@astecomedical.ro;copceaadrian@astecomedical.ro;c.adrian@astecomedical.ro,6
 684,BIS SOFT SRL,David Carmen Maria,bissoft.ro,david.maria@bissoft.ro;david@bissoft.ro;maria.david@bissoft.ro;maria@bissoft.ro;davidmaria@bissoft.ro;d.maria@bissoft.ro,6
-686,BLADE SOLUTION SRL,Lazar Calin Florin,blade.ro,lazar.florin@blade.ro;lazar@blade.ro;florin.lazar@blade.ro;florin@blade.ro;lazarflorin@blade.ro;l.florin@blade.ro,6
-687,BLITZ NETWORK SA,Priscornita Marinel Catalin,blitznetwork.com,priscornita.catalin@blitznetwork.com;priscornita@blitznetwork.com;catalin.priscornita@blitznetwork.com;catalin@blitznetwork.com;priscornitacatalin@blitznetwork.com;p.catalin@blitznetwork.com,6
 690,BONAS IMPORT EXPORT SRL,Vasile Nas,bonas.ro,vasile.nas@bonas.ro;vasile@bonas.ro;nas.vasile@bonas.ro;nas@bonas.ro;vasilenas@bonas.ro;v.nas@bonas.ro,6
 691,BRANTNER SERVICII ECOLOGICE SRL,Ionutiu Olga Maria,brantner.ro,ionutiu.maria@brantner.ro;ionutiu@brantner.ro;maria.ionutiu@brantner.ro;maria@brantner.ro;ionutiumaria@brantner.ro;i.maria@brantner.ro,6
 698,CC SAS SRL,Septimiu Suciu,ccsas.ro,septimiu.suciu@ccsas.ro;septimiu@ccsas.ro;suciu.septimiu@ccsas.ro;suciu@ccsas.ro;septimiusuciu@ccsas.ro;s.suciu@ccsas.ro,6
 699,CCNE COLONIA CLUJ NAPOCA ENERGIE,Emil Miron,ccne.ro,emil.miron@ccne.ro;emil@ccne.ro;miron.emil@ccne.ro;miron@ccne.ro;emilmiron@ccne.ro;e.miron@ccne.ro,6
-706,CENTRUL MEDICAL NOVOENGRAMA,Miruna Holdis,centrulmedical.com,miruna.holdis@centrulmedical.com;miruna@centrulmedical.com;holdis.miruna@centrulmedical.com;holdis@centrulmedical.com;mirunaholdis@centrulmedical.com;m.holdis@centrulmedical.com,6
-707,CENTRUL MEDICAL TRANSILVANIA SRL,Daria Abu Arif,centrulmedical.com,daria.arif@centrulmedical.com;daria@centrulmedical.com;arif.daria@centrulmedical.com;arif@centrulmedical.com;dariaarif@centrulmedical.com;d.arif@centrulmedical.com,6
-710,CH INDUSTRIAL PROD SRL,Ludovic Ghisa,chindustrial.com,ludovic.ghisa@chindustrial.com;ludovic@chindustrial.com;ghisa.ludovic@chindustrial.com;ghisa@chindustrial.com;ludovicghisa@chindustrial.com;l.ghisa@chindustrial.com,6
 711,CH TRANSBETON SRL,Chimu Capusan,chtransbeton.ro,chimu.capusan@chtransbeton.ro;chimu@chtransbeton.ro;capusan.chimu@chtransbeton.ro;capusan@chtransbeton.ro;chimucapusan@chtransbeton.ro;c.capusan@chtransbeton.ro,6
 715,COMLACT SRL,Abrudan Gheorghe,comlact.ro,abrudan.gheorghe@comlact.ro;abrudan@comlact.ro;gheorghe.abrudan@comlact.ro;gheorghe@comlact.ro;abrudangheorghe@comlact.ro;a.gheorghe@comlact.ro,6
 717,CONEXINSTAL SRL,Fabian Levente,conexinstal.ro,fabian.levente@conexinstal.ro;fabian@conexinstal.ro;levente.fabian@conexinstal.ro;levente@conexinstal.ro;fabianlevente@conexinstal.ro;f.levente@conexinstal.ro,6
@@ -251,15 +237,11 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 748,ECOLOR SRL,Tommy Karlsson,ecolor.ro,tommy.karlsson@ecolor.ro;tommy@ecolor.ro;karlsson.tommy@ecolor.ro;karlsson@ecolor.ro;tommykarlsson@ecolor.ro;t.karlsson@ecolor.ro,6
 749,EDELWAND SRL,Fanatan Nicolae Adrian,edelwand.ro,fanatan.adrian@edelwand.ro;fanatan@edelwand.ro;adrian.fanatan@edelwand.ro;adrian@edelwand.ro;fanatanadrian@edelwand.ro;f.adrian@edelwand.ro,6
 752,ELECTROGRUP,Adrian Florea,electrogrup.ro,adrian.florea@electrogrup.ro;adrian@electrogrup.ro;florea.adrian@electrogrup.ro;florea@electrogrup.ro;adrianflorea@electrogrup.ro;a.florea@electrogrup.ro,6
-753,ELITE GRUP,Capusan Anica,elite.ro,capusan.anica@elite.ro;capusan@elite.ro;anica.capusan@elite.ro;anica@elite.ro;capusananica@elite.ro;c.anica@elite.ro,6
 758,ENERGOBIT SA,Peter Pal,energobit.eu,peter.pal@energobit.eu;peter@energobit.eu;pal.peter@energobit.eu;pal@energobit.eu;peterpal@energobit.eu;p.pal@energobit.eu,6
 759,ENGLMAYER ROMANIA CLUJ,Haslinger Michael,englmayer.ro,michael.haslinger@englmayer.ro;michael@englmayer.ro;haslinger.michael@englmayer.ro;haslinger@englmayer.ro;michaelhaslinger@englmayer.ro;m.haslinger@englmayer.ro,6
 765,EUROPEAN FABRICATIONS SRL,James Richard Bunce,europeanfabrications.ro,james.bunce@europeanfabrications.ro;james@europeanfabrications.ro;bunce.james@europeanfabrications.ro;bunce@europeanfabrications.ro;jamesbunce@europeanfabrications.ro;j.bunce@europeanfabrications.ro,6
 768,EVOZON SYSTEMS SRL,Cretu Silviu Gabriel,evozon.ro,cretu.gabriel@evozon.ro;cretu@evozon.ro;gabriel.cretu@evozon.ro;gabriel@evozon.ro;cretugabriel@evozon.ro;c.gabriel@evozon.ro,6
 777,FEH ENERGY SRL,Florian Liviu,fehenergy.ro,florian.liviu@fehenergy.ro;florian@fehenergy.ro;liviu.florian@fehenergy.ro;liviu@fehenergy.ro;florianliviu@fehenergy.ro;f.liviu@fehenergy.ro,6
-779,FENDER CABLES SRL,Stevanin Agostino,fendercables.com,stevanin.agostino@fendercables.com;stevanin@fendercables.com;agostino.stevanin@fendercables.com;agostino@fendercables.com;stevaninagostino@fendercables.com;s.agostino@fendercables.com,6
-783,FIRST TECHNOLOGY SRL,Vali Lucia Dobrescu,firsttechnology.net,vali.dobrescu@firsttechnology.net;vali@firsttechnology.net;dobrescu.vali@firsttechnology.net;dobrescu@firsttechnology.net;validobrescu@firsttechnology.net;v.dobrescu@firsttechnology.net,6
-789,FUJIKURA AUTOMOTIVE,Takita Ryuji,fujikura.com,takita.ryuji@fujikura.com;takita@fujikura.com;ryuji.takita@fujikura.com;ryuji@fujikura.com;takitaryuji@fujikura.com;t.ryuji@fujikura.com,6
 792,GAMA SOFTWARE SRL,Vestemean Lucia Elisabeta,gamasoftware.ro,vestemean.elisabeta@gamasoftware.ro;vestemean@gamasoftware.ro;elisabeta.vestemean@gamasoftware.ro;elisabeta@gamasoftware.ro;vestemeanelisabeta@gamasoftware.ro;v.elisabeta@gamasoftware.ro,6
 797,GEA REFRIGERATION ROMANIA SRL,Leonard Aristide Ilincanu,gearefrigeration.com,leonard.ilincanu@gearefrigeration.com;leonard@gearefrigeration.com;ilincanu.leonard@gearefrigeration.com;ilincanu@gearefrigeration.com;leonardilincanu@gearefrigeration.com;l.ilincanu@gearefrigeration.com,6
 799,GENERAL SECURITY SRL,Dan Bogos,generalsecurity.ro,dan.bogos@generalsecurity.ro;dan@generalsecurity.ro;bogos.dan@generalsecurity.ro;bogos@generalsecurity.ro;danbogos@generalsecurity.ro;d.bogos@generalsecurity.ro,6
@@ -268,16 +250,13 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 807,GREENWEEE INTERNATIONAL,Valentina Somosdi,greenweee.ro,valentina.somosdi@greenweee.ro;valentina@greenweee.ro;somosdi.valentina@greenweee.ro;somosdi@greenweee.ro;valentinasomosdi@greenweee.ro;v.somosdi@greenweee.ro,6
 810,HAAK STUDIO,Andreea Kiss Horvath,haak.ro,andreea.horvath@haak.ro;andreea@haak.ro;horvath.andreea@haak.ro;horvath@haak.ro;andreeahorvath@haak.ro;a.horvath@haak.ro,6
 811,HALCYON MOBILE,Szekely Botond,halcyonmobile.com,szekely.botond@halcyonmobile.com;szekely@halcyonmobile.com;botond.szekely@halcyonmobile.com;botond@halcyonmobile.com;szekelybotond@halcyonmobile.com;s.botond@halcyonmobile.com,6
-813,HECO SCHRAUBEN SRL,Hettich Guido,hecoschrauben.com,hettich.guido@hecoschrauben.com;hettich@hecoschrauben.com;guido.hettich@hecoschrauben.com;guido@hecoschrauben.com;hettichguido@hecoschrauben.com;h.guido@hecoschrauben.com,6
 815,HELD FASHION,Stefan Andreas Laube,heldfashion.ro,stefan.laube@heldfashion.ro;stefan@heldfashion.ro;laube.stefan@heldfashion.ro;laube@heldfashion.ro;stefanlaube@heldfashion.ro;s.laube@heldfashion.ro,6
-817,HEXAGON EQUITY HOLDING SRL,Maris Florin,hexagon.ro,maris.florin@hexagon.ro;maris@hexagon.ro;florin.maris@hexagon.ro;florin@hexagon.ro;marisflorin@hexagon.ro;m.florin@hexagon.ro,6
 820,HIRSCH POROZELL SRL,Radu Costan,hirsch-porozell.ro,radu.costan@hirsch-porozell.ro;radu@hirsch-porozell.ro;costan.radu@hirsch-porozell.ro;costan@hirsch-porozell.ro;raducostan@hirsch-porozell.ro;r.costan@hirsch-porozell.ro,6
 823,IBC FOCUS,Andrei Spataru,ibcfocus.ro,andrei.spataru@ibcfocus.ro;andrei@ibcfocus.ro;spataru.andrei@ibcfocus.ro;spataru@ibcfocus.ro;andreispataru@ibcfocus.ro;a.spataru@ibcfocus.ro,6
 824,ICIA CLUJ NAPOCA,Mircea Chintoanu,icia.ro,mircea.chintoanu@icia.ro;mircea@icia.ro;chintoanu.mircea@icia.ro;chintoanu@icia.ro;mirceachintoanu@icia.ro;m.chintoanu@icia.ro,6
 825,ICPIAF SA,Lazanu Gheorghe Tudor,icpiaf.ro,lazanu.tudor@icpiaf.ro;lazanu@icpiaf.ro;tudor.lazanu@icpiaf.ro;tudor@icpiaf.ro;lazanutudor@icpiaf.ro;l.tudor@icpiaf.ro,6
 828,IMPERIAL DEVELOPMENT SRL,Lucian Mihai,imperialdevelopment.ro,lucian.mihai@imperialdevelopment.ro;lucian@imperialdevelopment.ro;mihai.lucian@imperialdevelopment.ro;mihai@imperialdevelopment.ro;lucianmihai@imperialdevelopment.ro;l.mihai@imperialdevelopment.ro,6
 833,INTERSERVISAN,Anca Daniela Pop,interservisan.ro,anca.pop@interservisan.ro;anca@interservisan.ro;pop.anca@interservisan.ro;pop@interservisan.ro;ancapop@interservisan.ro;a.pop@interservisan.ro,6
-835,IQUEST TECHNOLOGIES,Ordean Mihaela Georgetta,iquesttechnologies.com,ordean.georgetta@iquesttechnologies.com;ordean@iquesttechnologies.com;georgetta.ordean@iquesttechnologies.com;georgetta@iquesttechnologies.com;ordeangeorgetta@iquesttechnologies.com;o.georgetta@iquesttechnologies.com,6
 836,IRCEM,Elena-Simina Lakatos,ircem.ro,elena.lakatos@ircem.ro;elena@ircem.ro;lakatos.elena@ircem.ro;lakatos@ircem.ro;elenalakatos@ircem.ro;e.lakatos@ircem.ro,6
 838,KAZAL SRL,Cazan Ana,kazal.ro,cazan.ana@kazal.ro;cazan@kazal.ro;ana.cazan@kazal.ro;ana@kazal.ro;cazanana@kazal.ro;c.ana@kazal.ro,6
 839,KESZ CONSTRUCTII ROMANIA SRL,Istvan Albu,kesz.ro,istvan.albu@kesz.ro;istvan@kesz.ro;albu.istvan@kesz.ro;albu@kesz.ro;istvanalbu@kesz.ro;i.albu@kesz.ro,6
@@ -291,7 +270,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 861,MARINA PROPERTIES CONSTRUCT SRL,Marina Alexandru,marinaproperties.ro,marina.alexandru@marinaproperties.ro;marina@marinaproperties.ro;alexandru.marina@marinaproperties.ro;alexandru@marinaproperties.ro;marinaalexandru@marinaproperties.ro;m.alexandru@marinaproperties.ro,6
 863,MEDIMAGES SRL,Chiorean Horea,medimages.ro,chiorean.horea@medimages.ro;chiorean@medimages.ro;horea.chiorean@medimages.ro;horea@medimages.ro;chioreanhorea@medimages.ro;c.horea@medimages.ro,6
 864,MEDISPROF,Udrea Carolina Ileana,medisprof.ro,udrea.ileana@medisprof.ro;udrea@medisprof.ro;ileana.udrea@medisprof.ro;ileana@medisprof.ro;udreaileana@medisprof.ro;u.ileana@medisprof.ro,6
-866,MEGAMIX COMIMPEX SRL,Gabriel Vanca,megamix.ro,gabriel.vanca@megamix.ro;gabriel@megamix.ro;vanca.gabriel@megamix.ro;vanca@megamix.ro;gabrielvanca@megamix.ro;g.vanca@megamix.ro,6
 867,METALICPLAS ACTIV SA,Ioan Tecar,metalicplas.ro,ioan.tecar@metalicplas.ro;ioan@metalicplas.ro;tecar.ioan@metalicplas.ro;tecar@metalicplas.ro;ioantecar@metalicplas.ro;i.tecar@metalicplas.ro,6
 871,MIB PRODCOM SRL,Dorin George Bob,mibprodcom.ro,dorin.bob@mibprodcom.ro;dorin@mibprodcom.ro;bob.dorin@mibprodcom.ro;bob@mibprodcom.ro;dorinbob@mibprodcom.ro;d.bob@mibprodcom.ro,6
 873,MMM AUTOPARTS SRL,Jordi Priu,mmmautoparts.ro,jordi.priu@mmmautoparts.ro;jordi@mmmautoparts.ro;priu.jordi@mmmautoparts.ro;priu@mmmautoparts.ro;jordipriu@mmmautoparts.ro;j.priu@mmmautoparts.ro,6
@@ -302,19 +280,16 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 894,NEWAMPORT ASFALT SRL,Balea Nicolae,planeamtagro.ro,balea.nicolae@planeamtagro.ro;balea@planeamtagro.ro;nicolae.balea@planeamtagro.ro;nicolae@planeamtagro.ro;baleanicolae@planeamtagro.ro;b.nicolae@planeamtagro.ro,6
 895,NORA LY AGROSERV SRL,Marinca Gheorghe,planeamtagro.ro,marinca.gheorghe@planeamtagro.ro;marinca@planeamtagro.ro;gheorghe.marinca@planeamtagro.ro;gheorghe@planeamtagro.ro;marincagheorghe@planeamtagro.ro;m.gheorghe@planeamtagro.ro,6
 896,NORD CONFOREST SA,Emil Aschilean,nordconforest.ro,emil.aschilean@nordconforest.ro;emil@nordconforest.ro;aschilean.emil@nordconforest.ro;aschilean@nordconforest.ro;emilaschilean@nordconforest.ro;e.aschilean@nordconforest.ro,6
-898,NOVA POWER & GAS SRL,Muresan Teofil- Ovidiu,nova.ro,muresan.ovidiu@nova.ro;muresan@nova.ro;ovidiu.muresan@nova.ro;ovidiu@nova.ro;muresanovidiu@nova.ro;m.ovidiu@nova.ro,6
 899,NOVASERVIS FERRO GROUP SRL,Sild Vladimir,novaservis.ro,sild.vladimir@novaservis.ro;sild@novaservis.ro;vladimir.sild@novaservis.ro;vladimir@novaservis.ro;sildvladimir@novaservis.ro;s.vladimir@novaservis.ro,6
 901,NUEVO CONSTRUCT SRL,Sabau Petru Gabriel,nuevoconstruct.ro,sabau.gabriel@nuevoconstruct.ro;sabau@nuevoconstruct.ro;gabriel.sabau@nuevoconstruct.ro;gabriel@nuevoconstruct.ro;sabaugabriel@nuevoconstruct.ro;s.gabriel@nuevoconstruct.ro,6
 903,ONCOS SA,Onaca Vasile,oncos.ro,onaca.vasile@oncos.ro;onaca@oncos.ro;vasile.onaca@oncos.ro;vasile@oncos.ro;onacavasile@oncos.ro;o.vasile@oncos.ro,6
 904,OSMA PLAST ROMANIA,Davide Bisognin,osma.ro,davide.bisognin@osma.ro;davide@osma.ro;bisognin.davide@osma.ro;bisognin@osma.ro;davidebisognin@osma.ro;d.bisognin@osma.ro,6
 906,P4B IT SRL,Krahn Arno Norbert,p4bit.com,krahn.norbert@p4bit.com;krahn@p4bit.com;norbert.krahn@p4bit.com;norbert@p4bit.com;krahnnorbert@p4bit.com;k.norbert@p4bit.com,6
-907,PABLO SIGN,Adrian Mircea Pop,pablo.ro,adrian.pop@pablo.ro;adrian@pablo.ro;pop.adrian@pablo.ro;pop@pablo.ro;adrianpop@pablo.ro;a.pop@pablo.ro,6
 910,PEHART TEC GRUP SA,Stanculescu Adrian,pehart.ro,stanculescu.adrian@pehart.ro;stanculescu@pehart.ro;adrian.stanculescu@pehart.ro;adrian@pehart.ro;stanculescuadrian@pehart.ro;s.adrian@pehart.ro,6
 912,PILKINGTON AUTOMOTIVE ROMANIA,Robert Burkhardt,pilkington.ro,robert.burkhardt@pilkington.ro;robert@pilkington.ro;burkhardt.robert@pilkington.ro;burkhardt@pilkington.ro;robertburkhardt@pilkington.ro;r.burkhardt@pilkington.ro,6
 915,PLANTEXTRAKT SRL,Peev Igor Kiril,plantextrakt.ro,peev.kiril@plantextrakt.ro;peev@plantextrakt.ro;kiril.peev@plantextrakt.ro;kiril@plantextrakt.ro;peevkiril@plantextrakt.ro;p.kiril@plantextrakt.ro,6
 918,PORSCHE ENGINEERING ROMANIA,Marius Mihailovici,porscheengineering.ro,marius.mihailovici@porscheengineering.ro;marius@porscheengineering.ro;mihailovici.marius@porscheengineering.ro;mihailovici@porscheengineering.ro;mariusmihailovici@porscheengineering.ro;m.mihailovici@porscheengineering.ro,6
 919,POWER BELT SRL,Turos Arpad,powerbelt.ro,turos.arpad@powerbelt.ro;turos@powerbelt.ro;arpad.turos@powerbelt.ro;arpad@powerbelt.ro;turosarpad@powerbelt.ro;t.arpad@powerbelt.ro,6
-922,PRO TOOLS EXPERT,Adrian Stanculescu,pro-tools-expert.com,adrian.stanculescu@pro-tools-expert.com;adrian@pro-tools-expert.com;stanculescu.adrian@pro-tools-expert.com;stanculescu@pro-tools-expert.com;adrianstanculescu@pro-tools-expert.com;a.stanculescu@pro-tools-expert.com,6
 923,PRODVINALCO SA,Albon Vasile,prodvinalco.ro,albon.vasile@prodvinalco.ro;albon@prodvinalco.ro;vasile.albon@prodvinalco.ro;vasile@prodvinalco.ro;albonvasile@prodvinalco.ro;a.vasile@prodvinalco.ro,6
 925,PROMELEK XXI SA,Nagy Karoly,promelek.ro,nagy.karoly@promelek.ro;nagy@promelek.ro;karoly.nagy@promelek.ro;karoly@promelek.ro;nagykaroly@promelek.ro;n.karoly@promelek.ro,6
 927,PUIUL REGAL SRL,Balas Gabriel,puiul-regal.ro,balas.gabriel@puiul-regal.ro;balas@puiul-regal.ro;gabriel.balas@puiul-regal.ro;gabriel@puiul-regal.ro;balasgabriel@puiul-regal.ro;b.gabriel@puiul-regal.ro,6
@@ -324,18 +299,14 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 936,REIF INFRA SRL,Bernath Levente Laszlo,reif-infra.ro,bernath.laszlo@reif-infra.ro;bernath@reif-infra.ro;laszlo.bernath@reif-infra.ro;laszlo@reif-infra.ro;bernathlaszlo@reif-infra.ro;b.laszlo@reif-infra.ro,6
 937,REMATINVEST SRL,Ciupe Liviu,rematinvest.ro,ciupe.liviu@rematinvest.ro;ciupe@rematinvest.ro;liviu.ciupe@rematinvest.ro;liviu@rematinvest.ro;ciupeliviu@rematinvest.ro;c.liviu@rematinvest.ro,6
 938,REMEDIUM FARM SRL,Viorica Gavrea,remediumfarm.ro,viorica.gavrea@remediumfarm.ro;viorica@remediumfarm.ro;gavrea.viorica@remediumfarm.ro;gavrea@remediumfarm.ro;vioricagavrea@remediumfarm.ro;v.gavrea@remediumfarm.ro,6
-939,REMS REAL ESTATE,Cristina Gherman,remsrealestate.com,cristina.gherman@remsrealestate.com;cristina@remsrealestate.com;gherman.cristina@remsrealestate.com;gherman@remsrealestate.com;cristinagherman@remsrealestate.com;c.gherman@remsrealestate.com,6
 940,REPRO INVEST,Valentin Visan,reproinvest.ro,valentin.visan@reproinvest.ro;valentin@reproinvest.ro;visan.valentin@reproinvest.ro;visan@reproinvest.ro;valentinvisan@reproinvest.ro;v.visan@reproinvest.ro,6
 943,ROCAS DECOR SRL,Banakas Konstantinos,rocasdecor.ro,banakas.konstantinos@rocasdecor.ro;banakas@rocasdecor.ro;konstantinos.banakas@rocasdecor.ro;konstantinos@rocasdecor.ro;banakaskonstantinos@rocasdecor.ro;b.konstantinos@rocasdecor.ro,6
 950,ROTTAPRINT SRL,Mihaela Chifor,rottaprint.com,mihaela.chifor@rottaprint.com;mihaela@rottaprint.com;chifor.mihaela@rottaprint.com;chifor@rottaprint.com;mihaelachifor@rottaprint.com;m.chifor@rottaprint.com,6
 954,SAFEWAY INTERNATIONAL IMPEX,Shakhshir Basel,safeway.ro,shakhshir.basel@safeway.ro;shakhshir@safeway.ro;basel.shakhshir@safeway.ro;basel@safeway.ro;shakhshirbasel@safeway.ro;s.basel@safeway.ro,6
-955,SALICE COMPROD SRL,Ioan Iancu,salice.ro,ioan.iancu@salice.ro;ioan@salice.ro;iancu.ioan@salice.ro;iancu@salice.ro;ioaniancu@salice.ro;i.iancu@salice.ro,6
 956,SAMUS TEC SA,Ioan Tecar,samus-tec.ro,ioan.tecar@samus-tec.ro;ioan@samus-tec.ro;tecar.ioan@samus-tec.ro;tecar@samus-tec.ro;ioantecar@samus-tec.ro;i.tecar@samus-tec.ro,6
 959,SARMATEC SRL,Vuylsteke Joseph M. Francois,sarmatec.ro,vuylsteke.francois@sarmatec.ro;vuylsteke@sarmatec.ro;francois.vuylsteke@sarmatec.ro;francois@sarmatec.ro;vuylstekefrancois@sarmatec.ro;v.francois@sarmatec.ro,6
-961,SECPRAL PRO INSTALATII SRL,Elisabeta Erika Hristea,secpral.ro,elisabeta.hristea@secpral.ro;elisabeta@secpral.ro;hristea.elisabeta@secpral.ro;hristea@secpral.ro;elisabetahristea@secpral.ro;e.hristea@secpral.ro,6
 963,SELECT ADVERTISING,Vlad Andrei Muresan,selectadvertising.ro,vlad.muresan@selectadvertising.ro;vlad@selectadvertising.ro;muresan.vlad@selectadvertising.ro;muresan@selectadvertising.ro;vladmuresan@selectadvertising.ro;v.muresan@selectadvertising.ro,6
 966,SINTEROM SA,Vasile Lazar,sinterom.ro,vasile.lazar@sinterom.ro;vasile@sinterom.ro;lazar.vasile@sinterom.ro;lazar@sinterom.ro;vasilelazar@sinterom.ro;v.lazar@sinterom.ro,6
-969,SOFTECH SRL,Levente Szelyes,softech.ro,levente.szelyes@softech.ro;levente@softech.ro;szelyes.levente@softech.ro;szelyes@softech.ro;leventeszelyes@softech.ro;l.szelyes@softech.ro,6
 973,SOLVENDI SPRL,Marius Grecu,solvendi.ro,marius.grecu@solvendi.ro;marius@solvendi.ro;grecu.marius@solvendi.ro;grecu@solvendi.ro;mariusgrecu@solvendi.ro;m.grecu@solvendi.ro,6
 976,SOMLEA & ASOCIATII,Radu Moisin,somlea.ro,radu.moisin@somlea.ro;radu@somlea.ro;moisin.radu@somlea.ro;moisin@somlea.ro;radumoisin@somlea.ro;r.moisin@somlea.ro,6
 978,SORTILEMN SA,Ludovic Ghisa,sortilemn.ro,ludovic.ghisa@sortilemn.ro;ludovic@sortilemn.ro;ghisa.ludovic@sortilemn.ro;ghisa@sortilemn.ro;ludovicghisa@sortilemn.ro;l.ghisa@sortilemn.ro,6
@@ -343,20 +314,16 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 990,TECHNIC GLASS SRL,Sarbu Radu Ovidiu,technicglass.ro,sarbu.ovidiu@technicglass.ro;sarbu@technicglass.ro;ovidiu.sarbu@technicglass.ro;ovidiu@technicglass.ro;sarbuovidiu@technicglass.ro;s.ovidiu@technicglass.ro,6
 998,TERRA GRES SRL,Bogdan Ionut Crisan,terragres.ro,bogdan.crisan@terragres.ro;bogdan@terragres.ro;crisan.bogdan@terragres.ro;crisan@terragres.ro;bogdancrisan@terragres.ro;b.crisan@terragres.ro,6
 999,TERRA HABITAT SRL,Petean Radu Ionut,terrahabitat.eu,petean.ionut@terrahabitat.eu;petean@terrahabitat.eu;ionut.petean@terrahabitat.eu;ionut@terrahabitat.eu;peteanionut@terrahabitat.eu;p.ionut@terrahabitat.eu,6
-1004,TOP MARKET COMIMPEX SRL,Liviu Retegan,topmarket.ro,liviu.retegan@topmarket.ro;liviu@topmarket.ro;retegan.liviu@topmarket.ro;retegan@topmarket.ro;liviuretegan@topmarket.ro;l.retegan@topmarket.ro,6
 1011,TRANSILVANIA CONSTRUCTII SRL,Andrei Iancu Timofte,transilvaniaconstructii.ro,andrei.timofte@transilvaniaconstructii.ro;andrei@transilvaniaconstructii.ro;timofte.andrei@transilvaniaconstructii.ro;timofte@transilvaniaconstructii.ro;andreitimofte@transilvaniaconstructii.ro;a.timofte@transilvaniaconstructii.ro,6
 1014,TRASMEC PRODUCTION RO SRL,Farczadi Corina,trasmec.com,farczadi.corina@trasmec.com;farczadi@trasmec.com;corina.farczadi@trasmec.com;corina@trasmec.com;farczadicorina@trasmec.com;f.corina@trasmec.com,6
 1015,TRAUST CONSTRUCTII SI INSTALATII,Irina Pop,traust.ro,irina.pop@traust.ro;irina@traust.ro;pop.irina@traust.ro;pop@traust.ro;irinapop@traust.ro;i.pop@traust.ro,6
 1016,TREND FURNITURE SRL,Baltaretu Viorel,trendfurniture.ro,baltaretu.viorel@trendfurniture.ro;baltaretu@trendfurniture.ro;viorel.baltaretu@trendfurniture.ro;viorel@trendfurniture.ro;baltaretuviorel@trendfurniture.ro;b.viorel@trendfurniture.ro,6
 1018,ULMA PACKAGING SRL,Gonzales Zubia Inaki,ulmapackaging.ro,gonzales.inaki@ulmapackaging.ro;gonzales@ulmapackaging.ro;inaki.gonzales@ulmapackaging.ro;inaki@ulmapackaging.ro;gonzalesinaki@ulmapackaging.ro;g.inaki@ulmapackaging.ro,6
-1025,UP VISION SRL,Ungureanu Sergiu,upvision.net,ungureanu.sergiu@upvision.net;ungureanu@upvision.net;sergiu.ungureanu@upvision.net;sergiu@upvision.net;ungureanusergiu@upvision.net;u.sergiu@upvision.net,6
 1031,VERBAU ROMANIA SRL,Somogyi Alexandru,verbau.ro,somogyi.alexandru@verbau.ro;somogyi@verbau.ro;alexandru.somogyi@verbau.ro;alexandru@verbau.ro;somogyialexandru@verbau.ro;s.alexandru@verbau.ro,6
 1032,VERLA SRL,Viorel Verzea,verla.ro,viorel.verzea@verla.ro;viorel@verla.ro;verzea.viorel@verla.ro;verzea@verla.ro;viorelverzea@verla.ro;v.verzea@verla.ro,6
 1038,VITRINA ADVERTISING,Mihaela Sorina Rus,vitrina.ro,mihaela.rus@vitrina.ro;mihaela@vitrina.ro;rus.mihaela@vitrina.ro;rus@vitrina.ro;mihaelarus@vitrina.ro;m.rus@vitrina.ro,6
-1040,VOLVO TRUCKS ROMANIA,Dorin Capata,volvo.ro,dorin.capata@volvo.ro;dorin@volvo.ro;capata.dorin@volvo.ro;capata@volvo.ro;dorincapata@volvo.ro;d.capata@volvo.ro,6
 1041,VOS LOGISTICS CARGO SA,Marton Dozsa,voslogistics.ro,marton.dozsa@voslogistics.ro;marton@voslogistics.ro;dozsa.marton@voslogistics.ro;dozsa@voslogistics.ro;martondozsa@voslogistics.ro;m.dozsa@voslogistics.ro,6
 1042,WEBERBAU SRL,Weber Tibor Rudolf,weberbau.ro,weber.rudolf@weberbau.ro;weber@weberbau.ro;rudolf.weber@weberbau.ro;rudolf@weberbau.ro;weberrudolf@weberbau.ro;w.rudolf@weberbau.ro,6
-1044,WIND ENERGY SERVICE EAST EUROPE SRL,Muresan Teofil- Ovidiu,windenergy.eu,muresan.ovidiu@windenergy.eu;muresan@windenergy.eu;ovidiu.muresan@windenergy.eu;ovidiu@windenergy.eu;muresanovidiu@windenergy.eu;m.ovidiu@windenergy.eu,6
 1045,WIP INDUSTRIES ROMANIA SRL,Daniela-Alexandra Radu,wipindustries.ro,daniela.radu@wipindustries.ro;daniela@wipindustries.ro;radu.daniela@wipindustries.ro;radu@wipindustries.ro;danielaradu@wipindustries.ro;d.radu@wipindustries.ro,6
 1052,BLACK SEA SUPPLIERS SRL,Skantzikas Ioannis,blackseasuppliers.ro,skantzikas.ioannis@blackseasuppliers.ro;skantzikas@blackseasuppliers.ro;ioannis.skantzikas@blackseasuppliers.ro;ioannis@blackseasuppliers.ro;skantzikasioannis@blackseasuppliers.ro;s.ioannis@blackseasuppliers.ro,6
 1054,GLOBAL DEFENSE LOGISTICS SRL,Daraban Gabriel,gdlgroup.eu,daraban.gabriel@gdlgroup.eu;daraban@gdlgroup.eu;gabriel.daraban@gdlgroup.eu;gabriel@gdlgroup.eu;darabangabriel@gdlgroup.eu;d.gabriel@gdlgroup.eu,6
@@ -368,12 +335,8 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 1061,ADO DISTRICONSULT SRL,Ifteni Valentin Gigi,adodistriconsult.ro,ifteni.gigi@adodistriconsult.ro;ifteni@adodistriconsult.ro;gigi.ifteni@adodistriconsult.ro;gigi@adodistriconsult.ro;iftenigigi@adodistriconsult.ro;i.gigi@adodistriconsult.ro,6
 1063,ALEWIJNSE MARINE GALATI SA,Gert Jan Bravenboer,alewijnse.ro,gert.bravenboer@alewijnse.ro;gert@alewijnse.ro;bravenboer.gert@alewijnse.ro;bravenboer@alewijnse.ro;gertbravenboer@alewijnse.ro;g.bravenboer@alewijnse.ro,6
 1064,ALMERA INTERNATIONAL SRL,Lungulescu Grigorie,almera.ro,lungulescu.grigorie@almera.ro;lungulescu@almera.ro;grigorie.lungulescu@almera.ro;grigorie@almera.ro;lungulescugrigorie@almera.ro;l.grigorie@almera.ro,6
-1066,ANDRADA SRL,Teaca Alexandra,andrada.ro,teaca.alexandra@andrada.ro;teaca@andrada.ro;alexandra.teaca@andrada.ro;alexandra@andrada.ro;teacaalexandra@andrada.ro;t.alexandra@andrada.ro,6
-1068,APA CANAL SA,Stan Gelu,apacanal.ro,stan.gelu@apacanal.ro;stan@apacanal.ro;gelu.stan@apacanal.ro;gelu@apacanal.ro;stangelu@apacanal.ro;s.gelu@apacanal.ro,6
 1071,ARCIF AG SRL,Petrea Dumitru Calin,arcif.ro,petrea.calin@arcif.ro;petrea@arcif.ro;calin.petrea@arcif.ro;calin@arcif.ro;petreacalin@arcif.ro;p.calin@arcif.ro,6
-1073,BABY STAR COM IMPEX SRL,Banu Florin,baby.com,banu.florin@baby.com;banu@baby.com;florin.banu@baby.com;florin@baby.com;banuflorin@baby.com;b.florin@baby.com,6
 1078,BULROM PETROLEUM SRL,Baltacov Dan,bulrompetroleum.ro,baltacov.dan@bulrompetroleum.ro;baltacov@bulrompetroleum.ro;dan.baltacov@bulrompetroleum.ro;dan@bulrompetroleum.ro;baltacovdan@bulrompetroleum.ro;b.dan@bulrompetroleum.ro,6
-1082,CHORUS RESEARCH ENGINEERING DISTRIBUTION SRL,Cisleanu Catalin,chorus.ro,cisleanu.catalin@chorus.ro;cisleanu@chorus.ro;catalin.cisleanu@chorus.ro;catalin@chorus.ro;cisleanucatalin@chorus.ro;c.catalin@chorus.ro,6
 1083,CIPSOR CONSTRUCT SRL,Sirbu Ciprian,cipsor.ro,sirbu.ciprian@cipsor.ro;sirbu@cipsor.ro;ciprian.sirbu@cipsor.ro;ciprian@cipsor.ro;sirbuciprian@cipsor.ro;s.ciprian@cipsor.ro,6
 1084,CITADINA 98 SA,Minzat Dinu Constantin,citadina98.ro,minzat.constantin@citadina98.ro;minzat@citadina98.ro;constantin.minzat@citadina98.ro;constantin@citadina98.ro;minzatconstantin@citadina98.ro;m.constantin@citadina98.ro,6
 1085,CITY GAS SRL,Golomoz Cornel Bogdan,citygas.ro,golomoz.bogdan@citygas.ro;golomoz@citygas.ro;bogdan.golomoz@citygas.ro;bogdan@citygas.ro;golomozbogdan@citygas.ro;g.bogdan@citygas.ro,6
@@ -382,7 +345,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 1091,DEMCAR 2000 SRL,Tonita Dumitru Delu,demcar.ro,tonita.delu@demcar.ro;tonita@demcar.ro;delu.tonita@demcar.ro;delu@demcar.ro;tonitadelu@demcar.ro;t.delu@demcar.ro,6
 1092,DICOR LAND SRL,Diaconu Cosmin Razvan,dicorland.ro,diaconu.razvan@dicorland.ro;diaconu@dicorland.ro;razvan.diaconu@dicorland.ro;razvan@dicorland.ro;diaconurazvan@dicorland.ro;d.razvan@dicorland.ro,6
 1094,DOLADELA COMPANY SRL,Vasile Dobrin Oana Elena,doladelacompany.ro,vasile.elena@doladelacompany.ro;vasile@doladelacompany.ro;elena.vasile@doladelacompany.ro;elena@doladelacompany.ro;vasileelena@doladelacompany.ro;v.elena@doladelacompany.ro,6
-1096,ECO METAL RECYCLING SRL,Pruteanu Sorin,ecometalrecycling.com,pruteanu.sorin@ecometalrecycling.com;pruteanu@ecometalrecycling.com;sorin.pruteanu@ecometalrecycling.com;sorin@ecometalrecycling.com;pruteanusorin@ecometalrecycling.com;p.sorin@ecometalrecycling.com,6
 1099,FIERCTC SIBEL SRL,Rapotan Mircea,fierctc.ro,rapotan.mircea@fierctc.ro;rapotan@fierctc.ro;mircea.rapotan@fierctc.ro;mircea@fierctc.ro;rapotanmircea@fierctc.ro;r.mircea@fierctc.ro,6
 1105,INLAND SHIPPING SRL,Tudose Capelini Radian,inlandshipping.ro,tudose.radian@inlandshipping.ro;tudose@inlandshipping.ro;radian.tudose@inlandshipping.ro;radian@inlandshipping.ro;tudoseradian@inlandshipping.ro;t.radian@inlandshipping.ro,6
 1108,LEMACONS SRL,Constantinescu Alin,lemacons.ro,constantinescu.alin@lemacons.ro;constantinescu@lemacons.ro;alin.constantinescu@lemacons.ro;alin@lemacons.ro;constantinescualin@lemacons.ro;c.alin@lemacons.ro,6
@@ -399,16 +361,13 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 1140,TANCRAD SRL,Stancic Catalin Cristian,tancrad.com,stancic.cristian@tancrad.com;stancic@tancrad.com;cristian.stancic@tancrad.com;cristian@tancrad.com;stanciccristian@tancrad.com;s.cristian@tancrad.com,6
 1142,UTCHIM STEEL SRL,Macrineanu Gabriela,utchimsteel.ro,macrineanu.gabriela@utchimsteel.ro;macrineanu@utchimsteel.ro;gabriela.macrineanu@utchimsteel.ro;gabriela@utchimsteel.ro;macrineanugabriela@utchimsteel.ro;m.gabriela@utchimsteel.ro,6
 1143,VALRO TRADE SRL,Fratita Valentin,valrotrade.ro,fratita.valentin@valrotrade.ro;fratita@valrotrade.ro;valentin.fratita@valrotrade.ro;valentin@valrotrade.ro;fratitavalentin@valrotrade.ro;f.valentin@valrotrade.ro,6
-1146,A & S MED WAREHOUSE SRL,Oprea Mugurel Adrian,medwarehouse.com,oprea.adrian@medwarehouse.com;oprea@medwarehouse.com;adrian.oprea@medwarehouse.com;adrian@medwarehouse.com;opreaadrian@medwarehouse.com;o.adrian@medwarehouse.com,6
 1151,AGRICROPS CHIM SRL,Enache Ciprian,agricrops.ro,enache.ciprian@agricrops.ro;enache@agricrops.ro;ciprian.enache@agricrops.ro;ciprian@agricrops.ro;enacheciprian@agricrops.ro;e.ciprian@agricrops.ro,6
 1156,ANTIBIOTICE SA,Trifu Mihai,antibiotice.ro,trifu.mihai@antibiotice.ro;trifu@antibiotice.ro;mihai.trifu@antibiotice.ro;mihai@antibiotice.ro;trifumihai@antibiotice.ro;t.mihai@antibiotice.ro,6
 1157,APAVITAL SA,Dorus Mihail,apavital.ro,dorus.mihail@apavital.ro;dorus@apavital.ro;mihail.dorus@apavital.ro;mihail@apavital.ro;dorusmihail@apavital.ro;d.mihail@apavital.ro,6
 1160,ARCADIS EXCELLENCE CENTER ROMANIA SA,Van Der Weerd Hendrik,arcadis.ro,van.hendrik@arcadis.ro;van@arcadis.ro;hendrik.van@arcadis.ro;hendrik@arcadis.ro;vanhendrik@arcadis.ro;v.hendrik@arcadis.ro,6
-1164,AUTO MARKET SRL,Timpu Ramona Monica,automarket.ro,timpu.monica@automarket.ro;timpu@automarket.ro;monica.timpu@automarket.ro;monica@automarket.ro;timpumonica@automarket.ro;t.monica@automarket.ro,6
 1165,AUTO PADOVA SRL,Onofrei Gabriel,autopadova.ro,onofrei.gabriel@autopadova.ro;onofrei@autopadova.ro;gabriel.onofrei@autopadova.ro;gabriel@autopadova.ro;onofreigabriel@autopadova.ro;o.gabriel@autopadova.ro,6
 1166,AVA STAR SRL,Plesca Vasile,avastar.ro,plesca.vasile@avastar.ro;plesca@avastar.ro;vasile.plesca@avastar.ro;vasile@avastar.ro;plescavasile@avastar.ro;p.vasile@avastar.ro,6
 1168,AVI TOP SA,Antoci Ioan,avitop.ro,antoci.ioan@avitop.ro;antoci@avitop.ro;ioan.antoci@avitop.ro;ioan@avitop.ro;antociioan@avitop.ro;a.ioan@avitop.ro,6
-1169,AVIS TRANS SRL,Craciun Alexandru,avis.ro,craciun.alexandru@avis.ro;craciun@avis.ro;alexandru.craciun@avis.ro;alexandru@avis.ro;craciunalexandru@avis.ro;c.alexandru@avis.ro,6
 1170,AXA FARM SRL,Anton Sorin,axafarm.ro,anton.sorin@axafarm.ro;anton@axafarm.ro;sorin.anton@axafarm.ro;sorin@axafarm.ro;antonsorin@axafarm.ro;a.sorin@axafarm.ro,6
 1174,BMT AEROSPACE ROMANIA SRL,Pricope Corneliu,bmtaerospace.com,pricope.corneliu@bmtaerospace.com;pricope@bmtaerospace.com;corneliu.pricope@bmtaerospace.com;corneliu@bmtaerospace.com;pricopecorneliu@bmtaerospace.com;p.corneliu@bmtaerospace.com,6
 1179,BUILD CORP SRL,Ivanescu George,buildcorp.ro,ivanescu.george@buildcorp.ro;ivanescu@buildcorp.ro;george.ivanescu@buildcorp.ro;george@buildcorp.ro;ivanescugeorge@buildcorp.ro;i.george@buildcorp.ro,6
@@ -436,25 +395,15 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 1246,MECON IASI SRL,Bubulac Adrian Marius,meconiasi.ro,bubulac.marius@meconiasi.ro;bubulac@meconiasi.ro;marius.bubulac@meconiasi.ro;marius@meconiasi.ro;bubulacmarius@meconiasi.ro;b.marius@meconiasi.ro,6
 1247,MEDIA ROM GRUP SRL,Melinte Ioan,mediaromgrup.ro,melinte.ioan@mediaromgrup.ro;melinte@mediaromgrup.ro;ioan.melinte@mediaromgrup.ro;ioan@mediaromgrup.ro;melinteioan@mediaromgrup.ro;m.ioan@mediaromgrup.ro,6
 1248,MENNEKES ELECTRIC SRL,Hesse Christoph,mennekes.com,hesse.christoph@mennekes.com;hesse@mennekes.com;christoph.hesse@mennekes.com;christoph@mennekes.com;hessechristoph@mennekes.com;h.christoph@mennekes.com,6
-1252,MOLDOVA SEMINTE SRL,Douat Bruno Jean Christophe,moldova.ro,douat.christophe@moldova.ro;douat@moldova.ro;christophe.douat@moldova.ro;christophe@moldova.ro;douatchristophe@moldova.ro;d.christophe@moldova.ro,6
-1253,MOLDOVA TIGANASI SA,Haraga Mihai,moldova.ro,haraga.mihai@moldova.ro;haraga@moldova.ro;mihai.haraga@moldova.ro;mihai@moldova.ro;haragamihai@moldova.ro;h.mihai@moldova.ro,6
-1255,NERA COMPUTERS SRL,Chiriac Gabriela Valentina,nera.ro,chiriac.valentina@nera.ro;chiriac@nera.ro;valentina.chiriac@nera.ro;valentina@nera.ro;chiriacvalentina@nera.ro;c.valentina@nera.ro,6
-1256,NOVA MIRO SRL,Miron Constantin,nova.ro,miron.constantin@nova.ro;miron@nova.ro;constantin.miron@nova.ro;constantin@nova.ro;mironconstantin@nova.ro;m.constantin@nova.ro,6
 1259,PANIFCOM SRL,Gheorghica Doina Liliana,panifcom.ro,gheorghica.liliana@panifcom.ro;gheorghica@panifcom.ro;liliana.gheorghica@panifcom.ro;liliana@panifcom.ro;gheorghicaliliana@panifcom.ro;g.liliana@panifcom.ro,6
 1263,POLIROM PACKAGING SRL,Virvea Elena Corina,polirom-packaging.com,virvea.corina@polirom-packaging.com;virvea@polirom-packaging.com;corina.virvea@polirom-packaging.com;corina@polirom-packaging.com;virveacorina@polirom-packaging.com;v.corina@polirom-packaging.com,6
-1264,PRIMA CONSTRUCT SRL,Enea Iustian Marius,primaconstruct.ro,enea.marius@primaconstruct.ro;enea@primaconstruct.ro;marius.enea@primaconstruct.ro;marius@primaconstruct.ro;eneamarius@primaconstruct.ro;e.marius@primaconstruct.ro,6
 1265,PROINVEST GROUP SRL,Sandu Vasile,proinvestgroup.ro,sandu.vasile@proinvestgroup.ro;sandu@proinvestgroup.ro;vasile.sandu@proinvestgroup.ro;vasile@proinvestgroup.ro;sanduvasile@proinvestgroup.ro;s.vasile@proinvestgroup.ro,6
 1268,RAL CONSTRUCT MANAGEMENT SRL,Etcu Stefan Silviu,ralconstruct.ro,etcu.silviu@ralconstruct.ro;etcu@ralconstruct.ro;silviu.etcu@ralconstruct.ro;silviu@ralconstruct.ro;etcusilviu@ralconstruct.ro;e.silviu@ralconstruct.ro,6
 1269,RC BETON BAU SRL,Balan Radu,rcbetonbau.com,balan.radu@rcbetonbau.com;balan@rcbetonbau.com;radu.balan@rcbetonbau.com;radu@rcbetonbau.com;balanradu@rcbetonbau.com;b.radu@rcbetonbau.com,6
-1270,RESONANCE DISTRIBUTION SRL,Pocol Catalin Florin,resonance.ro,pocol.florin@resonance.ro;pocol@resonance.ro;florin.pocol@resonance.ro;florin@resonance.ro;pocolflorin@resonance.ro;p.florin@resonance.ro,6
 1272,ROMFOUR TUR SRL,Stan Andy Dan,romfour.com,stan.dan@romfour.com;stan@romfour.com;dan.stan@romfour.com;dan@romfour.com;standan@romfour.com;s.dan@romfour.com,6
 1277,SALUBRIS SA,Profire Mihai,salubris.ro,profire.mihai@salubris.ro;profire@salubris.ro;mihai.profire@salubris.ro;mihai@salubris.ro;profiremihai@salubris.ro;p.mihai@salubris.ro,6
 1281,SIGNANT HEALTH SRL,Diaconu Vlad,signanthealth.com,diaconu.vlad@signanthealth.com;diaconu@signanthealth.com;vlad.diaconu@signanthealth.com;vlad@signanthealth.com;diaconuvlad@signanthealth.com;d.vlad@signanthealth.com,6
 1284,SNACK TRADE SRL,Agatiev Andrei,snack-trade.com,agatiev.andrei@snack-trade.com;agatiev@snack-trade.com;andrei.agatiev@snack-trade.com;andrei@snack-trade.com;agatievandrei@snack-trade.com;a.andrei@snack-trade.com,6
-1285,SUNRISE MOTORS SRL,Gradinariu Sanda Jenia,sunrisemotors.com,gradinariu.jenia@sunrisemotors.com;gradinariu@sunrisemotors.com;jenia.gradinariu@sunrisemotors.com;jenia@sunrisemotors.com;gradinariujenia@sunrisemotors.com;g.jenia@sunrisemotors.com,6
-1287,TERMO SERVICE SA,Tiron Vasile,termo.com,tiron.vasile@termo.com;tiron@termo.com;vasile.tiron@termo.com;vasile@termo.com;tironvasile@termo.com;t.vasile@termo.com,6
-1289,TOKYO MOTORS SRL,Vasilescu Stefan Bogdan,tokyomotors.com,vasilescu.bogdan@tokyomotors.com;vasilescu@tokyomotors.com;bogdan.vasilescu@tokyomotors.com;bogdan@tokyomotors.com;vasilescubogdan@tokyomotors.com;v.bogdan@tokyomotors.com,6
-1290,TRANS OIL MOTORS SRL,Lungu Alis Teodora,transoil.ro,lungu.teodora@transoil.ro;lungu@transoil.ro;teodora.lungu@transoil.ro;teodora@transoil.ro;lunguteodora@transoil.ro;l.teodora@transoil.ro,6
 1291,TRANSGOR LOGISTIK SRL,Goriuc Mihai Arborel,transgor-logistik.ro,goriuc.arborel@transgor-logistik.ro;goriuc@transgor-logistik.ro;arborel.goriuc@transgor-logistik.ro;arborel@transgor-logistik.ro;goriucarborel@transgor-logistik.ro;g.arborel@transgor-logistik.ro,6
 1296,VIOSAND TRICOTEXT SRL,Sandu Vasile,viosand.ro,sandu.vasile@viosand.ro;sandu@viosand.ro;vasile.sandu@viosand.ro;vasile@viosand.ro;sanduvasile@viosand.ro;s.vasile@viosand.ro,6
 1297,ZEELANDIA SRL,Bocaniciu Ovidiu Sorin,zeelandia.ro,bocaniciu.sorin@zeelandia.ro;bocaniciu@zeelandia.ro;sorin.bocaniciu@zeelandia.ro;sorin@zeelandia.ro;bocaniciusorin@zeelandia.ro;b.sorin@zeelandia.ro,6
@@ -552,7 +501,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 1482,CADRUPO AUTOMOBILE SRL,Cioată Mircea,cadrupo.ro,mircea.cioata@cadrupo.ro;mircea@cadrupo.ro;cioata.mircea@cadrupo.ro;cioata@cadrupo.ro;mirceacioata@cadrupo.ro;m.cioata@cadrupo.ro,6
 1485,CAMELWEB CREATIONS SRL,Mkweb Solutions Srl,camelweb.com,solutions.mkweb@camelweb.com;solutions@camelweb.com;mkweb.solutions@camelweb.com;mkweb@camelweb.com;solutionsmkweb@camelweb.com;s.mkweb@camelweb.com,6
 1488,CARDIO MED SRL,Leonte Catalina Brindusa,cardiomedtgm.ro,leonte.brindusa@cardiomedtgm.ro;leonte@cardiomedtgm.ro;brindusa.leonte@cardiomedtgm.ro;brindusa@cardiomedtgm.ro;leontebrindusa@cardiomedtgm.ro;l.brindusa@cardiomedtgm.ro,6
-1490,CARMACO AGRO SRL,Farago Ramona-Iuliana,carmaco.ro,ramona.farago@carmaco.ro;ramona@carmaco.ro;farago.ramona@carmaco.ro;farago@carmaco.ro;ramonafarago@carmaco.ro;r.farago@carmaco.ro,6
 1492,CARO COMP SRL,Dubb Alexandru,carocomp.ro,alexandru.dubb@carocomp.ro;alexandru@carocomp.ro;dubb.alexandru@carocomp.ro;dubb@carocomp.ro;alexandrudubb@carocomp.ro;a.dubb@carocomp.ro,6
 1493,CAROLTEX IMPEX SRL,Hantau Ligia,motelsighisoara.com,ligia.hantau@motelsighisoara.com;ligia@motelsighisoara.com;hantau.ligia@motelsighisoara.com;hantau@motelsighisoara.com;ligiahantau@motelsighisoara.com;l.hantau@motelsighisoara.com,6
 1494,CASA PETRINA SRL,Petrina Ruxandra Gabriela,casapetrina.ro,ruxandra.petrina@casapetrina.ro;ruxandra@casapetrina.ro;petrina.ruxandra@casapetrina.ro;petrina@casapetrina.ro;ruxandrapetrina@casapetrina.ro;r.petrina@casapetrina.ro,6
@@ -665,7 +613,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 1686,FINTINA MARCULUI SRL,Lazăr Nicolae,dracul.ro,nicolae.lazar@dracul.ro;nicolae@dracul.ro;lazar.nicolae@dracul.ro;lazar@dracul.ro;nicolaelazar@dracul.ro;n.lazar@dracul.ro,6
 1687,FIORD SRL,Moldovan Camelia-Ingrid,fiord.ro,camelia.moldovan@fiord.ro;camelia@fiord.ro;moldovan.camelia@fiord.ro;moldovan@fiord.ro;cameliamoldovan@fiord.ro;c.moldovan@fiord.ro,6
 1688,FITOPREST SRL,Moldovan Ioan Dragos,efitofarmacie.ro,moldovan.dragos@efitofarmacie.ro;moldovan@efitofarmacie.ro;dragos.moldovan@efitofarmacie.ro;dragos@efitofarmacie.ro;moldovandragos@efitofarmacie.ro;m.dragos@efitofarmacie.ro,6
-1689,FLEXI PRO SRL,Coroi Paul Romeo,flexipro.net,coroi.romeo@flexipro.net;coroi@flexipro.net;romeo.coroi@flexipro.net;romeo@flexipro.net;coroiromeo@flexipro.net;c.romeo@flexipro.net,6
 1691,FLORADIS COMPANY SRL,Gruianu Luminita Elena,floradismetal.ro,gruianu.elena@floradismetal.ro;gruianu@floradismetal.ro;elena.gruianu@floradismetal.ro;elena@floradismetal.ro;gruianuelena@floradismetal.ro;g.elena@floradismetal.ro,6
 1692,FLOWER SHOP SOLUTIONS SRL,Kovács Loránd,flowersolutions.ro,lorand.kovacs@flowersolutions.ro;lorand@flowersolutions.ro;kovacs.lorand@flowersolutions.ro;kovacs@flowersolutions.ro;lorandkovacs@flowersolutions.ro;l.kovacs@flowersolutions.ro,6
 1693,FM ALLBRIGHT SRL,Szasz Ilona,effeemme.it,szasz.ilona@effeemme.it;szasz@effeemme.it;ilona.szasz@effeemme.it;ilona@effeemme.it;szaszilona@effeemme.it;s.ilona@effeemme.it,6
@@ -697,7 +644,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 1733,GREEN XPC SRL,Haidu Rolland-Valentin,casavie.ro,rolland.haidu@casavie.ro;rolland@casavie.ro;haidu.rolland@casavie.ro;haidu@casavie.ro;rollandhaidu@casavie.ro;r.haidu@casavie.ro,6
 1735,GRUP SIMEX SRL,Pop Narcis Emanuel,grupsimex.ro,pop.emanuel@grupsimex.ro;pop@grupsimex.ro;emanuel.pop@grupsimex.ro;emanuel@grupsimex.ro;popemanuel@grupsimex.ro;p.emanuel@grupsimex.ro,6
 1737,GST SAFETY TEXTILES RO SRL,Alexandru Oprescu,gst-global.com,alexandru.oprescu@gst-global.com;alexandru@gst-global.com;oprescu.alexandru@gst-global.com;oprescu@gst-global.com;alexandruoprescu@gst-global.com;a.oprescu@gst-global.com,6
-1739,HAPPY FAMILY LIFE SRL,Pastor-Rusu Adriana,happyfamilylife.net,adriana.pastor.rusu@happyfamilylife.net;adriana@happyfamilylife.net;pastor.rusu.adriana@happyfamilylife.net;pastor.rusu@happyfamilylife.net;adrianapastor.rusu@happyfamilylife.net;a.pastor.rusu@happyfamilylife.net;adriana.pastor@happyfamilylife.net;pastor.adriana@happyfamilylife.net;pastor@happyfamilylife.net;adrianapastor@happyfamilylife.net;a.pastor@happyfamilylife.net;adriana.rusu@happyfamilylife.net;rusu.adriana@happyfamilylife.net;rusu@happyfamilylife.net;adrianarusu@happyfamilylife.net;a.rusu@happyfamilylife.net,16
 1743,HASEL INVENT SRL,Huidan Alecu Sorin,hasel.ro,alecu.huidan@hasel.ro;alecu@hasel.ro;huidan.alecu@hasel.ro;huidan@hasel.ro;alecuhuidan@hasel.ro;a.huidan@hasel.ro,6
 1745,HELL ENERGY SRL,Barabas Erno,hellenergy.ro,barabas.erno@hellenergy.ro;barabas@hellenergy.ro;erno.barabas@hellenergy.ro;erno@hellenergy.ro;barabaserno@hellenergy.ro;b.erno@hellenergy.ro,6
 1748,HERLITZ ROMANIA SRL,Nicolau Horatiu George,herlitzromania.ro,nicolau.george@herlitzromania.ro;nicolau@herlitzromania.ro;george.nicolau@herlitzromania.ro;george@herlitzromania.ro;nicolaugeorge@herlitzromania.ro;n.george@herlitzromania.ro,6
@@ -706,7 +652,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 1753,HM PRODUCT SRL,Simonfi Laszlo,hmconstruct.ro,simonfi.laszlo@hmconstruct.ro;simonfi@hmconstruct.ro;laszlo.simonfi@hmconstruct.ro;laszlo@hmconstruct.ro;simonfilaszlo@hmconstruct.ro;s.laszlo@hmconstruct.ro,6
 1754,HOCHLAND ROMANIA SRL,Hageleit Erik,hochland.com,hageleit.erik@hochland.com;hageleit@hochland.com;erik.hageleit@hochland.com;erik@hochland.com;hageleiterik@hochland.com;h.erik@hochland.com,6
 1757,HORA SA,Cengher Adriana Elena,hora.ro,cengher.elena@hora.ro;cengher@hora.ro;elena.cengher@hora.ro;elena@hora.ro;cengherelena@hora.ro;c.elena@hora.ro,6
-1762,IBANESTI PADURE PROD SRL,Gliga Maria Silvia,ibanesti.ro,maria.gliga@ibanesti.ro;maria@ibanesti.ro;gliga.maria@ibanesti.ro;gliga@ibanesti.ro;mariagliga@ibanesti.ro;m.gliga@ibanesti.ro,6
 1765,IFN SABION SRL,Sabău Cosmin Ioan,sabion.ro,cosmin.sabau@sabion.ro;cosmin@sabion.ro;sabau.cosmin@sabion.ro;sabau@sabion.ro;cosminsabau@sabion.ro;c.sabau@sabion.ro,6
 1770,INDLACTO MURES SRL,Zanotti Alceo,indlacto.ro,zanotti.alceo@indlacto.ro;zanotti@indlacto.ro;alceo.zanotti@indlacto.ro;alceo@indlacto.ro;zanottialceo@indlacto.ro;z.alceo@indlacto.ro,6
 1771,INDOOR CONSTRUCT TRANSILVANIA SRL,Őrdőg Zsolt-András,ladiavolorestaurants.ro,zsolt.ordog@ladiavolorestaurants.ro;zsolt@ladiavolorestaurants.ro;ordog.zsolt@ladiavolorestaurants.ro;ordog@ladiavolorestaurants.ro;zsoltordog@ladiavolorestaurants.ro;z.ordog@ladiavolorestaurants.ro,6
@@ -740,7 +685,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 1815,KRAFT LOGISTIC SRL,Dangulea Ironim Marinel,kraft-group.eu,dangulea.marinel@kraft-group.eu;dangulea@kraft-group.eu;marinel.dangulea@kraft-group.eu;marinel@kraft-group.eu;danguleamarinel@kraft-group.eu;d.marinel@kraft-group.eu,6
 1817,KRI SPEED SRL,Barabas Melinda,krispeed.ro,melinda.barabas@krispeed.ro;melinda@krispeed.ro;barabas.melinda@krispeed.ro;barabas@krispeed.ro;melindabarabas@krispeed.ro;m.barabas@krispeed.ro,6
 1818,KRISKON SRL,Huruba Viorel,kriskon.ro,viorel.huruba@kriskon.ro;viorel@kriskon.ro;huruba.viorel@kriskon.ro;huruba@kriskon.ro;viorelhuruba@kriskon.ro;v.huruba@kriskon.ro,6
-1822,LA NUOVA SARTORIA SRL,Şoneriu Izabela,lanuovasartoria.com,izabela.soneriu@lanuovasartoria.com;izabela@lanuovasartoria.com;soneriu.izabela@lanuovasartoria.com;soneriu@lanuovasartoria.com;izabelasoneriu@lanuovasartoria.com;i.soneriu@lanuovasartoria.com,6
 1823,LACROIX AMBALAJE SRL,Denis Albert Rene Lacroix,groupe-lacroix.com,denis.lacroix@groupe-lacroix.com;denis@groupe-lacroix.com;lacroix.denis@groupe-lacroix.com;lacroix@groupe-lacroix.com;denislacroix@groupe-lacroix.com;d.lacroix@groupe-lacroix.com,6
 1824,LANDMANIA SRL,Nemet Lehel Istvan,landmania.ro,nemet.istvan@landmania.ro;nemet@landmania.ro;istvan.nemet@landmania.ro;istvan@landmania.ro;nemetistvan@landmania.ro;n.istvan@landmania.ro,6
 1825,LAS PROM SRL,Dan Marinel,lasprom.ro,dan.marinel@lasprom.ro;dan@lasprom.ro;marinel.dan@lasprom.ro;marinel@lasprom.ro;danmarinel@lasprom.ro;d.marinel@lasprom.ro,6
@@ -754,7 +698,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 1841,LYNX SOLUTIONS SRL,Tamas Ors,lynxsolutions.eu,tamas.ors@lynxsolutions.eu;tamas@lynxsolutions.eu;ors.tamas@lynxsolutions.eu;ors@lynxsolutions.eu;tamasors@lynxsolutions.eu;t.ors@lynxsolutions.eu,6
 1845,MACO SOLAR SRL,Rauta Bogdan Florin,macosolar.ro,rauta.florin@macosolar.ro;rauta@macosolar.ro;florin.rauta@macosolar.ro;florin@macosolar.ro;rautaflorin@macosolar.ro;r.florin@macosolar.ro,6
 1847,MAGNATECH SRL,Tatar Maria Nadia,flacoanepet.ro,maria.tatar@flacoanepet.ro;maria@flacoanepet.ro;tatar.maria@flacoanepet.ro;tatar@flacoanepet.ro;mariatatar@flacoanepet.ro;m.tatar@flacoanepet.ro,6
-1848,MAGNETIC POWER SRL,Ilea Richard Virgil,magnetic-power.com,richard.ilea@magnetic-power.com;richard@magnetic-power.com;ilea.richard@magnetic-power.com;ilea@magnetic-power.com;richardilea@magnetic-power.com;r.ilea@magnetic-power.com,6
 1853,MAMMOTH TYRES SRL,Izsák Anna,mammothtyres.ro,anna.izsak@mammothtyres.ro;anna@mammothtyres.ro;izsak.anna@mammothtyres.ro;izsak@mammothtyres.ro;annaizsak@mammothtyres.ro;a.izsak@mammothtyres.ro,6
 1855,MANSART CORPORATE SRL,Pop Şerban Alexandru,mansartcorporate.ro,serban.pop@mansartcorporate.ro;serban@mansartcorporate.ro;pop.serban@mansartcorporate.ro;pop@mansartcorporate.ro;serbanpop@mansartcorporate.ro;s.pop@mansartcorporate.ro,6
 1856,MAPCOM LOGISTIK SRL,Plopeanu Adina-Gabriela,repom.ro,adina.plopeanu@repom.ro;adina@repom.ro;plopeanu.adina@repom.ro;plopeanu@repom.ro;adinaplopeanu@repom.ro;a.plopeanu@repom.ro,6
@@ -802,7 +745,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 1923,MULTIPRACTIC SRL,Duca Filip-Olimpiu,multipractic.ro,filip.duca@multipractic.ro;filip@multipractic.ro;duca.filip@multipractic.ro;duca@multipractic.ro;filipduca@multipractic.ro;f.duca@multipractic.ro,6
 1924,MURES HEALTHCARE GROUP SRL,Farcaș Annamaria,galenus.ro,annamaria.farcas@galenus.ro;annamaria@galenus.ro;farcas.annamaria@galenus.ro;farcas@galenus.ro;annamariafarcas@galenus.ro;a.farcas@galenus.ro,6
 1925,MURES HIDRAULICI SRL,Timmerman Augustinus,mureshidraulici.com,augustinus.timmerman@mureshidraulici.com;augustinus@mureshidraulici.com;timmerman.augustinus@mureshidraulici.com;timmerman@mureshidraulici.com;augustinustimmerman@mureshidraulici.com;a.timmerman@mureshidraulici.com,6
-1927,MURES SRL,Pop Adrian Dumitru,mures.ro,pop.dumitru@mures.ro;pop@mures.ro;dumitru.pop@mures.ro;dumitru@mures.ro;popdumitru@mures.ro;p.dumitru@mures.ro,6
 1932,NAKITA PROD COMIMPEX SRL,Cuesdeanu Lucian Serban,nakita.ro,cuesdeanu.serban@nakita.ro;cuesdeanu@nakita.ro;serban.cuesdeanu@nakita.ro;serban@nakita.ro;cuesdeanuserban@nakita.ro;c.serban@nakita.ro,6
 1933,NAPA IMPEX SRL,Nagy Ferenc,napa.ro,ferenc.nagy@napa.ro;ferenc@napa.ro;nagy.ferenc@napa.ro;nagy@napa.ro;ferencnagy@napa.ro;f.nagy@napa.ro,6
 1935,NARIDA SRL,Cristea Ioan,darina.ro,cristea.ioan@darina.ro;cristea@darina.ro;ioan.cristea@darina.ro;ioan@darina.ro;cristeaioan@darina.ro;c.ioan@darina.ro,6
@@ -914,7 +856,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 2092,ROYAL DRU AGRO SRL,Török Irma-Ilona,dru.ro,irma.torok@dru.ro;irma@dru.ro;torok.irma@dru.ro;torok@dru.ro;irmatorok@dru.ro;i.torok@dru.ro,6
 2093,ROYAL DRU PARTS SRL,Luca Orsolya Beata,dru.ro,luca.beata@dru.ro;luca@dru.ro;beata.luca@dru.ro;beata@dru.ro;lucabeata@dru.ro;l.beata@dru.ro,6
 2094,ROYAL GERMAN FISH & SEAFOOD SRL,Jikeli Erich Johann,royalfish.ro,jikeli.johann@royalfish.ro;jikeli@royalfish.ro;johann.jikeli@royalfish.ro;johann@royalfish.ro;jikelijohann@royalfish.ro;j.johann@royalfish.ro,6
-2095,RS DIAGNOSTICS SRL,Roşca Ioan,rsdiagnostics.com,ioan.rosca@rsdiagnostics.com;ioan@rsdiagnostics.com;rosca.ioan@rsdiagnostics.com;rosca@rsdiagnostics.com;ioanrosca@rsdiagnostics.com;i.rosca@rsdiagnostics.com,6
 2096,RUCK VENTILATOARE SRL,Gerhard Erwin Ruck,ruck.eu,gerhard.ruck@ruck.eu;gerhard@ruck.eu;ruck.gerhard@ruck.eu;ruck@ruck.eu;gerhardruck@ruck.eu;g.ruck@ruck.eu,6
 2097,RUSANCOM PROD SRL,Sipos Mioara,rusancom.ro,sipos.mioara@rusancom.ro;sipos@rusancom.ro;mioara.sipos@rusancom.ro;mioara@rusancom.ro;siposmioara@rusancom.ro;s.mioara@rusancom.ro,6
 2099,SABISOR SRL,Gliga Sabin Florin,sabisor.ro,sabin.gliga@sabisor.ro;sabin@sabisor.ro;gliga.sabin@sabisor.ro;gliga@sabisor.ro;sabingliga@sabisor.ro;s.gliga@sabisor.ro,6
@@ -937,7 +878,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 2129,SIRGOMBOS SECURITY SRL,Csillag Stefan Tiberiu,gombos-security.ro,csillag.tiberiu@gombos-security.ro;csillag@gombos-security.ro;tiberiu.csillag@gombos-security.ro;tiberiu@gombos-security.ro;csillagtiberiu@gombos-security.ro;c.tiberiu@gombos-security.ro,6
 2130,SIROD SRL,Rus Cornel,sirod.ro,cornel.rus@sirod.ro;cornel@sirod.ro;rus.cornel@sirod.ro;rus@sirod.ro;cornelrus@sirod.ro;c.rus@sirod.ro,6
 2131,SLF MEDIA SRL,Cont Catalin Bogdan,armura.ro,cont.bogdan@armura.ro;cont@armura.ro;bogdan.cont@armura.ro;bogdan@armura.ro;contbogdan@armura.ro;c.bogdan@armura.ro,6
-2132,SMART DELIVERY SERVICES SRL,Pásztor David-Vilmos,smartdeliveryservices.com,david.pasztor@smartdeliveryservices.com;david@smartdeliveryservices.com;pasztor.david@smartdeliveryservices.com;pasztor@smartdeliveryservices.com;davidpasztor@smartdeliveryservices.com;d.pasztor@smartdeliveryservices.com,6
 2133,SMART SOFT SERV SRL,Sulari Teodora Maria,smartsoft.ro,sulari.maria@smartsoft.ro;sulari@smartsoft.ro;maria.sulari@smartsoft.ro;maria@smartsoft.ro;sularimaria@smartsoft.ro;s.maria@smartsoft.ro,6
 2135,SOCIETATEA DE FINANTARE RURALA FAER IFN SA,Mîndru Mihai,faer.ro,mihai.mindru@faer.ro;mihai@faer.ro;mindru.mihai@faer.ro;mindru@faer.ro;mihaimindru@faer.ro;m.mindru@faer.ro,6
 2136,SOCOT SA,Cecan Simion,socot.ro,cecan.simion@socot.ro;cecan@socot.ro;simion.cecan@socot.ro;simion@socot.ro;cecansimion@socot.ro;c.simion@socot.ro,6
@@ -956,7 +896,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 2159,SWING TRADE SRL,Hegyi Liana Georgeta,eurosandoor.ro,hegyi.georgeta@eurosandoor.ro;hegyi@eurosandoor.ro;georgeta.hegyi@eurosandoor.ro;georgeta@eurosandoor.ro;hegyigeorgeta@eurosandoor.ro;h.georgeta@eurosandoor.ro,6
 2160,SYLEVY CLEANING SRL,Ilyes Szilard Levente,sylevycleaning.ro,ilyes.levente@sylevycleaning.ro;ilyes@sylevycleaning.ro;levente.ilyes@sylevycleaning.ro;levente@sylevycleaning.ro;ilyeslevente@sylevycleaning.ro;i.levente@sylevycleaning.ro,6
 2165,SZOLVEGY VEGYIPARI SRL,Dr.Daku Lajos,szolvegy.ro,daku.dr@szolvegy.ro;daku@szolvegy.ro;dr.daku@szolvegy.ro;dr@szolvegy.ro;dakudr@szolvegy.ro;d.dr@szolvegy.ro,6
-2166,TALENT STORE SRL,Fusu Calin,talentstore.com,fusu.calin@talentstore.com;fusu@talentstore.com;calin.fusu@talentstore.com;calin@talentstore.com;fusucalin@talentstore.com;f.calin@talentstore.com,6
 2167,TANKSPED SRL,Man Christian Vasile,tanksped.com,christian.man@tanksped.com;christian@tanksped.com;man.christian@tanksped.com;man@tanksped.com;christianman@tanksped.com;c.man@tanksped.com,6
 2168,TBS AVIATION SRL,Toma Alexandru-Călin,tbsaviation.ro,alexandru.toma@tbsaviation.ro;alexandru@tbsaviation.ro;toma.alexandru@tbsaviation.ro;toma@tbsaviation.ro;alexandrutoma@tbsaviation.ro;a.toma@tbsaviation.ro,6
 2169,TECTONA SRL,Nagy Zsombor,tectona.ro,nagy.zsombor@tectona.ro;nagy@tectona.ro;zsombor.nagy@tectona.ro;zsombor@tectona.ro;nagyzsombor@tectona.ro;n.zsombor@tectona.ro,6
@@ -980,18 +919,15 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 2195,TOP GAZ SRL,Ricean Puiu Valentin Milut,topgaz.ro,ricean.milut@topgaz.ro;ricean@topgaz.ro;milut.ricean@topgaz.ro;milut@topgaz.ro;riceanmilut@topgaz.ro;r.milut@topgaz.ro,6
 2196,TOP SMART INVEST SRL,Pásztor David-Vilmos,delgreen.ro,david.pasztor@delgreen.ro;david@delgreen.ro;pasztor.david@delgreen.ro;pasztor@delgreen.ro;davidpasztor@delgreen.ro;d.pasztor@delgreen.ro,6
 2197,TOP TRADING SRL,Gomotirceanu Dorin,ambulantalcd.ro,gomotirceanu.dorin@ambulantalcd.ro;gomotirceanu@ambulantalcd.ro;dorin.gomotirceanu@ambulantalcd.ro;dorin@ambulantalcd.ro;gomotirceanudorin@ambulantalcd.ro;g.dorin@ambulantalcd.ro,6
-2198,TOPMED INVEST LOGISTIC SRL,Gomotîrceanu Florin,topmed.ro,florin.gomotirceanu@topmed.ro;florin@topmed.ro;gomotirceanu.florin@topmed.ro;gomotirceanu@topmed.ro;floringomotirceanu@topmed.ro;f.gomotirceanu@topmed.ro,6
 2199,TOPMED SRL,Gomotirceanu Adriana Maria,topmed.ro,gomotirceanu.maria@topmed.ro;gomotirceanu@topmed.ro;maria.gomotirceanu@topmed.ro;maria@topmed.ro;gomotirceanumaria@topmed.ro;g.maria@topmed.ro,6
 2200,TOPMOTIVE SRL,Huza Ioana Maria,topmotive.eu,huza.maria@topmotive.eu;huza@topmotive.eu;maria.huza@topmotive.eu;maria@topmotive.eu;huzamaria@topmotive.eu;h.maria@topmotive.eu,6
 2201,TORDAI HAIR COSMETICS SRL,Tordai Istvan,kallos.ro,tordai.istvan@kallos.ro;tordai@kallos.ro;istvan.tordai@kallos.ro;istvan@kallos.ro;tordaiistvan@kallos.ro;t.istvan@kallos.ro,6
 2202,TORDAI IMPEX SRL,Tordai József Attila,tordai.ro,jozsef.tordai@tordai.ro;jozsef@tordai.ro;tordai.jozsef@tordai.ro;tordai@tordai.ro;jozseftordai@tordai.ro;j.tordai@tordai.ro,6
-2204,TOTAL PETRO GAS CONSTRUCT SRL,Gherendi Augustin Calin,total.com,gherendi.calin@total.com;gherendi@total.com;calin.gherendi@total.com;calin@total.com;gherendicalin@total.com;g.calin@total.com,6
 2205,TOTAL SPORT DISTRIBUTION SRL,Tamba Nelu Mihai,expert-sport.ro,nelu.tamba@expert-sport.ro;nelu@expert-sport.ro;tamba.nelu@expert-sport.ro;tamba@expert-sport.ro;nelutamba@expert-sport.ro;n.tamba@expert-sport.ro,6
 2210,TRACOS SRL,Cenan Angela Minerva,tracos-agregate.ro,angela.cenan@tracos-agregate.ro;angela@tracos-agregate.ro;cenan.angela@tracos-agregate.ro;cenan@tracos-agregate.ro;angelacenan@tracos-agregate.ro;a.cenan@tracos-agregate.ro,6
 2211,TRADITII DIN NATURA SRL,Rusu Răzvan Săndel,razvanidicel.ro,razvan.rusu@razvanidicel.ro;razvan@razvanidicel.ro;rusu.razvan@razvanidicel.ro;rusu@razvanidicel.ro;razvanrusu@razvanidicel.ro;r.rusu@razvanidicel.ro,6
 2216,TRANS TECHNIK SRL,Szocs Jozsef Attila,trans-technik.ro,szocs.attila@trans-technik.ro;szocs@trans-technik.ro;attila.szocs@trans-technik.ro;attila@trans-technik.ro;szocsattila@trans-technik.ro;s.attila@trans-technik.ro,6
 2217,TRANSFABI LOG SRL,Fabian Codrutu Dumitrache,transfabilog.ro,fabian.dumitrache@transfabilog.ro;fabian@transfabilog.ro;dumitrache.fabian@transfabilog.ro;dumitrache@transfabilog.ro;fabiandumitrache@transfabilog.ro;f.dumitrache@transfabilog.ro,6
-2219,TRANSILVANIA BETON SRL,Nyilas Szilard,transilvania.com,szilard.nyilas@transilvania.com;szilard@transilvania.com;nyilas.szilard@transilvania.com;nyilas@transilvania.com;szilardnyilas@transilvania.com;s.nyilas@transilvania.com,6
 2220,TRANSPORT LOCAL SA,Csiki Zsolt,transportlocal.ro,csiki.zsolt@transportlocal.ro;csiki@transportlocal.ro;zsolt.csiki@transportlocal.ro;zsolt@transportlocal.ro;csikizsolt@transportlocal.ro;c.zsolt@transportlocal.ro,6
 2222,TRAVESIA SRL,Mancuso Antonino,travesia.ro,mancuso.antonino@travesia.ro;mancuso@travesia.ro;antonino.mancuso@travesia.ro;antonino@travesia.ro;mancusoantonino@travesia.ro;m.antonino@travesia.ro,6
 2223,TRIPLAST SRL,Fiko Istvan,triplast.ro,fiko.istvan@triplast.ro;fiko@triplast.ro;istvan.fiko@triplast.ro;istvan@triplast.ro;fikoistvan@triplast.ro;f.istvan@triplast.ro,6
@@ -1003,7 +939,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 2233,UNI YTECH ELECTRO MONTAJ SRL,Maris Nicolae,uniytechelectromontaj.ro,nicolae.maris@uniytechelectromontaj.ro;nicolae@uniytechelectromontaj.ro;maris.nicolae@uniytechelectromontaj.ro;maris@uniytechelectromontaj.ro;nicolaemaris@uniytechelectromontaj.ro;n.maris@uniytechelectromontaj.ro,6
 2235,UNIPREST INSTAL SRL,Peter Eniko,uniprest.ro,peter.eniko@uniprest.ro;peter@uniprest.ro;eniko.peter@uniprest.ro;eniko@uniprest.ro;petereniko@uniprest.ro;p.eniko@uniprest.ro,6
 2236,VADAMIS COM SRL,Burean Daniel,vadamis.ro,daniel.burean@vadamis.ro;daniel@vadamis.ro;burean.daniel@vadamis.ro;burean@vadamis.ro;danielburean@vadamis.ro;d.burean@vadamis.ro,6
-2237,VALEA IZVOARELOR SENIOR LIVING SRL,Sarchiz Călin,valeaizvoarelor.com,calin.sarchiz@valeaizvoarelor.com;calin@valeaizvoarelor.com;sarchiz.calin@valeaizvoarelor.com;sarchiz@valeaizvoarelor.com;calinsarchiz@valeaizvoarelor.com;c.sarchiz@valeaizvoarelor.com,6
 2239,VALENTINO DISTRIBUTION SRL,Hota Stelian,flormar.ro,hota.stelian@flormar.ro;hota@flormar.ro;stelian.hota@flormar.ro;stelian@flormar.ro;hotastelian@flormar.ro;h.stelian@flormar.ro,6
 2240,VALOR SMARTWASH SRL,Vass Laszlo,smartwash.ro,laszlo.vass@smartwash.ro;laszlo@smartwash.ro;vass.laszlo@smartwash.ro;vass@smartwash.ro;laszlovass@smartwash.ro;l.vass@smartwash.ro,6
 2242,VALPET SA,Sala Petrică Mihai,valpet.ro,petrica.sala@valpet.ro;petrica@valpet.ro;sala.petrica@valpet.ro;sala@valpet.ro;petricasala@valpet.ro;p.sala@valpet.ro,6
@@ -1046,9 +981,7 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 2317,MERLINS BEVERAGES SRL,Melcovich Alexandru,merlinsbeverages.com,melcovich.alexandru@merlinsbeverages.com;melcovich@merlinsbeverages.com;alexandru.melcovich@merlinsbeverages.com;alexandru@merlinsbeverages.com;melcovichalexandru@merlinsbeverages.com;m.alexandru@merlinsbeverages.com,6
 2318,MITHRAS BUILD SRL,Iamandii Mirel Constantin,mithrasbuild.ro,iamandii.constantin@mithrasbuild.ro;iamandii@mithrasbuild.ro;constantin.iamandii@mithrasbuild.ro;constantin@mithrasbuild.ro;iamandiiconstantin@mithrasbuild.ro;i.constantin@mithrasbuild.ro,6
 2323,RIFIL SA,Falco Olmo,rifil.ro,falco.olmo@rifil.ro;falco@rifil.ro;olmo.falco@rifil.ro;olmo@rifil.ro;falcoolmo@rifil.ro;f.olmo@rifil.ro,6
-2327,TERMOPLAST SRL,Neculai Catalin,termoplast.ro,neculai.catalin@termoplast.ro;neculai@termoplast.ro;catalin.neculai@termoplast.ro;catalin@termoplast.ro;neculaicatalin@termoplast.ro;n.catalin@termoplast.ro,6
 2332,VOLTA GRUP SRL,Velescu Catalin Vasile,volta.ro,velescu.vasile@volta.ro;velescu@volta.ro;vasile.velescu@volta.ro;vasile@volta.ro;velescuvasile@volta.ro;v.vasile@volta.ro,6
-2333,VOLTA X SOLAR SYSTEMS SRL,Velescu Catalin Vasile,volta.ro,velescu.vasile@volta.ro;velescu@volta.ro;vasile.velescu@volta.ro;vasile@volta.ro;velescuvasile@volta.ro;v.vasile@volta.ro,6
 2338,THRACE GREINER PACKAGING SRL,Cojocariu Steluta Alina,thracegreiner.ro,cojocariu.alina@thracegreiner.ro;cojocariu@thracegreiner.ro;alina.cojocariu@thracegreiner.ro;alina@thracegreiner.ro;cojocariualina@thracegreiner.ro;c.alina@thracegreiner.ro,6
 2339,TRANS NEF SRL,Popa Daniela,transnef.ro,popa.daniela@transnef.ro;popa@transnef.ro;daniela.popa@transnef.ro;daniela@transnef.ro;popadaniela@transnef.ro;p.daniela@transnef.ro,6
 2343,ALBERTINO STAR SRL,Andronic Gheorghe Adrian,albertinostar.ro,andronic.adrian@albertinostar.ro;andronic@albertinostar.ro;adrian.andronic@albertinostar.ro;adrian@albertinostar.ro;andronicadrian@albertinostar.ro;a.adrian@albertinostar.ro,6
@@ -1056,7 +989,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 2347,ANASPED SRL,Andronic Florin Marius,anasped.ro,andronic.marius@anasped.ro;andronic@anasped.ro;marius.andronic@anasped.ro;marius@anasped.ro;andronicmarius@anasped.ro;a.marius@anasped.ro,6
 2353,CALCARUL SA,Troase Andrei,calcarul.ro,troase.andrei@calcarul.ro;troase@calcarul.ro;andrei.troase@calcarul.ro;andrei@calcarul.ro;troaseandrei@calcarul.ro;t.andrei@calcarul.ro,6
 2355,CARPATIS SRL,Burac Ionut Aurel,carpatis.ro,burac.aurel@carpatis.ro;burac@carpatis.ro;aurel.burac@carpatis.ro;aurel@carpatis.ro;buracaurel@carpatis.ro;b.aurel@carpatis.ro,6
-2358,DAREX AUTO SRL,Luca Viorel,darex.ro,viorel.luca@darex.ro;viorel@darex.ro;luca.viorel@darex.ro;luca@darex.ro;viorelluca@darex.ro;v.luca@darex.ro,6
 2359,DELTAFARM SRL,Puha Elena,deltafarm.ro,puha.elena@deltafarm.ro;puha@deltafarm.ro;elena.puha@deltafarm.ro;elena@deltafarm.ro;puhaelena@deltafarm.ro;p.elena@deltafarm.ro,6
 2361,DORNA MEDICAL SRL,Boca Roman,dornamedical.ro,boca.roman@dornamedical.ro;boca@dornamedical.ro;roman.boca@dornamedical.ro;roman@dornamedical.ro;bocaroman@dornamedical.ro;b.roman@dornamedical.ro,6
 2365,ELECTROAXA SRL,Petraru Ioan,electroaxa.ro,petraru.ioan@electroaxa.ro;petraru@electroaxa.ro;ioan.petraru@electroaxa.ro;ioan@electroaxa.ro;petraruioan@electroaxa.ro;p.ioan@electroaxa.ro,6
@@ -1065,7 +997,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 2369,EXPRESS EUROSCAN SRL,Ailisoaie Andrei Mihai,expresseuroscan.ro,ailisoaie.mihai@expresseuroscan.ro;ailisoaie@expresseuroscan.ro;mihai.ailisoaie@expresseuroscan.ro;mihai@expresseuroscan.ro;ailisoaiemihai@expresseuroscan.ro;a.mihai@expresseuroscan.ro,6
 2370,GAMAR CONSTRUCT SRL,Berariu Constantin,gamar.ro,berariu.constantin@gamar.ro;berariu@gamar.ro;constantin.berariu@gamar.ro;constantin@gamar.ro;berariuconstantin@gamar.ro;b.constantin@gamar.ro,6
 2371,GENERAL CONSTRUCT SRL,Nutu Vlad Gheorghe,generalconstruct.ro,nutu.gheorghe@generalconstruct.ro;nutu@generalconstruct.ro;gheorghe.nutu@generalconstruct.ro;gheorghe@generalconstruct.ro;nutugheorghe@generalconstruct.ro;n.gheorghe@generalconstruct.ro,6
-2372,GLOBAL DESIGN SRL,Croitoriu Marinela Lacramioara,globaldesign.ro,croitoriu.lacramioara@globaldesign.ro;croitoriu@globaldesign.ro;lacramioara.croitoriu@globaldesign.ro;lacramioara@globaldesign.ro;croitoriulacramioara@globaldesign.ro;c.lacramioara@globaldesign.ro,6
 2374,HARIVEX COM SRL,Dutu Virgil,harivex.ro,dutu.virgil@harivex.ro;dutu@harivex.ro;virgil.dutu@harivex.ro;virgil@harivex.ro;dutuvirgil@harivex.ro;d.virgil@harivex.ro,6
 2376,IULIUS MALL SUCEAVA SRL,Attrius Developments Srl,iulius.ro,developments.attrius@iulius.ro;developments@iulius.ro;attrius.developments@iulius.ro;attrius@iulius.ro;developmentsattrius@iulius.ro;d.attrius@iulius.ro,6
 2378,KILLER SRL,Scheul Alexandru,killer.ro,scheul.alexandru@killer.ro;scheul@killer.ro;alexandru.scheul@killer.ro;alexandru@killer.ro;scheulalexandru@killer.ro;s.alexandru@killer.ro,6
@@ -1078,24 +1009,19 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 2395,PROLISOK SRL,Serdenciuc Marinel,prolisok.ro,serdenciuc.marinel@prolisok.ro;serdenciuc@prolisok.ro;marinel.serdenciuc@prolisok.ro;marinel@prolisok.ro;serdenciucmarinel@prolisok.ro;s.marinel@prolisok.ro,6
 2396,PROMO PLUS SRL,Straton Bogdan Mircea,promoplus.ro,straton.mircea@promoplus.ro;straton@promoplus.ro;mircea.straton@promoplus.ro;mircea@promoplus.ro;stratonmircea@promoplus.ro;s.mircea@promoplus.ro,6
 2397,RADBURG CENTER SRL,Turculet Catalin George,radburgcenter.ro,turculet.george@radburgcenter.ro;turculet@radburgcenter.ro;george.turculet@radburgcenter.ro;george@radburgcenter.ro;turculetgeorge@radburgcenter.ro;t.george@radburgcenter.ro,6
-2398,RADBURG SOFT SRL,Hintari Mircea,radburg.ro,hintari.mircea@radburg.ro;hintari@radburg.ro;mircea.hintari@radburg.ro;mircea@radburg.ro;hintarimircea@radburg.ro;h.mircea@radburg.ro,6
-2408,SIMOS COM SRL,Simos Demostenis Ovidiu,simos.ro,simos.ovidiu@simos.ro;simos@simos.ro;ovidiu.simos@simos.ro;ovidiu@simos.ro;simosovidiu@simos.ro;s.ovidiu@simos.ro,6
 2410,SUPERSTAR COM SRL,Rusu Marcel,superstarcom.ro,rusu.marcel@superstarcom.ro;rusu@superstarcom.ro;marcel.rusu@superstarcom.ro;marcel@superstarcom.ro;rusumarcel@superstarcom.ro;r.marcel@superstarcom.ro,6
 2411,SYMMETRICA SRL,Stanciu Florentina Mihaela,symmetrica.ro,stanciu.mihaela@symmetrica.ro;stanciu@symmetrica.ro;mihaela.stanciu@symmetrica.ro;mihaela@symmetrica.ro;stanciumihaela@symmetrica.ro;s.mihaela@symmetrica.ro,6
 2413,TEHNO WORLD SRL,Tudor Monica Rozalia,tehnoworld.ro,tudor.rozalia@tehnoworld.ro;tudor@tehnoworld.ro;rozalia.tudor@tehnoworld.ro;rozalia@tehnoworld.ro;tudorrozalia@tehnoworld.ro;t.rozalia@tehnoworld.ro,6
 2415,TEST PRIMA SRL,Juravlea Viorel,testprima.ro,juravlea.viorel@testprima.ro;juravlea@testprima.ro;viorel.juravlea@testprima.ro;viorel@testprima.ro;juravleaviorel@testprima.ro;j.viorel@testprima.ro,6
 2416,TRUTZI REAL ESTATE SRL,Nutu Petru Ciprian,trutzirealestate.ro,nutu.ciprian@trutzirealestate.ro;nutu@trutzirealestate.ro;ciprian.nutu@trutzirealestate.ro;ciprian@trutzirealestate.ro;nutuciprian@trutzirealestate.ro;n.ciprian@trutzirealestate.ro,6
-2420,WOOD CHIPPER SRL,Gherman Stefan,woodchipper.com,gherman.stefan@woodchipper.com;gherman@woodchipper.com;stefan.gherman@woodchipper.com;stefan@woodchipper.com;ghermanstefan@woodchipper.com;g.stefan@woodchipper.com,6
 2421,RETELE ELECTRICE BANAT SA,Peste Mihai Constantin,e-distributie.com,peste.constantin@e-distributie.com;peste@e-distributie.com;constantin.peste@e-distributie.com;constantin@e-distributie.com;pesteconstantin@e-distributie.com;p.constantin@e-distributie.com,6
 2422,MANTZARIS EUROPLAST SRL,Mantzaris Vasileios,mantzaris.ro,mantzaris.vasileios@mantzaris.ro;mantzaris@mantzaris.ro;vasileios.mantzaris@mantzaris.ro;vasileios@mantzaris.ro;mantzarisvasileios@mantzaris.ro;m.vasileios@mantzaris.ro,6
 2423,SISTEMPLAST SA,Staicu Dumitru Florian,sistemplast.ro,staicu.florian@sistemplast.ro;staicu@sistemplast.ro;florian.staicu@sistemplast.ro;florian@sistemplast.ro;staicuflorian@sistemplast.ro;s.florian@sistemplast.ro,6
 2430,ENACHE MORARIT SRL,Enache Emil,enachemorarit.ro,enache.emil@enachemorarit.ro;enache@enachemorarit.ro;emil.enache@enachemorarit.ro;emil@enachemorarit.ro;enacheemil@enachemorarit.ro;e.emil@enachemorarit.ro,6
 2433,GAZ EST SA,Metea Virgil Marius,gazest.ro,metea.marius@gazest.ro;metea@gazest.ro;marius.metea@gazest.ro;marius@gazest.ro;meteamarius@gazest.ro;m.marius@gazest.ro,6
-2434,KATAR CONNEG SRL,Melniciuc Gabriel Andrei,katar.ro,melniciuc.andrei@katar.ro;melniciuc@katar.ro;andrei.melniciuc@katar.ro;andrei@katar.ro;melniciucandrei@katar.ro;m.andrei@katar.ro,6
 2435,KREDIANIS SRL,Sirbu Adriana,kredianis.ro,sirbu.adriana@kredianis.ro;sirbu@kredianis.ro;adriana.sirbu@kredianis.ro;adriana@kredianis.ro;sirbuadriana@kredianis.ro;s.adriana@kredianis.ro,6
 2438,MORANDI COM SRL,Moraru Catalin,morandicom.ro,moraru.catalin@morandicom.ro;moraru@morandicom.ro;catalin.moraru@morandicom.ro;catalin@morandicom.ro;morarucatalin@morandicom.ro;m.catalin@morandicom.ro,6
 2439,NUTRIVA SRL,Safir Iulian,nutriva.ro,safir.iulian@nutriva.ro;safir@nutriva.ro;iulian.safir@nutriva.ro;iulian@nutriva.ro;safiriulian@nutriva.ro;s.iulian@nutriva.ro,6
-2440,PERPETUUS COM SRL,Damian Alin Geanin,perpetuus.ro,damian.geanin@perpetuus.ro;damian@perpetuus.ro;geanin.damian@perpetuus.ro;geanin@perpetuus.ro;damiangeanin@perpetuus.ro;d.geanin@perpetuus.ro,6
 2442,REDCON UNU SRL,Micu Neculai,redcon.ro,micu.neculai@redcon.ro;micu@redcon.ro;neculai.micu@redcon.ro;neculai@redcon.ro;micuneculai@redcon.ro;m.neculai@redcon.ro,6
 2444,SAFIR SRL,Safir Ghiorghi,safir.ro,safir.ghiorghi@safir.ro;safir@safir.ro;ghiorghi.safir@safir.ro;ghiorghi@safir.ro;safirghiorghi@safir.ro;s.ghiorghi@safir.ro,6
 2446,TAVIANY SRL,Helgiu Octavian,taviany.ro,helgiu.octavian@taviany.ro;helgiu@taviany.ro;octavian.helgiu@taviany.ro;octavian@taviany.ro;helgiuoctavian@taviany.ro;h.octavian@taviany.ro,6
@@ -1103,7 +1029,6 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 2453,ALTDORF TEHNIK SRL,Dragomir Romeo Iulian,altdorf-tehnik.ro,dragomir.iulian@altdorf-tehnik.ro;dragomir@altdorf-tehnik.ro;iulian.dragomir@altdorf-tehnik.ro;iulian@altdorf-tehnik.ro;dragomiriulian@altdorf-tehnik.ro;d.iulian@altdorf-tehnik.ro,6
 2457,AUTO BEST CENTER SRL,Bercuci Gheorghe,autobestcenter.ro,bercuci.gheorghe@autobestcenter.ro;bercuci@autobestcenter.ro;gheorghe.bercuci@autobestcenter.ro;gheorghe@autobestcenter.ro;bercucigheorghe@autobestcenter.ro;b.gheorghe@autobestcenter.ro,6
 2458,AVICOLA FOCSANI SA,Vicol Danut,avicolafocsani.ro,vicol.danut@avicolafocsani.ro;vicol@avicolafocsani.ro;danut.vicol@avicolafocsani.ro;danut@avicolafocsani.ro;vicoldanut@avicolafocsani.ro;v.danut@avicolafocsani.ro,6
-2461,BECIUL DOMNESC SA,Rizea Florin,beciuldomnesc.ro,rizea.florin@beciuldomnesc.ro;rizea@beciuldomnesc.ro;florin.rizea@beciuldomnesc.ro;florin@beciuldomnesc.ro;rizeaflorin@beciuldomnesc.ro;r.florin@beciuldomnesc.ro,6
 2462,COMCEREAL SA,Puiu Marian,comcereal.ro,puiu.marian@comcereal.ro;puiu@comcereal.ro;marian.puiu@comcereal.ro;marian@comcereal.ro;puiumarian@comcereal.ro;p.marian@comcereal.ro,6
 2464,CONBETA SRL,Stoian Ciupilan Paul,conbeta.ro,stoian.paul@conbeta.ro;stoian@conbeta.ro;paul.stoian@conbeta.ro;paul@conbeta.ro;stoianpaul@conbeta.ro;s.paul@conbeta.ro,6
 2469,DMF POLIPLAST SRL,Darmanescu Diana Andreina,dmfpoliplast.ro,darmanescu.andreina@dmfpoliplast.ro;darmanescu@dmfpoliplast.ro;andreina.darmanescu@dmfpoliplast.ro;andreina@dmfpoliplast.ro;darmanescuandreina@dmfpoliplast.ro;d.andreina@dmfpoliplast.ro,6
@@ -1111,5 +1036,4 @@ id_firma,firma,persoana,domeniu,tipare,nr_tipare
 2480,PANDORA PROD SRL,Simiz Dorel Boris,pandora-prod.ro,simiz.boris@pandora-prod.ro;simiz@pandora-prod.ro;boris.simiz@pandora-prod.ro;boris@pandora-prod.ro;simizboris@pandora-prod.ro;s.boris@pandora-prod.ro,6
 2485,PREMIUM PORC SRL,Lars Vesten Drescher,premiumporc.com,lars.drescher@premiumporc.com;lars@premiumporc.com;drescher.lars@premiumporc.com;drescher@premiumporc.com;larsdrescher@premiumporc.com;l.drescher@premiumporc.com,6
 2489,SMART EST PROIECT SRL,Ivascu Marian,smartestproiect.ro,ivascu.marian@smartestproiect.ro;ivascu@smartestproiect.ro;marian.ivascu@smartestproiect.ro;marian@smartestproiect.ro;ivascumarian@smartestproiect.ro;i.marian@smartestproiect.ro,6
-2494,VELMI PREST SRL,Velea Dinu,velmi.ro,velea.dinu@velmi.ro;velea@velmi.ro;dinu.velea@velmi.ro;dinu@velmi.ro;veleadinu@velmi.ro;v.dinu@velmi.ro,6
 2495,VRANCART SA,Fercu Adrian,vrancart.ro,fercu.adrian@vrancart.ro;fercu@vrancart.ro;adrian.fercu@vrancart.ro;adrian@vrancart.ro;fercuadrian@vrancart.ro;f.adrian@vrancart.ro,6
