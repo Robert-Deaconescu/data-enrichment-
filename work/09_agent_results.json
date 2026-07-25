@@ -1,0 +1,1212 @@
+{
+ "verdicts": [
+  {
+   "firma_a": "SEA ROMANIA SRL",
+   "firma_b": "SIAD ROMANIA",
+   "verdict": "distinct",
+   "motiv": "SIAD Romania = subsidiara grupului italian SIAD (gaze industriale); SEA Romania = entitate separata, fara legatura. Denumiri diferite, nu typo; scorul fuzzy vine din sufixul comun ROMANIA."
+  },
+  {
+   "firma_a": "AIK ENERGY ROMANIA",
+   "firma_b": "AXPO ENERGY ROMANIA SA",
+   "verdict": "distinct",
+   "motiv": "Companii reale si separate de trading energie: AIK Energy (grup independent, origine UK) vs Axpo (grup elvetian de utilitati). Acelasi sector, branduri complet diferite - analog Takeda vs Teva."
+  },
+  {
+   "firma_a": "MACO CONSTRUCT SRL",
+   "firma_b": "MATE CONSTRUCT SRL",
+   "verdict": "distinct",
+   "motiv": "MACO si MATE difera in 2 din 4 litere (taste neadiacente, improbabil typo); radacini de nume diferite, firme locale de constructii distincte. Scor umflat de tokenul generic CONSTRUCT SRL. CUI neverificabil in sesiune (acces web blocat tehnic) - de confirmat prin CUI daca exista in sursele originale."
+  },
+  {
+   "firma_a": "CENTRU MEDICAL MEDSAN",
+   "firma_b": "CENTRUL MEDICAL MIMED",
+   "verdict": "distinct",
+   "motiv": "Medsan si Mimed sunt branduri diferite de clinici private (Mimed - centru medical cunoscut in Cluj); similaritatea vine aproape integral din prefixul generic Centrul Medical."
+  },
+  {
+   "firma_a": "COFIT CONSTRUCT SRL",
+   "firma_b": "CFP CONSTRUCT SRL",
+   "verdict": "distinct",
+   "motiv": "COFIT (constructor cunoscut in zona Targu Mures) si acronimul CFP nu pot rezulta unul din altul prin typo sau prescurtare naturala; element comun doar tokenul generic CONSTRUCT SRL. CUI neverificabil (acces web blocat tehnic)."
+  },
+  {
+   "firma_a": "SII ROMANIA",
+   "firma_b": "SIE ROMANIA",
+   "verdict": "incert",
+   "motiv": "SII Romania = subsidiara SII Group (IT, Franta). SIE Romania nu e o companie cunoscuta; diferenta de o litera poate fi typo, dar poate fi si firma distincta. Verificarea CUI nu a fost posibila (apeluri web blocate). Necesita verificare manuala."
+  },
+  {
+   "firma_a": "SIE ROMANIA",
+   "firma_b": "SEA ROMANIA SRL",
+   "verdict": "distinct",
+   "motiv": "Acronime diferite (SIE vs SEA, doua litere din trei); scorul fuzzy mare vine doar din sufixul comun ROMANIA."
+  },
+  {
+   "firma_a": "SAP ROMANIA",
+   "firma_b": "SEA ROMANIA SRL",
+   "verdict": "distinct",
+   "motiv": "SAP Romania = subsidiara SAP SE (software german); SEA Romania SRL este alta firma, fara legatura."
+  },
+  {
+   "firma_a": "SAP ROMANIA",
+   "firma_b": "SPP ROMANIA",
+   "verdict": "distinct",
+   "motiv": "SAP = software enterprise; SPP Romania este alta entitate (ex. SPP Pumps Romania). Acronime diferite = firme diferite, ca in exemplul SAP vs SIAD."
+  },
+  {
+   "firma_a": "TAKEDA PHARMACEUTICALS SRL",
+   "firma_b": "TEVA PHARMACEUTICALS SRL",
+   "verdict": "distinct",
+   "motiv": "Takeda (Japonia) si Teva (Israel) sunt multinationale farmaceutice complet diferite, cu subsidiare si CUI-uri separate in Romania."
+  },
+  {
+   "firma_a": "MATEROM AUTOMOTIVE SRL",
+   "firma_b": "MATEROM AUTOMOBILE SRL",
+   "verdict": "duplicat",
+   "motiv": "Acelasi brand MATEROM, acelasi judet Mures; Automobile vs Automotive este eroare de transcriere."
+  },
+  {
+   "firma_a": "TEMPO ADVERTISING",
+   "firma_b": "TEMPERA ADVERTISING",
+   "verdict": "incert",
+   "motiv": "Tempo Advertising e agentie cunoscuta; Tempera pare typo dar radacina difera si CUI nu a putut fi verificat (web indisponibil)."
+  },
+  {
+   "firma_a": "SAP ROMANIA",
+   "firma_b": "SIAD ROMANIA",
+   "verdict": "distinct",
+   "motiv": "SAP = software german; SIAD = gaze industriale italiene. Scor umflat de sufixul ROMANIA."
+  },
+  {
+   "firma_a": "SIE ROMANIA",
+   "firma_b": "SIAD ROMANIA",
+   "verdict": "distinct",
+   "motiv": "Acronime diferite, nu e typo plauzibil; similaritate doar din sufixul ROMANIA."
+  },
+  {
+   "firma_a": "SII ROMANIA",
+   "firma_b": "SIAD ROMANIA",
+   "verdict": "distinct",
+   "motiv": "SII = servicii IT (grup francez SII); SIAD = gaze industriale (grup italian). Firme diferite."
+  }
+ ],
+ "audits": [
+  {
+   "id_firma": "265",
+   "domeniu": "dccommunications.net",
+   "verdict": "gresit",
+   "motiv": "Agentia romaneasca de PR DC Communication (Bucuresti) foloseste dccom.ro; dccommunications.net apartine foarte probabil altei entitati straine cu nume similar."
+  },
+  {
+   "id_firma": "272",
+   "domeniu": "heberger.ro",
+   "verdict": "corect",
+   "motiv": "Heberger Constructii este subsidiara romaneasca a grupului german Heberger; heberger.ro este site-ul local al grupului."
+  },
+  {
+   "id_firma": "275",
+   "domeniu": "hogarth.ro",
+   "verdict": "incert",
+   "motiv": "Hogarth Worldwide (WPP) foloseste global hogarthww.com; nu pot confirma ca hogarth.ro apartine entitatii Hogarth & Ogilvy Romania si nu altei firme. Verificarea web a fost imposibila (tool-uri indisponibile in mediu)."
+  },
+  {
+   "id_firma": "276",
+   "domeniu": "holcim.ro",
+   "verdict": "corect",
+   "motiv": "Holcim Romania SA (CUI 12610207) foloseste holcim.ro - site oficial cunoscut al producatorului de ciment."
+  },
+  {
+   "id_firma": "280",
+   "domeniu": "huawei.com",
+   "verdict": "corect",
+   "motiv": "Huawei Technologies SRL este subsidiara locala; huawei.com este site-ul global al grupului (include sectiunea /ro). Acelasi grup, nu alta entitate."
+  },
+  {
+   "id_firma": "289",
+   "domeniu": "infomedfluids.com",
+   "verdict": "corect",
+   "motiv": "Infomed Fluids SRL, producator roman de solutii perfuzabile din Bucuresti, foloseste infomedfluids.com ca site oficial."
+  },
+  {
+   "id_firma": "323",
+   "domeniu": "librainternetbank.ro",
+   "verdict": "incert",
+   "motiv": "Site-ul principal al bancii este librabank.ro; librainternetbank.ro corespunde exact denumirii legale si e plauzibil detinut defensiv de banca (redirect), dar nu am putut verifica."
+  },
+  {
+   "id_firma": "342",
+   "domeniu": "medlife.ro",
+   "verdict": "corect",
+   "motiv": "MedLife SA, operator privat major de servicii medicale, site oficial medlife.ro - evident corect."
+  },
+  {
+   "id_firma": "350",
+   "domeniu": "oneunitedproperties.com",
+   "verdict": "incert",
+   "motiv": "One United Properties foloseste ca site principal one.ro; oneunitedproperties.com e plauzibil detinut de companie, dar fara verificare nu pot exclude un domeniu strain/parcat."
+  },
+  {
+   "id_firma": "362",
+   "domeniu": "oxigen.ro",
+   "verdict": "incert",
+   "motiv": "Potrivire doar partiala de nume: domeniu generic (cuvant comun) atribuit unei firme agro cu nume lung. Risc ridicat sa apartina altei entitati numite Oxigen; necesita verificare web."
+  },
+  {
+   "id_firma": "380",
+   "domeniu": "peek-cloppenburg.ro",
+   "verdict": "corect",
+   "motiv": "Peek & Cloppenburg opereaza magazine in Romania; peek-cloppenburg.ro este site-ul local oficial al retailerului."
+  },
+  {
+   "id_firma": "433",
+   "domeniu": "quadraestate.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire exacta de nume pe .ro pentru dezvoltatorul imobiliar bucurestean Quadra Estate; asociere plauzibila, fara semnale de alta entitate."
+  },
+  {
+   "id_firma": "439",
+   "domeniu": "radcom.ro",
+   "verdict": "corect",
+   "motiv": "Radcom SA, companie romaneasca de software/telecom din Bucuresti, foloseste radcom.ro - site oficial cunoscut."
+  },
+  {
+   "id_firma": "488",
+   "domeniu": "sanador.ro",
+   "verdict": "corect",
+   "motiv": "Sanador, retea privata de sanatate din Bucuresti, site oficial sanador.ro - evident corect."
+  },
+  {
+   "id_firma": "314",
+   "domeniu": "kiwifinance.ro",
+   "verdict": "corect",
+   "motiv": "Kiwi Finance, broker de credite din Bucuresti (grup OTP), foloseste kiwifinance.ro - site oficial cunoscut."
+  },
+  {
+   "id_firma": "339",
+   "domeniu": "mediainvestment.ro",
+   "verdict": "incert",
+   "motiv": "Nume generic (Media Investment) si firma putin cunoscuta (CUI 34130234); domeniul poate apartine oricarei firme media. Necesita verificare web."
+  },
+  {
+   "id_firma": "347",
+   "domeniu": "omnicommediagroup.com",
+   "verdict": "corect",
+   "motiv": "Omnicom Media Group Romania e subsidiara grupului; omnicommediagroup.com este site-ul global al aceluiasi grup, nu alta entitate."
+  },
+  {
+   "id_firma": "353",
+   "domeniu": "optimpm.com",
+   "verdict": "incert",
+   "motiv": "Optim Project Management (Bucuresti) a folosit istoric optim-pm.com (cu cratima); nu pot confirma ca varianta fara cratima optimpm.com le apartine si nu e alta entitate."
+  },
+  {
+   "id_firma": "359",
+   "domeniu": "ortopedica.ro",
+   "verdict": "corect",
+   "motiv": "Ortopedica SRL, producator roman de proteze si dispozitive ortopedice din Bucuresti, foloseste ortopedica.ro."
+  },
+  {
+   "id_firma": "411",
+   "domeniu": "prisum.ro",
+   "verdict": "corect",
+   "motiv": "Prisum International, distribuitor farma (Himalaya) din Bucuresti, foloseste prisum.ro - site oficial cunoscut."
+  },
+  {
+   "id_firma": "424",
+   "domeniu": "propertypartners.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire exacta de nume pe .ro; Property Partners este firma cunoscuta de servicii imobiliare din Bucuresti."
+  },
+  {
+   "id_firma": "442",
+   "domeniu": "randstad.com",
+   "verdict": "corect",
+   "motiv": "Randstad Staffing SRL e subsidiara grupului olandez; randstad.com este site-ul global al grupului (site local: randstad.ro). Acelasi grup."
+  },
+  {
+   "id_firma": "455",
+   "domeniu": "rocainvestments.ro",
+   "verdict": "corect",
+   "motiv": "ROCA Investments (Impetum Group), fond romanesc de private equity, foloseste rocainvestments.ro."
+  },
+  {
+   "id_firma": "467",
+   "domeniu": "romconsulting.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire exacta de nume plus validare geografica (Bucuresti) pentru Romconsulting International SRL; asociere plauzibila."
+  },
+  {
+   "id_firma": "533",
+   "domeniu": "somaco.ro",
+   "verdict": "corect",
+   "motiv": "Somaco Grup Prefabricate, producator cunoscut de prefabricate din beton, foloseste somaco.ro."
+  },
+  {
+   "id_firma": "497",
+   "domeniu": "scda.ro",
+   "verdict": "incert",
+   "motiv": "Potrivire doar pe acronimul SCDA, folosit frecvent de alte entitati (ex. Statiunile de Cercetare-Dezvoltare Agricola). Risc ridicat de alta entitate; necesita verificare web."
+  },
+  {
+   "id_firma": "288",
+   "domeniu": "imsat.ro",
+   "verdict": "corect",
+   "motiv": "IMSAT SA, integrator roman de instalatii electrice si automatizari (grup SNEF), foloseste imsat.ro."
+  },
+  {
+   "id_firma": "316",
+   "domeniu": "knaufinsulation.ro",
+   "verdict": "corect",
+   "motiv": "Knauf Insulation are filiala in Romania; knaufinsulation.ro este site-ul local oficial al brandului."
+  },
+  {
+   "id_firma": "329",
+   "domeniu": "luxten.com",
+   "verdict": "corect",
+   "motiv": "Luxten Lighting Company SA, operator roman de iluminat public, foloseste luxten.com ca site oficial."
+  },
+  {
+   "id_firma": "335",
+   "domeniu": "mccann.ro",
+   "verdict": "corect",
+   "motiv": "McCann Worldgroup Romania (McCann Bucharest) foloseste mccann.ro - site-ul local al agentiei."
+  },
+  {
+   "id_firma": "379",
+   "domeniu": "pcmanagement.com",
+   "verdict": "incert",
+   "motiv": "Firma infiintata recent (CUI 46159102, ~2022); pcmanagement.com este un .com generic, foarte probabil al altei entitati straine. Probabil gresit, dar necesita verificare web."
+  },
+  {
+   "id_firma": "385",
+   "domeniu": "pernodricard.com",
+   "verdict": "corect",
+   "motiv": "Pernod Ricard Romania e subsidiara grupului francez; pernodricard.com este site-ul global al aceluiasi grup."
+  },
+  {
+   "id_firma": "391",
+   "domeniu": "plana-innova.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire exacta de nume pe .ro pentru Plana Innova (Bucuresti); asociere plauzibila."
+  },
+  {
+   "id_firma": "397",
+   "domeniu": "porternovelli.com",
+   "verdict": "corect",
+   "motiv": "Porter Novelli Bucuresti face parte din reteaua globala Porter Novelli (Omnicom); porternovelli.com este site-ul retelei, acelasi brand."
+  },
+  {
+   "id_firma": "413",
+   "domeniu": "probstdorfer.ro",
+   "verdict": "corect",
+   "motiv": "Probstdorfer Saatzucht Romania SRL, filiala producatorului austriac de seminte, foloseste probstdorfer.ro ca site local."
+  },
+  {
+   "id_firma": "457",
+   "domeniu": "rockstarconstruct.ro",
+   "verdict": "corect",
+   "motiv": "Rock Star Construct SRL, firma cunoscuta de constructii/demolari din Bucuresti, foloseste rockstarconstruct.ro."
+  },
+  {
+   "id_firma": "463",
+   "domeniu": "romenergy.ro",
+   "verdict": "incert",
+   "motiv": "Potrivire doar pe prima parte a numelui (Rom Energy) pentru Rom Energy Armstrong; nu pot confirma ca romenergy.ro apartine acestei firme si nu altei companii energetice."
+  },
+  {
+   "id_firma": "481",
+   "domeniu": "rustler.ro",
+   "verdict": "corect",
+   "motiv": "Rustler Property Services e filiala romaneasca a grupului austriac Rustler; rustler.ro este site-ul local al grupului."
+  },
+  {
+   "id_firma": "285",
+   "domeniu": "ilmaestro.ro",
+   "verdict": "incert",
+   "motiv": "Nume generic italian folosit de multe afaceri (restaurante, cofetarii etc.); nu pot confirma ca ilmaestro.ro apartine exact firmei Il Maestro SRL CUI 18030748."
+  },
+  {
+   "id_firma": "296",
+   "domeniu": "italinox.ro",
+   "verdict": "corect",
+   "motiv": "Italinox Romania, distribuitor cunoscut de otel inoxidabil, foloseste italinox.ro - site local oficial."
+  },
+  {
+   "id_firma": "340",
+   "domeniu": "medicover.ro",
+   "verdict": "corect",
+   "motiv": "Medicover Romania, retea privata de sanatate, site oficial medicover.ro - evident corect."
+  },
+  {
+   "id_firma": "348",
+   "domeniu": "omvpetrom.ro",
+   "verdict": "corect",
+   "motiv": "Domeniul omvpetrom.ro apartine grupului OMV Petrom (site principal omvpetrom.com); OMV Petrom Marketing e parte a aceluiasi grup."
+  },
+  {
+   "id_firma": "360",
+   "domeniu": "otho.ro",
+   "verdict": "incert",
+   "motiv": "Firma mica (OTHO Estate, CUI 34865376) si domeniu scurt pe brand; plauzibil dar neverificabil din cunostinte - necesita verificare web."
+  },
+  {
+   "id_firma": "378",
+   "domeniu": "pazo.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire de nume plus validare geografica pentru Pazo Grup (Bucuresti); asociere plauzibila cu site-ul de brand pazo.ro."
+  },
+  {
+   "id_firma": "396",
+   "domeniu": "porr.ro",
+   "verdict": "corect",
+   "motiv": "PORR Construct SRL e subsidiara grupului austriac PORR; porr.ro este site-ul local al grupului in Romania."
+  },
+  {
+   "id_firma": "406",
+   "domeniu": "primavera-development.ro",
+   "verdict": "corect",
+   "motiv": "Primavera Development, dezvoltator imobiliar bucurestean cunoscut; primavera-development.ro este site-ul oficial."
+  },
+  {
+   "id_firma": "418",
+   "domeniu": "prodamco.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire exacta a numelui (Prodam Co) pe domeniu .ro; asociere plauzibila, fara indicii de alta entitate."
+  },
+  {
+   "id_firma": "425",
+   "domeniu": "provident.ro",
+   "verdict": "corect",
+   "motiv": "Site oficial Provident Financial Romania IFN, creditor cunoscut."
+  },
+  {
+   "id_firma": "437",
+   "domeniu": "rabbitmedia.com",
+   "verdict": "incert",
+   "motiv": "Nume generic pe .com, risc de omonim strain; verificare web indisponibila."
+  },
+  {
+   "id_firma": "443",
+   "domeniu": "rasci.ro",
+   "verdict": "corect",
+   "motiv": "RASCI e asociatia industriei de self-care din Bucuresti; site oficial."
+  },
+  {
+   "id_firma": "487",
+   "domeniu": "samsung.com",
+   "verdict": "corect",
+   "motiv": "Domeniu global al grupului Samsung, folosit de subsidiara RO (samsung.com/ro)."
+  },
+  {
+   "id_firma": "495",
+   "domeniu": "scandinaviandesign.com",
+   "verdict": "gresit",
+   "motiv": "Portal international de design scandinav, nu firma RO (care are domeniu propriu .ro)."
+  },
+  {
+   "id_firma": "546",
+   "domeniu": "streamnetworks.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire exacta pe .ro; omonimul UK foloseste .co.uk."
+  },
+  {
+   "id_firma": "306",
+   "domeniu": "kandia-dulce.ro",
+   "verdict": "corect",
+   "motiv": "Site oficial Kandia Dulce, producatorul ciocolatei Rom/Kandia."
+  },
+  {
+   "id_firma": "331",
+   "domeniu": "maira.ro",
+   "verdict": "incert",
+   "motiv": "Domeniul trunchiaza numele (fara 'montaj'); posibil alta entitate; neverificabil."
+  },
+  {
+   "id_firma": "337",
+   "domeniu": "mediacity.ro",
+   "verdict": "corect",
+   "motiv": "Media City e tipografia cunoscuta din Bucuresti; mediacity.ro e site-ul ei."
+  },
+  {
+   "id_firma": "351",
+   "domeniu": "opaltechnologies.com",
+   "verdict": "incert",
+   "motiv": "Nume generic pe .com, exista omonime straine; verificare web indisponibila."
+  },
+  {
+   "id_firma": "357",
+   "domeniu": "orbicobeauty.ro",
+   "verdict": "corect",
+   "motiv": "Divizia locala a grupului de distributie Orbico; potrivire exacta pe .ro."
+  },
+  {
+   "id_firma": "375",
+   "domeniu": "paulhartmann.com",
+   "verdict": "corect",
+   "motiv": "Domeniu corporativ al grupului PAUL HARTMANN AG, mama subsidiarei RO."
+  },
+  {
+   "id_firma": "381",
+   "domeniu": "pegasusengineering.net",
+   "verdict": "incert",
+   "motiv": "Mai multe firme omonime in UK/SUA, TLD .net generic; neverificabil."
+  },
+  {
+   "id_firma": "393",
+   "domeniu": "policolor.ro",
+   "verdict": "corect",
+   "motiv": "Site oficial Policolor, producator roman de vopsele; validat si prin CUI."
+  },
+  {
+   "id_firma": "403",
+   "domeniu": "premium-lubricants.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire exacta de nume pe .ro; coliziune improbabila."
+  },
+  {
+   "id_firma": "409",
+   "domeniu": "primusauto.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire exacta de nume pe .ro; dealer auto bucurestean."
+  },
+  {
+   "id_firma": "415",
+   "domeniu": "processsolutions.com",
+   "verdict": "incert",
+   "motiv": "Grupul BPO Process Solutions foloseste azi ps-bpo.com; .com poate fi altcineva; neverificabil."
+  },
+  {
+   "id_firma": "422",
+   "domeniu": "propaganda.ro",
+   "verdict": "incert",
+   "motiv": "propaganda.ro e agentia bucuresteana, dar sunt doua entitati Propaganda in lista; nu pot transa fara verificare."
+  },
+  {
+   "id_firma": "446",
+   "domeniu": "realsol.com",
+   "verdict": "incert",
+   "motiv": "Fara CUI, nume generic pe .com, probabil firma straina; neverificabil - inclin spre gresit."
+  },
+  {
+   "id_firma": "453",
+   "domeniu": "roadhill.ro",
+   "verdict": "corect",
+   "motiv": "Nume distinctiv, potrivire exacta pe .ro."
+  },
+  {
+   "id_firma": "459",
+   "domeniu": "rodbun.ro",
+   "verdict": "corect",
+   "motiv": "Site oficial Rodbun Grup, agribusiness romanesc cunoscut."
+  },
+  {
+   "id_firma": "484",
+   "domeniu": "safir.ro",
+   "verdict": "gresit",
+   "motiv": "safir.ro apartine grupului avicol SAFIR din Vaslui, nu firmei SAFIR '94 IMPEX Bucuresti."
+  },
+  {
+   "id_firma": "498",
+   "domeniu": "schenker.com",
+   "verdict": "corect",
+   "motiv": "Domeniul grupului DB Schenker, mama Schenker Logistics Romania."
+  },
+  {
+   "id_firma": "518",
+   "domeniu": "skanska.ro",
+   "verdict": "corect",
+   "motiv": "Site-ul local al grupului Skanska, activ in Romania."
+  },
+  {
+   "id_firma": "524",
+   "domeniu": "smartech.ro",
+   "verdict": "incert",
+   "motiv": "smartech.ro pare retailer de gadgeturi, nu consultanta Smartech Consult; neverificabil."
+  },
+  {
+   "id_firma": "283",
+   "domeniu": "hvshielding.ro",
+   "verdict": "corect",
+   "motiv": "Nume foarte distinctiv, potrivire exacta pe .ro."
+  },
+  {
+   "id_firma": "307",
+   "domeniu": "karcher.ro",
+   "verdict": "corect",
+   "motiv": "Subsidiara oficiala Karcher; domeniu al grupului, validare prin CUI."
+  },
+  {
+   "id_firma": "338",
+   "domeniu": "mediaconsulta.ro",
+   "verdict": "corect",
+   "motiv": "Biroul RO al retelei germane MC Group (media-consulta.com)."
+  },
+  {
+   "id_firma": "346",
+   "domeniu": "omniasig.ro",
+   "verdict": "corect",
+   "motiv": "Site oficial Omniasig VIG, asigurator major din Romania."
+  },
+  {
+   "id_firma": "352",
+   "domeniu": "openmindlaboratory.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire exacta a numelui complet pe .ro, nume distinctiv."
+  },
+  {
+   "id_firma": "370",
+   "domeniu": "papaya-advertising.com",
+   "verdict": "corect",
+   "motiv": "Agentie bucuresteana cunoscuta; acesta e site-ul ei."
+  },
+  {
+   "id_firma": "376",
+   "domeniu": "paypoint.com",
+   "verdict": "gresit",
+   "motiv": "paypoint.com e PayPoint plc din UK; firma RO (iesita din grup in 2021) folosea paypoint.ro."
+  },
+  {
+   "id_firma": "382",
+   "domeniu": "pelipartners.ro",
+   "verdict": "corect",
+   "motiv": "Site oficial al casei de avocatura Peli Partners (fost PeliFilip)."
+  },
+  {
+   "id_firma": "404",
+   "domeniu": "premium.ro",
+   "verdict": "gresit",
+   "motiv": "Premium Porc foloseste premiumporc.ro; premium.ro e domeniu generic, potrivire doar pe cuvantul 'premium'."
+  },
+  {
+   "id_firma": "416",
+   "domeniu": "procreditbank.ro",
+   "verdict": "corect",
+   "motiv": "Site oficial ProCredit Bank Romania; potrivire completa de brand."
+  },
+  {
+   "id_firma": "423",
+   "domeniu": "propagandamarketing.com",
+   "verdict": "incert",
+   "motiv": "Posibile agentii straine omonime pe .com; dublura cu id 422; neverificabil."
+  },
+  {
+   "id_firma": "429",
+   "domeniu": "pulsmedica.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire exacta pe .ro; furnizor medical romanesc."
+  },
+  {
+   "id_firma": "441",
+   "domeniu": "ranevents.eu",
+   "verdict": "incert",
+   "motiv": "Fara CUI, TLD .eu nespecific Romaniei, posibile omonime straine; neverificabil."
+  },
+  {
+   "id_firma": "447",
+   "domeniu": "rec-immpuls.ro",
+   "verdict": "corect",
+   "motiv": "Ortografie foarte distinctiva (immpuls), potrivire exacta pe .ro."
+  },
+  {
+   "id_firma": "454",
+   "domeniu": "robertbosch.ro",
+   "verdict": "corect",
+   "motiv": "Subsidiara oficiala Bosch Romania; grupul detine domeniul."
+  },
+  {
+   "id_firma": "472",
+   "domeniu": "romprest-energy.ro",
+   "verdict": "corect",
+   "motiv": "Parte a grupului Romprest; potrivire exacta pe .ro."
+  },
+  {
+   "id_firma": "478",
+   "domeniu": "rovigo.ro",
+   "verdict": "corect",
+   "motiv": "Site oficial al casei de insolventa Rovigo SPRL din Bucuresti."
+  },
+  {
+   "id_firma": "485",
+   "domeniu": "saintgobain.ro",
+   "verdict": "corect",
+   "motiv": "Site-ul local al grupului Saint-Gobain, care include Rigips Romania."
+  },
+  {
+   "id_firma": "499",
+   "domeniu": "schindler.ro",
+   "verdict": "corect",
+   "motiv": "Site-ul local al grupului Schindler; subsidiara oficiala RO."
+  },
+  {
+   "id_firma": "506",
+   "domeniu": "servier.com",
+   "verdict": "corect",
+   "motiv": "Domeniul global al grupului Servier, mama Servier Pharma RO."
+  },
+  {
+   "id_firma": "1",
+   "domeniu": "alfa-cluj.ro",
+   "verdict": "corect",
+   "motiv": "Nume+oras reproduse exact in domeniu, validare CUI."
+  },
+  {
+   "id_firma": "10",
+   "domeniu": "agricultorul.com",
+   "verdict": "incert",
+   "motiv": "Cuvant generic, .com atipic; verificare web imposibila in acest mediu."
+  },
+  {
+   "id_firma": "11",
+   "domeniu": "agritehnica.ro",
+   "verdict": "corect",
+   "motiv": "Dealer cunoscut de utilaje agricole din Valea Seaca, Bacau."
+  },
+  {
+   "id_firma": "22",
+   "domeniu": "brenneka.ro",
+   "verdict": "corect",
+   "motiv": "Nume foarte distinctiv, potrivire exacta."
+  },
+  {
+   "id_firma": "23",
+   "domeniu": "bva-logistik.ro",
+   "verdict": "corect",
+   "motiv": "Combinatie distinctiva, potrivire exacta."
+  },
+  {
+   "id_firma": "25",
+   "domeniu": "capitalinvest.ro",
+   "verdict": "incert",
+   "motiv": "Nume extrem de generic, multe firme omonime, fara CUI; verificare web imposibila."
+  },
+  {
+   "id_firma": "26",
+   "domeniu": "cation.ro",
+   "verdict": "incert",
+   "motiv": "'Cation' e termen comun; potrivire nedistinctiva, verificare imposibila."
+  },
+  {
+   "id_firma": "28",
+   "domeniu": "chimcomplex.ro",
+   "verdict": "corect",
+   "motiv": "Combinat chimic national din Onesti, nume unic."
+  },
+  {
+   "id_firma": "31",
+   "domeniu": "conbac.ro",
+   "verdict": "corect",
+   "motiv": "Constructor cunoscut din Bacau, nume specific local."
+  },
+  {
+   "id_firma": "32",
+   "domeniu": "conextrust.ro",
+   "verdict": "corect",
+   "motiv": "Constructor consacrat din Bacau, nume distinctiv."
+  },
+  {
+   "id_firma": "33",
+   "domeniu": "copanex.ro",
+   "verdict": "corect",
+   "motiv": "Nume inventat, distinctiv, potrivire exacta."
+  },
+  {
+   "id_firma": "35",
+   "domeniu": "croco.ro",
+   "verdict": "corect",
+   "motiv": "Producatorul national de crackers din Onesti, site oficial."
+  },
+  {
+   "id_firma": "36",
+   "domeniu": "cybernet.ro",
+   "verdict": "incert",
+   "motiv": "Doar 'cybernet' din nume, termen generic IT; risc de alta firma; verificare imposibila."
+  },
+  {
+   "id_firma": "37",
+   "domeniu": "dabacco.ro",
+   "verdict": "corect",
+   "motiv": "Nume distinctiv, potrivire exacta."
+  },
+  {
+   "id_firma": "38",
+   "domeniu": "dafermann.ro",
+   "verdict": "corect",
+   "motiv": "Nume inventat, unic."
+  },
+  {
+   "id_firma": "39",
+   "domeniu": "dedeman.ro",
+   "verdict": "corect",
+   "motiv": "Retailer national de bricolaj din Bacau, site oficial evident."
+  },
+  {
+   "id_firma": "41",
+   "domeniu": "edupro.ro",
+   "verdict": "incert",
+   "motiv": "Nume generic educatie, 'Grup' omis; verificare imposibila."
+  },
+  {
+   "id_firma": "42",
+   "domeniu": "electricplus.com",
+   "verdict": "incert",
+   "motiv": "Firma bacauana pare sa foloseasca .ro; .com generic posibil strain; verificare imposibila."
+  },
+  {
+   "id_firma": "44",
+   "domeniu": "elmetinternational.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire completa, combinatie distinctiva."
+  },
+  {
+   "id_firma": "60",
+   "domeniu": "moldovafarming.ro",
+   "verdict": "corect",
+   "motiv": "Firma agricola cunoscuta, potrivire completa, coerenta regional."
+  },
+  {
+   "id_firma": "61",
+   "domeniu": "moraruanca.ro",
+   "verdict": "corect",
+   "motiv": "Nume complet reprodus, validare CUI."
+  },
+  {
+   "id_firma": "63",
+   "domeniu": "ndpharma.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire completa pe .ro; omonimul international foloseste alte domenii."
+  },
+  {
+   "id_firma": "65",
+   "domeniu": "nitramonia.ro",
+   "verdict": "incert",
+   "motiv": "Nitramonia e istoric brandul din Fagaras; sufixul BC omis - risc alta entitate; verificare imposibila."
+  },
+  {
+   "id_firma": "68",
+   "domeniu": "panimon.ro",
+   "verdict": "corect",
+   "motiv": "Panificatie cunoscuta din Onesti, validare CUI."
+  },
+  {
+   "id_firma": "71",
+   "domeniu": "potpuriu.ro",
+   "verdict": "corect",
+   "motiv": "Firma cunoscuta local in Onesti, validare nume+geo."
+  },
+  {
+   "id_firma": "73",
+   "domeniu": "rhinosafety.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire completa pe .ro; omonimul UK e pe .co.uk."
+  },
+  {
+   "id_firma": "75",
+   "domeniu": "rikkosteel.ro",
+   "verdict": "corect",
+   "motiv": "Combinatie distinctiva, potrivire completa."
+  },
+  {
+   "id_firma": "76",
+   "domeniu": "romchimprotect.ro",
+   "verdict": "corect",
+   "motiv": "Producator cunoscut de biocide din Filipesti, Bacau."
+  },
+  {
+   "id_firma": "78",
+   "domeniu": "rustrans.ro",
+   "verdict": "corect",
+   "motiv": "Transportator cunoscut din Blagesti; .ro + nume+geo plauzibil."
+  },
+  {
+   "id_firma": "81",
+   "domeniu": "salofarmlogistic.ro",
+   "verdict": "corect",
+   "motiv": "Entitatea de distributie a lantului Salofarm Bacau."
+  },
+  {
+   "id_firma": "83",
+   "domeniu": "senal.ro",
+   "verdict": "corect",
+   "motiv": "Nume distinctiv, validare nume+geo cu Bacau."
+  },
+  {
+   "id_firma": "85",
+   "domeniu": "simbainvest.ro",
+   "verdict": "corect",
+   "motiv": "Agentie de turism cunoscuta din Bacau."
+  },
+  {
+   "id_firma": "86",
+   "domeniu": "speditionumb.ro",
+   "verdict": "corect",
+   "motiv": "Parte din grupul UMB Bacau, nume distinctiv."
+  },
+  {
+   "id_firma": "87",
+   "domeniu": "ssabag.ro",
+   "verdict": "corect",
+   "motiv": "Constructor din grupul Umbrarescu; suedezii SSAB folosesc ssab.com."
+  },
+  {
+   "id_firma": "93",
+   "domeniu": "thermoenergy.ro",
+   "verdict": "corect",
+   "motiv": "Termoficare municipala Bacau, site oficial, validare CUI."
+  },
+  {
+   "id_firma": "95",
+   "domeniu": "tobaccoland.com",
+   "verdict": "gresit",
+   "motiv": "Domeniul apartine grupului german/austriac tobaccoland (automate tigari); implauzibil pentru un SRL din Onesti din 2021."
+  },
+  {
+   "id_firma": "101",
+   "domeniu": "bigconf.ro",
+   "verdict": "corect",
+   "motiv": "Producator de confectii cunoscut din Botosani, validare CUI."
+  },
+  {
+   "id_firma": "103",
+   "domeniu": "castilio.ro",
+   "verdict": "corect",
+   "motiv": "Brand hotelier/restaurant cunoscut din Botosani."
+  },
+  {
+   "id_firma": "114",
+   "domeniu": "elsaco.com",
+   "verdict": "corect",
+   "motiv": "Compania principala a grupului Elsaco Botosani, site oficial."
+  },
+  {
+   "id_firma": "115",
+   "domeniu": "elsaco-solutions.ro",
+   "verdict": "corect",
+   "motiv": "Parte din grupul Elsaco, nume reprodus exact."
+  },
+  {
+   "id_firma": "117",
+   "domeniu": "formens.ro",
+   "verdict": "corect",
+   "motiv": "Fabricant cunoscut de costume din Botosani."
+  },
+  {
+   "id_firma": "122",
+   "domeniu": "lactosolomonescu.ro",
+   "verdict": "corect",
+   "motiv": "Fabrica de lactate cunoscuta din Miron Costin, Botosani."
+  },
+  {
+   "id_firma": "125",
+   "domeniu": "miracom.eu",
+   "verdict": "incert",
+   "motiv": "Concatenare generica, .eu atipic, fara CUI; verificare imposibila."
+  },
+  {
+   "id_firma": "126",
+   "domeniu": "moderncalor.ro",
+   "verdict": "corect",
+   "motiv": "Termoficare municipala Botosani, site oficial."
+  },
+  {
+   "id_firma": "127",
+   "domeniu": "nordicromar.ro",
+   "verdict": "corect",
+   "motiv": "Procesator de peste din Dorohoi, nume distinctiv."
+  },
+  {
+   "id_firma": "129",
+   "domeniu": "ovisim.ro",
+   "verdict": "corect",
+   "motiv": "Nume distinctiv, validare nume+geo Botosani."
+  },
+  {
+   "id_firma": "130",
+   "domeniu": "pandorascourier.com",
+   "verdict": "corect",
+   "motiv": "Curier Romania-UK din Botosani, brand cunoscut pe .com, validare CUI."
+  },
+  {
+   "id_firma": "133",
+   "domeniu": "rolanatex.ro",
+   "verdict": "corect",
+   "motiv": "Rolana Tex este producator cunoscut de fire/tricotaje din Botosani; potrivire exacta de nume si validare prin CUI."
+  },
+  {
+   "id_firma": "135",
+   "domeniu": "sagrod.ro",
+   "verdict": "corect",
+   "motiv": "Nume inventat, foarte distinctiv (Sagrod, Darabani); risc de coliziune practic nul, potrivire nume+geo."
+  },
+  {
+   "id_firma": "136",
+   "domeniu": "samcomas.ro",
+   "verdict": "corect",
+   "motiv": "Concatenare exacta a numelui complet (Samcom AS), nume distinctiv, TLD .ro; coliziune improbabila."
+  },
+  {
+   "id_firma": "139",
+   "domeniu": "simiontehnoconstruct.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire exacta a numelui complet, denumire foarte specifica; practic imposibil sa apartina altei entitati."
+  },
+  {
+   "id_firma": "142",
+   "domeniu": "supersplendid.ro",
+   "verdict": "corect",
+   "motiv": "Super Splendid este retailer cunoscut din zona Dorohoi/Botosani; potrivire exacta nume complet."
+  },
+  {
+   "id_firma": "143",
+   "domeniu": "vestra.ro",
+   "verdict": "incert",
+   "motiv": "Vestra Industry (mobilier, Botosani) exista, dar 'vestra' e nume scurt/brandabil care poate apartine altei entitati; verificarea online a fost blocata de mediu."
+  },
+  {
+   "id_firma": "149",
+   "domeniu": "apanautomobile.ro",
+   "verdict": "corect",
+   "motiv": "Grupul Apan este dealer auto cunoscut din Braila; potrivire exacta nume complet."
+  },
+  {
+   "id_firma": "150",
+   "domeniu": "apan.ro",
+   "verdict": "corect",
+   "motiv": "apan.ro este site-ul grupului auto Apan din Braila, din care face parte Apan Motors; aceeasi entitate economica."
+  },
+  {
+   "id_firma": "151",
+   "domeniu": "apan.ro",
+   "verdict": "corect",
+   "motiv": "Apan SRL Braila este firma-mama a grupului Apan; apan.ro ii apartine."
+  },
+  {
+   "id_firma": "152",
+   "domeniu": "avimi.ro",
+   "verdict": "incert",
+   "motiv": "Nume distinctiv dar activitate necunoscuta; potrivirea nume+geo e plauzibila, dar site-ul nu a putut fi verificat (fetch blocat de mediu)."
+  },
+  {
+   "id_firma": "155",
+   "domeniu": "braicoop.ro",
+   "verdict": "corect",
+   "motiv": "Braicoop este cooperativa agricola cunoscuta din Braila; nume unic, potrivire exacta."
+  },
+  {
+   "id_firma": "156",
+   "domeniu": "cellularone.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire exacta nume complet pe TLD .ro; desi 'Cellular One' e si brand american, domeniul .ro corespunde plauzibil firmei GSM din Braila."
+  },
+  {
+   "id_firma": "161",
+   "domeniu": "concivia.ro",
+   "verdict": "corect",
+   "motiv": "Concivia SA este companie de constructii cunoscuta din Braila; nume unic, potrivire exacta."
+  },
+  {
+   "id_firma": "164",
+   "domeniu": "etufarm.ro",
+   "verdict": "corect",
+   "motiv": "Nume distinctiv (Etufarm), potrivire exacta pe .ro; coliziune improbabila."
+  },
+  {
+   "id_firma": "165",
+   "domeniu": "eurobuilding.ro",
+   "verdict": "incert",
+   "motiv": "'Euro Building' e denumire generica, cu multe entitati similare in tara si strainatate; necesita verificare pe site, imposibila in acest mediu."
+  },
+  {
+   "id_firma": "168",
+   "domeniu": "frontera-trading.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire exacta a numelui complet (cu cratima), nume distinctiv; coliziune improbabila."
+  },
+  {
+   "id_firma": "169",
+   "domeniu": "glorious-lighting.com",
+   "verdict": "incert",
+   "motiv": "Potrivire de nume, dar TLD .com fara ancora geografica; exista producatori asiatici cu nume similar, risc ca domeniul sa apartina altei entitati; neverificabil in acest mediu."
+  },
+  {
+   "id_firma": "173",
+   "domeniu": "lamaritec.ro",
+   "verdict": "corect",
+   "motiv": "Nume foarte distinctiv (La Maritec), potrivire exacta pe .ro; coliziune improbabila."
+  },
+  {
+   "id_firma": "178",
+   "domeniu": "originalserv.ro",
+   "verdict": "corect",
+   "motiv": "Concatenare exacta a numelui complet pe .ro; plauzibil pentru firma din Cazasu/Braila."
+  },
+  {
+   "id_firma": "179",
+   "domeniu": "petrogab.ro",
+   "verdict": "corect",
+   "motiv": "Nume distinctiv (Petrogab), potrivire directa; coliziune improbabila."
+  },
+  {
+   "id_firma": "182",
+   "domeniu": "romway.ro",
+   "verdict": "incert",
+   "motiv": "Domeniul acopera doar 'Romway', fara 'Engineering Construction'; poate apartine altei firme romanesti cu acest nume; neverificabil in acest mediu."
+  },
+  {
+   "id_firma": "187",
+   "domeniu": "tehnicaldent.com",
+   "verdict": "corect",
+   "motiv": "Ortografia atipica 'tehnical' (nu 'technical') se potriveste exact cu numele firmei; foarte probabil clinica dentara din Braila."
+  },
+  {
+   "id_firma": "188",
+   "domeniu": "termhidro.ro",
+   "verdict": "corect",
+   "motiv": "Nume distinctiv (Termhidro), potrivire exacta pe .ro; coliziune improbabila."
+  },
+  {
+   "id_firma": "196",
+   "domeniu": "adreminvest.ro",
+   "verdict": "corect",
+   "motiv": "Adrem Invest este firma cunoscuta de servicii energetice din Bucuresti (grupul Adrem); potrivire exacta."
+  },
+  {
+   "id_firma": "205",
+   "domeniu": "alchimex.ro",
+   "verdict": "corect",
+   "motiv": "Alchimex SA este producator cunoscut de produse fitosanitare din Bucuresti; alchimex.ro este site-ul lor oficial."
+  },
+  {
+   "id_firma": "206",
+   "domeniu": "allsysenergy.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire exacta a numelui complet, denumire specifica; plauzibil site-ul companiei energetice bucurestene."
+  },
+  {
+   "id_firma": "210",
+   "domeniu": "archibus.ro",
+   "verdict": "corect",
+   "motiv": "archibus.ro este site-ul reprezentantei Archibus in Romania (software IWMS); corespunde entitatii Archibus Romania."
+  },
+  {
+   "id_firma": "211",
+   "domeniu": "arcom.ro",
+   "verdict": "corect",
+   "motiv": "Arcom SA este companie istorica de constructii-montaj din Bucuresti; arcom.ro ii apartine dupa cunostintele mele."
+  },
+  {
+   "id_firma": "212",
+   "domeniu": "arcticstream.ro",
+   "verdict": "corect",
+   "motiv": "Arctic Stream este integrator IT cunoscut, listat la BVB, cu sediul in Bucuresti; potrivire exacta."
+  },
+  {
+   "id_firma": "214",
+   "domeniu": "arpim.ro",
+   "verdict": "corect",
+   "motiv": "ARPIM este Asociatia Romana a Producatorilor Internationali de Medicamente, Bucuresti; arpim.ro este site-ul oficial."
+  },
+  {
+   "id_firma": "215",
+   "domeniu": "artgroup.ro",
+   "verdict": "incert",
+   "motiv": "'Art Group' e denumire relativ generica, iar entitatea are 'Int' in nume; domeniul poate apartine altei firme similare; neverificabil in acest mediu."
+  },
+  {
+   "id_firma": "218",
+   "domeniu": "auto.ro",
+   "verdict": "incert",
+   "motiv": "Domeniu hiper-generic asociat doar prin nume-partial; site-ul cunoscut al Auto Italia este autoitalia.ro - suspiciune ridicata de asociere gresita, dar neverificabil in acest mediu."
+  },
+  {
+   "id_firma": "219",
+   "domeniu": "automobilebavaria.ro",
+   "verdict": "corect",
+   "motiv": "Automobile Bavaria este dealerul BMW cunoscut din Romania; automobilebavaria.ro este site-ul lor oficial."
+  },
+  {
+   "id_firma": "222",
+   "domeniu": "avicompact.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire exacta a numelui complet, denumire specifica; coliziune improbabila."
+  },
+  {
+   "id_firma": "223",
+   "domeniu": "aviamotors.ro",
+   "verdict": "corect",
+   "motiv": "Avia Motors este dealer Skoda cunoscut din Bucuresti; aviamotors.ro este site-ul lor."
+  },
+  {
+   "id_firma": "224",
+   "domeniu": "avicolabucuresti.ro",
+   "verdict": "corect",
+   "motiv": "Potrivire exacta nume complet + geografie in numele domeniului; site-ul producatorului avicol bucurestean."
+  },
+  {
+   "id_firma": "225",
+   "domeniu": "axpo.com",
+   "verdict": "corect",
+   "motiv": "Axpo Energy Romania este subsidiara grupului elvetian Axpo; axpo.com este domeniul corporativ al grupului, folosit si de entitatea romaneasca (inclusiv pentru e-mail)."
+  },
+  {
+   "id_firma": "226",
+   "domeniu": "azad.ro",
+   "verdict": "corect",
+   "motiv": "Azad este importatorul/retailerul cunoscut de covoare orientale din Bucuresti (Azad Enterprises); azad.ro ii corespunde."
+  },
+  {
+   "id_firma": "231",
+   "domeniu": "bogart.com",
+   "verdict": "gresit",
+   "motiv": "Constructorul bucurestean Bog'Art foloseste bog-art.ro; bogart.com apartine altei entitati (brand international 'Bogart'), nu firmei de constructii."
+  },
+  {
+   "id_firma": "237",
+   "domeniu": "brainstrategy.com",
+   "verdict": "incert",
+   "motiv": "Domeniul omite '4' din numele firmei si e pe .com; exista firme straine 'Brain Strategy' - suspiciune de asociere gresita, dar neverificabil in acest mediu."
+  },
+  {
+   "id_firma": "239",
+   "domeniu": "branto.ro",
+   "verdict": "corect",
+   "motiv": "Branto este furnizor bucurestean cunoscut de echipamente/armaturi industriale; nume distinctiv, potrivire directa."
+  },
+  {
+   "id_firma": "240",
+   "domeniu": "brdasigurari.ro",
+   "verdict": "corect",
+   "motiv": "Domeniu cu brandul BRD Asigurari, aproape sigur detinut de grupul BRD; corespunde entitatii BRD Asigurari de Viata (eventual redirect catre site-ul oficial)."
+  },
+  {
+   "id_firma": "244",
+   "domeniu": "cddrelocation.ro",
+   "verdict": "corect",
+   "motiv": "CDD Relocation este firma cunoscuta de relocari din Bucuresti; potrivire exacta nume complet."
+  },
+  {
+   "id_firma": "249",
+   "domeniu": "conadi.ro",
+   "verdict": "corect",
+   "motiv": "Conadi este dezvoltator imobiliar cunoscut din Bucuresti; conadi.ro este site-ul lor."
+  },
+  {
+   "id_firma": "250",
+   "domeniu": "conarg.com",
+   "verdict": "incert",
+   "motiv": "Grupul romanesc Conarg a folosit istoric conarg.ro; conarg.com ar putea apartine grupului sau unei entitati straine; neverificabil in acest mediu."
+  },
+  {
+   "id_firma": "255",
+   "domeniu": "conversionmarketing.com",
+   "verdict": "incert",
+   "motiv": "Agentia romaneasca Conversion foloseste conversion.ro; conversionmarketing.com (.com generic) poate apartine unei agentii straine omonime; neverificabil in acest mediu."
+  },
+  {
+   "id_firma": "257",
+   "domeniu": "corteva.ro",
+   "verdict": "corect",
+   "motiv": "Corteva Agriscience are subsidiara in Romania; corteva.ro este domeniul local oficial al companiei."
+  }
+ ]
+}

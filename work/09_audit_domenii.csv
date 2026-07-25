@@ -1,0 +1,187 @@
+id_firma,domeniu,verdict,motiv
+265,dccommunications.net,gresit,Agentia romaneasca de PR DC Communication (Bucuresti) foloseste dccom.ro; dccommunications.net apartine foarte probabil altei entitati straine cu nume similar.
+272,heberger.ro,corect,Heberger Constructii este subsidiara romaneasca a grupului german Heberger; heberger.ro este site-ul local al grupului.
+275,hogarth.ro,incert,Hogarth Worldwide (WPP) foloseste global hogarthww.com; nu pot confirma ca hogarth.ro apartine entitatii Hogarth & Ogilvy Romania si nu altei firme. Verificarea web a fost imposibila (tool-uri indisponibile in mediu).
+276,holcim.ro,corect,Holcim Romania SA (CUI 12610207) foloseste holcim.ro - site oficial cunoscut al producatorului de ciment.
+280,huawei.com,corect,"Huawei Technologies SRL este subsidiara locala; huawei.com este site-ul global al grupului (include sectiunea /ro). Acelasi grup, nu alta entitate."
+289,infomedfluids.com,corect,"Infomed Fluids SRL, producator roman de solutii perfuzabile din Bucuresti, foloseste infomedfluids.com ca site oficial."
+323,librainternetbank.ro,incert,"Site-ul principal al bancii este librabank.ro; librainternetbank.ro corespunde exact denumirii legale si e plauzibil detinut defensiv de banca (redirect), dar nu am putut verifica."
+342,medlife.ro,corect,"MedLife SA, operator privat major de servicii medicale, site oficial medlife.ro - evident corect."
+350,oneunitedproperties.com,incert,"One United Properties foloseste ca site principal one.ro; oneunitedproperties.com e plauzibil detinut de companie, dar fara verificare nu pot exclude un domeniu strain/parcat."
+362,oxigen.ro,incert,Potrivire doar partiala de nume: domeniu generic (cuvant comun) atribuit unei firme agro cu nume lung. Risc ridicat sa apartina altei entitati numite Oxigen; necesita verificare web.
+380,peek-cloppenburg.ro,corect,Peek & Cloppenburg opereaza magazine in Romania; peek-cloppenburg.ro este site-ul local oficial al retailerului.
+433,quadraestate.ro,corect,"Potrivire exacta de nume pe .ro pentru dezvoltatorul imobiliar bucurestean Quadra Estate; asociere plauzibila, fara semnale de alta entitate."
+439,radcom.ro,corect,"Radcom SA, companie romaneasca de software/telecom din Bucuresti, foloseste radcom.ro - site oficial cunoscut."
+488,sanador.ro,corect,"Sanador, retea privata de sanatate din Bucuresti, site oficial sanador.ro - evident corect."
+314,kiwifinance.ro,corect,"Kiwi Finance, broker de credite din Bucuresti (grup OTP), foloseste kiwifinance.ro - site oficial cunoscut."
+339,mediainvestment.ro,incert,Nume generic (Media Investment) si firma putin cunoscuta (CUI 34130234); domeniul poate apartine oricarei firme media. Necesita verificare web.
+347,omnicommediagroup.com,corect,"Omnicom Media Group Romania e subsidiara grupului; omnicommediagroup.com este site-ul global al aceluiasi grup, nu alta entitate."
+353,optimpm.com,incert,Optim Project Management (Bucuresti) a folosit istoric optim-pm.com (cu cratima); nu pot confirma ca varianta fara cratima optimpm.com le apartine si nu e alta entitate.
+359,ortopedica.ro,corect,"Ortopedica SRL, producator roman de proteze si dispozitive ortopedice din Bucuresti, foloseste ortopedica.ro."
+411,prisum.ro,corect,"Prisum International, distribuitor farma (Himalaya) din Bucuresti, foloseste prisum.ro - site oficial cunoscut."
+424,propertypartners.ro,corect,Potrivire exacta de nume pe .ro; Property Partners este firma cunoscuta de servicii imobiliare din Bucuresti.
+442,randstad.com,corect,Randstad Staffing SRL e subsidiara grupului olandez; randstad.com este site-ul global al grupului (site local: randstad.ro). Acelasi grup.
+455,rocainvestments.ro,corect,"ROCA Investments (Impetum Group), fond romanesc de private equity, foloseste rocainvestments.ro."
+467,romconsulting.ro,corect,Potrivire exacta de nume plus validare geografica (Bucuresti) pentru Romconsulting International SRL; asociere plauzibila.
+533,somaco.ro,corect,"Somaco Grup Prefabricate, producator cunoscut de prefabricate din beton, foloseste somaco.ro."
+497,scda.ro,incert,"Potrivire doar pe acronimul SCDA, folosit frecvent de alte entitati (ex. Statiunile de Cercetare-Dezvoltare Agricola). Risc ridicat de alta entitate; necesita verificare web."
+288,imsat.ro,corect,"IMSAT SA, integrator roman de instalatii electrice si automatizari (grup SNEF), foloseste imsat.ro."
+316,knaufinsulation.ro,corect,Knauf Insulation are filiala in Romania; knaufinsulation.ro este site-ul local oficial al brandului.
+329,luxten.com,corect,"Luxten Lighting Company SA, operator roman de iluminat public, foloseste luxten.com ca site oficial."
+335,mccann.ro,corect,McCann Worldgroup Romania (McCann Bucharest) foloseste mccann.ro - site-ul local al agentiei.
+379,pcmanagement.com,incert,"Firma infiintata recent (CUI 46159102, ~2022); pcmanagement.com este un .com generic, foarte probabil al altei entitati straine. Probabil gresit, dar necesita verificare web."
+385,pernodricard.com,corect,Pernod Ricard Romania e subsidiara grupului francez; pernodricard.com este site-ul global al aceluiasi grup.
+391,plana-innova.ro,corect,Potrivire exacta de nume pe .ro pentru Plana Innova (Bucuresti); asociere plauzibila.
+397,porternovelli.com,corect,"Porter Novelli Bucuresti face parte din reteaua globala Porter Novelli (Omnicom); porternovelli.com este site-ul retelei, acelasi brand."
+413,probstdorfer.ro,corect,"Probstdorfer Saatzucht Romania SRL, filiala producatorului austriac de seminte, foloseste probstdorfer.ro ca site local."
+457,rockstarconstruct.ro,corect,"Rock Star Construct SRL, firma cunoscuta de constructii/demolari din Bucuresti, foloseste rockstarconstruct.ro."
+463,romenergy.ro,incert,Potrivire doar pe prima parte a numelui (Rom Energy) pentru Rom Energy Armstrong; nu pot confirma ca romenergy.ro apartine acestei firme si nu altei companii energetice.
+481,rustler.ro,corect,Rustler Property Services e filiala romaneasca a grupului austriac Rustler; rustler.ro este site-ul local al grupului.
+285,ilmaestro.ro,incert,"Nume generic italian folosit de multe afaceri (restaurante, cofetarii etc.); nu pot confirma ca ilmaestro.ro apartine exact firmei Il Maestro SRL CUI 18030748."
+296,italinox.ro,corect,"Italinox Romania, distribuitor cunoscut de otel inoxidabil, foloseste italinox.ro - site local oficial."
+340,medicover.ro,corect,"Medicover Romania, retea privata de sanatate, site oficial medicover.ro - evident corect."
+348,omvpetrom.ro,corect,Domeniul omvpetrom.ro apartine grupului OMV Petrom (site principal omvpetrom.com); OMV Petrom Marketing e parte a aceluiasi grup.
+360,otho.ro,incert,"Firma mica (OTHO Estate, CUI 34865376) si domeniu scurt pe brand; plauzibil dar neverificabil din cunostinte - necesita verificare web."
+378,pazo.ro,corect,Potrivire de nume plus validare geografica pentru Pazo Grup (Bucuresti); asociere plauzibila cu site-ul de brand pazo.ro.
+396,porr.ro,corect,PORR Construct SRL e subsidiara grupului austriac PORR; porr.ro este site-ul local al grupului in Romania.
+406,primavera-development.ro,corect,"Primavera Development, dezvoltator imobiliar bucurestean cunoscut; primavera-development.ro este site-ul oficial."
+418,prodamco.ro,corect,"Potrivire exacta a numelui (Prodam Co) pe domeniu .ro; asociere plauzibila, fara indicii de alta entitate."
+425,provident.ro,corect,"Site oficial Provident Financial Romania IFN, creditor cunoscut."
+437,rabbitmedia.com,incert,"Nume generic pe .com, risc de omonim strain; verificare web indisponibila."
+443,rasci.ro,corect,RASCI e asociatia industriei de self-care din Bucuresti; site oficial.
+487,samsung.com,corect,"Domeniu global al grupului Samsung, folosit de subsidiara RO (samsung.com/ro)."
+495,scandinaviandesign.com,gresit,"Portal international de design scandinav, nu firma RO (care are domeniu propriu .ro)."
+546,streamnetworks.ro,corect,Potrivire exacta pe .ro; omonimul UK foloseste .co.uk.
+306,kandia-dulce.ro,corect,"Site oficial Kandia Dulce, producatorul ciocolatei Rom/Kandia."
+331,maira.ro,incert,Domeniul trunchiaza numele (fara 'montaj'); posibil alta entitate; neverificabil.
+337,mediacity.ro,corect,Media City e tipografia cunoscuta din Bucuresti; mediacity.ro e site-ul ei.
+351,opaltechnologies.com,incert,"Nume generic pe .com, exista omonime straine; verificare web indisponibila."
+357,orbicobeauty.ro,corect,Divizia locala a grupului de distributie Orbico; potrivire exacta pe .ro.
+375,paulhartmann.com,corect,"Domeniu corporativ al grupului PAUL HARTMANN AG, mama subsidiarei RO."
+381,pegasusengineering.net,incert,"Mai multe firme omonime in UK/SUA, TLD .net generic; neverificabil."
+393,policolor.ro,corect,"Site oficial Policolor, producator roman de vopsele; validat si prin CUI."
+403,premium-lubricants.ro,corect,Potrivire exacta de nume pe .ro; coliziune improbabila.
+409,primusauto.ro,corect,Potrivire exacta de nume pe .ro; dealer auto bucurestean.
+415,processsolutions.com,incert,Grupul BPO Process Solutions foloseste azi ps-bpo.com; .com poate fi altcineva; neverificabil.
+422,propaganda.ro,incert,"propaganda.ro e agentia bucuresteana, dar sunt doua entitati Propaganda in lista; nu pot transa fara verificare."
+446,realsol.com,incert,"Fara CUI, nume generic pe .com, probabil firma straina; neverificabil - inclin spre gresit."
+453,roadhill.ro,corect,"Nume distinctiv, potrivire exacta pe .ro."
+459,rodbun.ro,corect,"Site oficial Rodbun Grup, agribusiness romanesc cunoscut."
+484,safir.ro,gresit,"safir.ro apartine grupului avicol SAFIR din Vaslui, nu firmei SAFIR '94 IMPEX Bucuresti."
+498,schenker.com,corect,"Domeniul grupului DB Schenker, mama Schenker Logistics Romania."
+518,skanska.ro,corect,"Site-ul local al grupului Skanska, activ in Romania."
+524,smartech.ro,incert,"smartech.ro pare retailer de gadgeturi, nu consultanta Smartech Consult; neverificabil."
+283,hvshielding.ro,corect,"Nume foarte distinctiv, potrivire exacta pe .ro."
+307,karcher.ro,corect,"Subsidiara oficiala Karcher; domeniu al grupului, validare prin CUI."
+338,mediaconsulta.ro,corect,Biroul RO al retelei germane MC Group (media-consulta.com).
+346,omniasig.ro,corect,"Site oficial Omniasig VIG, asigurator major din Romania."
+352,openmindlaboratory.ro,corect,"Potrivire exacta a numelui complet pe .ro, nume distinctiv."
+370,papaya-advertising.com,corect,Agentie bucuresteana cunoscuta; acesta e site-ul ei.
+376,paypoint.com,gresit,paypoint.com e PayPoint plc din UK; firma RO (iesita din grup in 2021) folosea paypoint.ro.
+382,pelipartners.ro,corect,Site oficial al casei de avocatura Peli Partners (fost PeliFilip).
+404,premium.ro,gresit,"Premium Porc foloseste premiumporc.ro; premium.ro e domeniu generic, potrivire doar pe cuvantul 'premium'."
+416,procreditbank.ro,corect,Site oficial ProCredit Bank Romania; potrivire completa de brand.
+423,propagandamarketing.com,incert,Posibile agentii straine omonime pe .com; dublura cu id 422; neverificabil.
+429,pulsmedica.ro,corect,Potrivire exacta pe .ro; furnizor medical romanesc.
+441,ranevents.eu,incert,"Fara CUI, TLD .eu nespecific Romaniei, posibile omonime straine; neverificabil."
+447,rec-immpuls.ro,corect,"Ortografie foarte distinctiva (immpuls), potrivire exacta pe .ro."
+454,robertbosch.ro,corect,Subsidiara oficiala Bosch Romania; grupul detine domeniul.
+472,romprest-energy.ro,corect,Parte a grupului Romprest; potrivire exacta pe .ro.
+478,rovigo.ro,corect,Site oficial al casei de insolventa Rovigo SPRL din Bucuresti.
+485,saintgobain.ro,corect,"Site-ul local al grupului Saint-Gobain, care include Rigips Romania."
+499,schindler.ro,corect,Site-ul local al grupului Schindler; subsidiara oficiala RO.
+506,servier.com,corect,"Domeniul global al grupului Servier, mama Servier Pharma RO."
+1,alfa-cluj.ro,corect,"Nume+oras reproduse exact in domeniu, validare CUI."
+10,agricultorul.com,incert,"Cuvant generic, .com atipic; verificare web imposibila in acest mediu."
+11,agritehnica.ro,corect,"Dealer cunoscut de utilaje agricole din Valea Seaca, Bacau."
+22,brenneka.ro,corect,"Nume foarte distinctiv, potrivire exacta."
+23,bva-logistik.ro,corect,"Combinatie distinctiva, potrivire exacta."
+25,capitalinvest.ro,incert,"Nume extrem de generic, multe firme omonime, fara CUI; verificare web imposibila."
+26,cation.ro,incert,"'Cation' e termen comun; potrivire nedistinctiva, verificare imposibila."
+28,chimcomplex.ro,corect,"Combinat chimic national din Onesti, nume unic."
+31,conbac.ro,corect,"Constructor cunoscut din Bacau, nume specific local."
+32,conextrust.ro,corect,"Constructor consacrat din Bacau, nume distinctiv."
+33,copanex.ro,corect,"Nume inventat, distinctiv, potrivire exacta."
+35,croco.ro,corect,"Producatorul national de crackers din Onesti, site oficial."
+36,cybernet.ro,incert,"Doar 'cybernet' din nume, termen generic IT; risc de alta firma; verificare imposibila."
+37,dabacco.ro,corect,"Nume distinctiv, potrivire exacta."
+38,dafermann.ro,corect,"Nume inventat, unic."
+39,dedeman.ro,corect,"Retailer national de bricolaj din Bacau, site oficial evident."
+41,edupro.ro,incert,"Nume generic educatie, 'Grup' omis; verificare imposibila."
+42,electricplus.com,incert,Firma bacauana pare sa foloseasca .ro; .com generic posibil strain; verificare imposibila.
+44,elmetinternational.ro,corect,"Potrivire completa, combinatie distinctiva."
+60,moldovafarming.ro,corect,"Firma agricola cunoscuta, potrivire completa, coerenta regional."
+61,moraruanca.ro,corect,"Nume complet reprodus, validare CUI."
+63,ndpharma.ro,corect,Potrivire completa pe .ro; omonimul international foloseste alte domenii.
+65,nitramonia.ro,incert,Nitramonia e istoric brandul din Fagaras; sufixul BC omis - risc alta entitate; verificare imposibila.
+68,panimon.ro,corect,"Panificatie cunoscuta din Onesti, validare CUI."
+71,potpuriu.ro,corect,"Firma cunoscuta local in Onesti, validare nume+geo."
+73,rhinosafety.ro,corect,Potrivire completa pe .ro; omonimul UK e pe .co.uk.
+75,rikkosteel.ro,corect,"Combinatie distinctiva, potrivire completa."
+76,romchimprotect.ro,corect,"Producator cunoscut de biocide din Filipesti, Bacau."
+78,rustrans.ro,corect,Transportator cunoscut din Blagesti; .ro + nume+geo plauzibil.
+81,salofarmlogistic.ro,corect,Entitatea de distributie a lantului Salofarm Bacau.
+83,senal.ro,corect,"Nume distinctiv, validare nume+geo cu Bacau."
+85,simbainvest.ro,corect,Agentie de turism cunoscuta din Bacau.
+86,speditionumb.ro,corect,"Parte din grupul UMB Bacau, nume distinctiv."
+87,ssabag.ro,corect,Constructor din grupul Umbrarescu; suedezii SSAB folosesc ssab.com.
+93,thermoenergy.ro,corect,"Termoficare municipala Bacau, site oficial, validare CUI."
+95,tobaccoland.com,gresit,Domeniul apartine grupului german/austriac tobaccoland (automate tigari); implauzibil pentru un SRL din Onesti din 2021.
+101,bigconf.ro,corect,"Producator de confectii cunoscut din Botosani, validare CUI."
+103,castilio.ro,corect,Brand hotelier/restaurant cunoscut din Botosani.
+114,elsaco.com,corect,"Compania principala a grupului Elsaco Botosani, site oficial."
+115,elsaco-solutions.ro,corect,"Parte din grupul Elsaco, nume reprodus exact."
+117,formens.ro,corect,Fabricant cunoscut de costume din Botosani.
+122,lactosolomonescu.ro,corect,"Fabrica de lactate cunoscuta din Miron Costin, Botosani."
+125,miracom.eu,incert,"Concatenare generica, .eu atipic, fara CUI; verificare imposibila."
+126,moderncalor.ro,corect,"Termoficare municipala Botosani, site oficial."
+127,nordicromar.ro,corect,"Procesator de peste din Dorohoi, nume distinctiv."
+129,ovisim.ro,corect,"Nume distinctiv, validare nume+geo Botosani."
+130,pandorascourier.com,corect,"Curier Romania-UK din Botosani, brand cunoscut pe .com, validare CUI."
+133,rolanatex.ro,corect,Rolana Tex este producator cunoscut de fire/tricotaje din Botosani; potrivire exacta de nume si validare prin CUI.
+135,sagrod.ro,corect,"Nume inventat, foarte distinctiv (Sagrod, Darabani); risc de coliziune practic nul, potrivire nume+geo."
+136,samcomas.ro,corect,"Concatenare exacta a numelui complet (Samcom AS), nume distinctiv, TLD .ro; coliziune improbabila."
+139,simiontehnoconstruct.ro,corect,"Potrivire exacta a numelui complet, denumire foarte specifica; practic imposibil sa apartina altei entitati."
+142,supersplendid.ro,corect,Super Splendid este retailer cunoscut din zona Dorohoi/Botosani; potrivire exacta nume complet.
+143,vestra.ro,incert,"Vestra Industry (mobilier, Botosani) exista, dar 'vestra' e nume scurt/brandabil care poate apartine altei entitati; verificarea online a fost blocata de mediu."
+149,apanautomobile.ro,corect,Grupul Apan este dealer auto cunoscut din Braila; potrivire exacta nume complet.
+150,apan.ro,corect,"apan.ro este site-ul grupului auto Apan din Braila, din care face parte Apan Motors; aceeasi entitate economica."
+151,apan.ro,corect,Apan SRL Braila este firma-mama a grupului Apan; apan.ro ii apartine.
+152,avimi.ro,incert,"Nume distinctiv dar activitate necunoscuta; potrivirea nume+geo e plauzibila, dar site-ul nu a putut fi verificat (fetch blocat de mediu)."
+155,braicoop.ro,corect,"Braicoop este cooperativa agricola cunoscuta din Braila; nume unic, potrivire exacta."
+156,cellularone.ro,corect,"Potrivire exacta nume complet pe TLD .ro; desi 'Cellular One' e si brand american, domeniul .ro corespunde plauzibil firmei GSM din Braila."
+161,concivia.ro,corect,"Concivia SA este companie de constructii cunoscuta din Braila; nume unic, potrivire exacta."
+164,etufarm.ro,corect,"Nume distinctiv (Etufarm), potrivire exacta pe .ro; coliziune improbabila."
+165,eurobuilding.ro,incert,"'Euro Building' e denumire generica, cu multe entitati similare in tara si strainatate; necesita verificare pe site, imposibila in acest mediu."
+168,frontera-trading.ro,corect,"Potrivire exacta a numelui complet (cu cratima), nume distinctiv; coliziune improbabila."
+169,glorious-lighting.com,incert,"Potrivire de nume, dar TLD .com fara ancora geografica; exista producatori asiatici cu nume similar, risc ca domeniul sa apartina altei entitati; neverificabil in acest mediu."
+173,lamaritec.ro,corect,"Nume foarte distinctiv (La Maritec), potrivire exacta pe .ro; coliziune improbabila."
+178,originalserv.ro,corect,Concatenare exacta a numelui complet pe .ro; plauzibil pentru firma din Cazasu/Braila.
+179,petrogab.ro,corect,"Nume distinctiv (Petrogab), potrivire directa; coliziune improbabila."
+182,romway.ro,incert,"Domeniul acopera doar 'Romway', fara 'Engineering Construction'; poate apartine altei firme romanesti cu acest nume; neverificabil in acest mediu."
+187,tehnicaldent.com,corect,Ortografia atipica 'tehnical' (nu 'technical') se potriveste exact cu numele firmei; foarte probabil clinica dentara din Braila.
+188,termhidro.ro,corect,"Nume distinctiv (Termhidro), potrivire exacta pe .ro; coliziune improbabila."
+196,adreminvest.ro,corect,Adrem Invest este firma cunoscuta de servicii energetice din Bucuresti (grupul Adrem); potrivire exacta.
+205,alchimex.ro,corect,Alchimex SA este producator cunoscut de produse fitosanitare din Bucuresti; alchimex.ro este site-ul lor oficial.
+206,allsysenergy.ro,corect,"Potrivire exacta a numelui complet, denumire specifica; plauzibil site-ul companiei energetice bucurestene."
+210,archibus.ro,corect,archibus.ro este site-ul reprezentantei Archibus in Romania (software IWMS); corespunde entitatii Archibus Romania.
+211,arcom.ro,corect,Arcom SA este companie istorica de constructii-montaj din Bucuresti; arcom.ro ii apartine dupa cunostintele mele.
+212,arcticstream.ro,corect,"Arctic Stream este integrator IT cunoscut, listat la BVB, cu sediul in Bucuresti; potrivire exacta."
+214,arpim.ro,corect,"ARPIM este Asociatia Romana a Producatorilor Internationali de Medicamente, Bucuresti; arpim.ro este site-ul oficial."
+215,artgroup.ro,incert,"'Art Group' e denumire relativ generica, iar entitatea are 'Int' in nume; domeniul poate apartine altei firme similare; neverificabil in acest mediu."
+218,auto.ro,incert,"Domeniu hiper-generic asociat doar prin nume-partial; site-ul cunoscut al Auto Italia este autoitalia.ro - suspiciune ridicata de asociere gresita, dar neverificabil in acest mediu."
+219,automobilebavaria.ro,corect,Automobile Bavaria este dealerul BMW cunoscut din Romania; automobilebavaria.ro este site-ul lor oficial.
+222,avicompact.ro,corect,"Potrivire exacta a numelui complet, denumire specifica; coliziune improbabila."
+223,aviamotors.ro,corect,Avia Motors este dealer Skoda cunoscut din Bucuresti; aviamotors.ro este site-ul lor.
+224,avicolabucuresti.ro,corect,Potrivire exacta nume complet + geografie in numele domeniului; site-ul producatorului avicol bucurestean.
+225,axpo.com,corect,"Axpo Energy Romania este subsidiara grupului elvetian Axpo; axpo.com este domeniul corporativ al grupului, folosit si de entitatea romaneasca (inclusiv pentru e-mail)."
+226,azad.ro,corect,Azad este importatorul/retailerul cunoscut de covoare orientale din Bucuresti (Azad Enterprises); azad.ro ii corespunde.
+231,bogart.com,gresit,"Constructorul bucurestean Bog'Art foloseste bog-art.ro; bogart.com apartine altei entitati (brand international 'Bogart'), nu firmei de constructii."
+237,brainstrategy.com,incert,"Domeniul omite '4' din numele firmei si e pe .com; exista firme straine 'Brain Strategy' - suspiciune de asociere gresita, dar neverificabil in acest mediu."
+239,branto.ro,corect,"Branto este furnizor bucurestean cunoscut de echipamente/armaturi industriale; nume distinctiv, potrivire directa."
+240,brdasigurari.ro,corect,"Domeniu cu brandul BRD Asigurari, aproape sigur detinut de grupul BRD; corespunde entitatii BRD Asigurari de Viata (eventual redirect catre site-ul oficial)."
+244,cddrelocation.ro,corect,CDD Relocation este firma cunoscuta de relocari din Bucuresti; potrivire exacta nume complet.
+249,conadi.ro,corect,Conadi este dezvoltator imobiliar cunoscut din Bucuresti; conadi.ro este site-ul lor.
+250,conarg.com,incert,Grupul romanesc Conarg a folosit istoric conarg.ro; conarg.com ar putea apartine grupului sau unei entitati straine; neverificabil in acest mediu.
+255,conversionmarketing.com,incert,Agentia romaneasca Conversion foloseste conversion.ro; conversionmarketing.com (.com generic) poate apartine unei agentii straine omonime; neverificabil in acest mediu.
+257,corteva.ro,corect,Corteva Agriscience are subsidiara in Romania; corteva.ro este domeniul local oficial al companiei.

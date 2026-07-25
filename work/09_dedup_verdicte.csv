@@ -1,0 +1,16 @@
+firma_a,firma_b,verdict,motiv
+SEA ROMANIA SRL,SIAD ROMANIA,distinct,"SIAD Romania = subsidiara grupului italian SIAD (gaze industriale); SEA Romania = entitate separata, fara legatura. Denumiri diferite, nu typo; scorul fuzzy vine din sufixul comun ROMANIA."
+AIK ENERGY ROMANIA,AXPO ENERGY ROMANIA SA,distinct,"Companii reale si separate de trading energie: AIK Energy (grup independent, origine UK) vs Axpo (grup elvetian de utilitati). Acelasi sector, branduri complet diferite - analog Takeda vs Teva."
+MACO CONSTRUCT SRL,MATE CONSTRUCT SRL,distinct,"MACO si MATE difera in 2 din 4 litere (taste neadiacente, improbabil typo); radacini de nume diferite, firme locale de constructii distincte. Scor umflat de tokenul generic CONSTRUCT SRL. CUI neverificabil in sesiune (acces web blocat tehnic) - de confirmat prin CUI daca exista in sursele originale."
+CENTRU MEDICAL MEDSAN,CENTRUL MEDICAL MIMED,distinct,Medsan si Mimed sunt branduri diferite de clinici private (Mimed - centru medical cunoscut in Cluj); similaritatea vine aproape integral din prefixul generic Centrul Medical.
+COFIT CONSTRUCT SRL,CFP CONSTRUCT SRL,distinct,COFIT (constructor cunoscut in zona Targu Mures) si acronimul CFP nu pot rezulta unul din altul prin typo sau prescurtare naturala; element comun doar tokenul generic CONSTRUCT SRL. CUI neverificabil (acces web blocat tehnic).
+SII ROMANIA,SIE ROMANIA,incert,"SII Romania = subsidiara SII Group (IT, Franta). SIE Romania nu e o companie cunoscuta; diferenta de o litera poate fi typo, dar poate fi si firma distincta. Verificarea CUI nu a fost posibila (apeluri web blocate). Necesita verificare manuala."
+SIE ROMANIA,SEA ROMANIA SRL,distinct,"Acronime diferite (SIE vs SEA, doua litere din trei); scorul fuzzy mare vine doar din sufixul comun ROMANIA."
+SAP ROMANIA,SEA ROMANIA SRL,distinct,"SAP Romania = subsidiara SAP SE (software german); SEA Romania SRL este alta firma, fara legatura."
+SAP ROMANIA,SPP ROMANIA,distinct,"SAP = software enterprise; SPP Romania este alta entitate (ex. SPP Pumps Romania). Acronime diferite = firme diferite, ca in exemplul SAP vs SIAD."
+TAKEDA PHARMACEUTICALS SRL,TEVA PHARMACEUTICALS SRL,distinct,"Takeda (Japonia) si Teva (Israel) sunt multinationale farmaceutice complet diferite, cu subsidiare si CUI-uri separate in Romania."
+MATEROM AUTOMOTIVE SRL,MATEROM AUTOMOBILE SRL,duplicat,"Acelasi brand MATEROM, acelasi judet Mures; Automobile vs Automotive este eroare de transcriere."
+TEMPO ADVERTISING,TEMPERA ADVERTISING,incert,Tempo Advertising e agentie cunoscuta; Tempera pare typo dar radacina difera si CUI nu a putut fi verificat (web indisponibil).
+SAP ROMANIA,SIAD ROMANIA,distinct,SAP = software german; SIAD = gaze industriale italiene. Scor umflat de sufixul ROMANIA.
+SIE ROMANIA,SIAD ROMANIA,distinct,"Acronime diferite, nu e typo plauzibil; similaritate doar din sufixul ROMANIA."
+SII ROMANIA,SIAD ROMANIA,distinct,SII = servicii IT (grup francez SII); SIAD = gaze industriale (grup italian). Firme diferite.
