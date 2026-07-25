@@ -23,12 +23,34 @@ import os
 df = pd.read_csv("work/02_dedup.csv", dtype=str).fillna("")
 cmap = pd.read_csv("work/03_cui_map.csv", dtype=str).fillna("")
 
-# domenii descoperite la pasul 8 (doar cele validate si cu MX activ)
+# domenii descoperite la pasul 8 (doar cele validate si cu MX activ),
+# din checkpointul principal + shardurile paralele
+import glob as globmod
+
 discovered = {}
-if os.path.exists("work/08_domenii.csv"):
-    d8 = pd.read_csv("work/08_domenii.csv", dtype=str).fillna("")
+for p8 in ["work/08_domenii.csv"] + globmod.glob("work/08_domenii.csv.shard*"):
+    if not os.path.exists(p8):
+        continue
+    d8 = pd.read_csv(p8, dtype=str).fillna("")
     for _, r8 in d8[(d8["domeniu"] != "") & (d8["mx"] == "da")].iterrows():
         discovered[r8["id_firma"]] = (r8["domeniu"], r8["validare"])
+
+# auditul subagentilor: 'gresit' se elimina; 'incert' se pastreaza numai daca
+# validarea a fost prin CUI gasit in pagina (dovada decisiva); restul merg la
+# verificare manuala (fara tipare, fara campanie)
+manual_review = []
+if os.path.exists("work/09_audit_domenii.csv"):
+    aud = pd.read_csv("work/09_audit_domenii.csv", dtype=str).fillna("")
+    for _, ra in aud.iterrows():
+        fid = ra["id_firma"]
+        if fid not in discovered:
+            continue
+        dom, val = discovered[fid]
+        if ra["verdict"] == "gresit" or (ra["verdict"] == "incert" and val != "cui"):
+            manual_review.append({"id_firma": fid, "domeniu": dom,
+                                  "verdict": ra["verdict"], "motiv": ra["motiv"]})
+            del discovered[fid]
+pd.DataFrame(manual_review).to_csv("work/domenii_de_verificat_manual.csv", index=False)
 anaf = {}
 with open("work/03_anaf_data.jsonl") as f:
     for line in f:
