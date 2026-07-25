@@ -1,0 +1,34 @@
+id_firma,domeniu,verdict,motiv
+339,mediainvestment.ro,incert,Nume generic (Media Investment) si firma putin cunoscuta (CUI 34130234); domeniul poate apartine oricarei firme media. Necesita verificare web.
+353,optimpm.com,incert,Optim Project Management (Bucuresti) a folosit istoric optim-pm.com (cu cratima); nu pot confirma ca varianta fara cratima optimpm.com le apartine si nu e alta entitate.
+497,scda.ro,incert,"Potrivire doar pe acronimul SCDA, folosit frecvent de alte entitati (ex. Statiunile de Cercetare-Dezvoltare Agricola). Risc ridicat de alta entitate; necesita verificare web."
+379,pcmanagement.com,incert,"Firma infiintata recent (CUI 46159102, ~2022); pcmanagement.com este un .com generic, foarte probabil al altei entitati straine. Probabil gresit, dar necesita verificare web."
+463,romenergy.ro,incert,Potrivire doar pe prima parte a numelui (Rom Energy) pentru Rom Energy Armstrong; nu pot confirma ca romenergy.ro apartine acestei firme si nu altei companii energetice.
+285,ilmaestro.ro,incert,"Nume generic italian folosit de multe afaceri (restaurante, cofetarii etc.); nu pot confirma ca ilmaestro.ro apartine exact firmei Il Maestro SRL CUI 18030748."
+360,otho.ro,incert,"Firma mica (OTHO Estate, CUI 34865376) si domeniu scurt pe brand; plauzibil dar neverificabil din cunostinte - necesita verificare web."
+495,scandinaviandesign.com,gresit,"Portal international de design scandinav, nu firma RO (care are domeniu propriu .ro)."
+331,maira.ro,incert,Domeniul trunchiaza numele (fara 'montaj'); posibil alta entitate; neverificabil.
+381,pegasusengineering.net,incert,"Mai multe firme omonime in UK/SUA, TLD .net generic; neverificabil."
+415,processsolutions.com,incert,Grupul BPO Process Solutions foloseste azi ps-bpo.com; .com poate fi altcineva; neverificabil.
+422,propaganda.ro,incert,"propaganda.ro e agentia bucuresteana, dar sunt doua entitati Propaganda in lista; nu pot transa fara verificare."
+446,realsol.com,incert,"Fara CUI, nume generic pe .com, probabil firma straina; neverificabil - inclin spre gresit."
+484,safir.ro,gresit,"safir.ro apartine grupului avicol SAFIR din Vaslui, nu firmei SAFIR '94 IMPEX Bucuresti."
+524,smartech.ro,incert,"smartech.ro pare retailer de gadgeturi, nu consultanta Smartech Consult; neverificabil."
+376,paypoint.com,gresit,paypoint.com e PayPoint plc din UK; firma RO (iesita din grup in 2021) folosea paypoint.ro.
+404,premium.ro,gresit,"Premium Porc foloseste premiumporc.ro; premium.ro e domeniu generic, potrivire doar pe cuvantul 'premium'."
+441,ranevents.eu,incert,"Fara CUI, TLD .eu nespecific Romaniei, posibile omonime straine; neverificabil."
+25,capitalinvest.ro,incert,"Nume extrem de generic, multe firme omonime, fara CUI; verificare web imposibila."
+26,cation.ro,incert,"'Cation' e termen comun; potrivire nedistinctiva, verificare imposibila."
+36,cybernet.ro,incert,"Doar 'cybernet' din nume, termen generic IT; risc de alta firma; verificare imposibila."
+41,edupro.ro,incert,"Nume generic educatie, 'Grup' omis; verificare imposibila."
+42,electricplus.com,incert,Firma bacauana pare sa foloseasca .ro; .com generic posibil strain; verificare imposibila.
+65,nitramonia.ro,incert,Nitramonia e istoric brandul din Fagaras; sufixul BC omis - risc alta entitate; verificare imposibila.
+95,tobaccoland.com,gresit,Domeniul apartine grupului german/austriac tobaccoland (automate tigari); implauzibil pentru un SRL din Onesti din 2021.
+125,miracom.eu,incert,"Concatenare generica, .eu atipic, fara CUI; verificare imposibila."
+143,vestra.ro,incert,"Vestra Industry (mobilier, Botosani) exista, dar 'vestra' e nume scurt/brandabil care poate apartine altei entitati; verificarea online a fost blocata de mediu."
+165,eurobuilding.ro,incert,"'Euro Building' e denumire generica, cu multe entitati similare in tara si strainatate; necesita verificare pe site, imposibila in acest mediu."
+169,glorious-lighting.com,incert,"Potrivire de nume, dar TLD .com fara ancora geografica; exista producatori asiatici cu nume similar, risc ca domeniul sa apartina altei entitati; neverificabil in acest mediu."
+182,romway.ro,incert,"Domeniul acopera doar 'Romway', fara 'Engineering Construction'; poate apartine altei firme romanesti cu acest nume; neverificabil in acest mediu."
+215,artgroup.ro,incert,"'Art Group' e denumire relativ generica, iar entitatea are 'Int' in nume; domeniul poate apartine altei firme similare; neverificabil in acest mediu."
+218,auto.ro,incert,"Domeniu hiper-generic asociat doar prin nume-partial; site-ul cunoscut al Auto Italia este autoitalia.ro - suspiciune ridicata de asociere gresita, dar neverificabil in acest mediu."
+231,bogart.com,gresit,"Constructorul bucurestean Bog'Art foloseste bog-art.ro; bogart.com apartine altei entitati (brand international 'Bogart'), nu firmei de constructii."

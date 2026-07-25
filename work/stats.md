@@ -55,3 +55,17 @@
   fara un pas de descoperire a site-urilor
 - Tinta contractuala 50-70% nominale = 1244-1742 firme; plafonul actual
   fara descoperire domenii: ~587 firme (24%) chiar la randament 100%
+
+## Pas 2+3 - ANAF + domenii
+
+- CUI rezolvat: 1958/2495
+- Firme excluse (radiate/inactive): 7
+- Persoana completata din administratori ANAF: 412
+- Total firme cu persoana: 2333
+- Firme cu domeniu propriu (din email generic): 1185
+
+## Pas 4 - Tipare e-mail
+
+- Firme eligibile (Pending + persoana + domeniu propriu): 1114
+- Total tipare generate: 6734
+- Medie tipare/firma: 6.0
