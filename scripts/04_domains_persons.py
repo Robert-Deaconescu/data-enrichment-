@@ -18,8 +18,17 @@ PUBLIC_DOMAINS = {
     "canad.ro", "apropo.ro", "rol.ro", "from.ro", "mail.ru",
 }
 
+import os
+
 df = pd.read_csv("work/02_dedup.csv", dtype=str).fillna("")
 cmap = pd.read_csv("work/03_cui_map.csv", dtype=str).fillna("")
+
+# domenii descoperite la pasul 8 (doar cele validate si cu MX activ)
+discovered = {}
+if os.path.exists("work/08_domenii.csv"):
+    d8 = pd.read_csv("work/08_domenii.csv", dtype=str).fillna("")
+    for _, r8 in d8[(d8["domeniu"] != "") & (d8["mx"] == "da")].iterrows():
+        discovered[r8["id_firma"]] = (r8["domeniu"], r8["validare"])
 anaf = {}
 with open("work/03_anaf_data.jsonl") as f:
     for line in f:
@@ -69,7 +78,7 @@ for _, r in df.iterrows():
     if p and fn == "Contact":
         fn = "Contact"
 
-    # domeniu din email generic
+    # domeniu din email generic; daca lipseste, din descoperirea web (pas 8)
     dom = ""
     for e in (r["email1"], r["email2"]):
         if e and "@" in e:
@@ -77,6 +86,9 @@ for _, r in df.iterrows():
             if d2 not in PUBLIC_DOMAINS:
                 dom = d2
                 break
+    if not dom and r["id_firma"] in discovered:
+        dom, valid8 = discovered[r["id_firma"]]
+        o.append(f"domeniu descoperit web ({valid8})")
 
     status.append(st)
     persoana_fin.append(p)

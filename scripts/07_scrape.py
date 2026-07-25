@@ -5,6 +5,7 @@ contact/echipa. Checkpoint: work/07_scrape.csv"""
 import csv
 import os
 import re
+import signal
 import time
 import urllib.robotparser as robotparser
 from urllib.parse import urljoin
@@ -57,40 +58,52 @@ def fetch(url):
     return None
 
 
+def _timeout(signum, frame):
+    raise TimeoutError
+
+
+signal.signal(signal.SIGALRM, _timeout)
+
 for n, (_, row) in enumerate(todo.iterrows()):
     dom = row["domeniu"]
     base = f"https://{dom}"
     emails, pages_ok, nota = set(), 0, ""
 
-    rp = robotparser.RobotFileParser()
+    signal.alarm(120)  # limita dura per domeniu (site-uri care picura bytes)
     try:
-        rr = sess.get(f"{base}/robots.txt", timeout=10)
-        time.sleep(1.0)
-        rp.parse(rr.text.splitlines() if rr.status_code == 200 else [])
-    except requests.RequestException:
-        rp.parse([])
-        nota = "robots inaccesibil"
+        rp = robotparser.RobotFileParser()
+        try:
+            rr = sess.get(f"{base}/robots.txt", timeout=10)
+            time.sleep(1.0)
+            rp.parse(rr.text.splitlines() if rr.status_code == 200 else [])
+        except requests.RequestException:
+            rp.parse([])
+            nota = "robots inaccesibil"
 
-    for path in PATHS:
-        url = urljoin(base, path)
-        if not rp.can_fetch(UA, url):
-            continue
-        html = fetch(url)
-        if html is None:
-            continue
-        pages_ok += 1
-        soup = BeautifulSoup(html, "html.parser")
-        for a in soup.select('a[href^="mailto:"]'):
-            addr = a["href"][7:].split("?")[0].strip().lower()
-            if addr:
-                emails.add(addr)
-        text = soup.get_text(" ")
-        for m in EMAIL_RE.findall(text):
-            m = m.lower().rstrip(".")
-            if not m.endswith(SKIP_EXT):
-                emails.add(m)
-        if len(emails) >= 8:
-            break
+        for path in PATHS:
+            url = urljoin(base, path)
+            if not rp.can_fetch(UA, url):
+                continue
+            html = fetch(url)
+            if html is None:
+                continue
+            pages_ok += 1
+            soup = BeautifulSoup(html, "html.parser")
+            for a in soup.select('a[href^="mailto:"]'):
+                addr = a["href"][7:].split("?")[0].strip().lower()
+                if addr:
+                    emails.add(addr)
+            text = soup.get_text(" ")
+            for m in EMAIL_RE.findall(text):
+                m = m.lower().rstrip(".")
+                if not m.endswith(SKIP_EXT):
+                    emails.add(m)
+            if len(emails) >= 8:
+                break
+    except TimeoutError:
+        nota = (nota + "; " if nota else "") + "timeout domeniu"
+    finally:
+        signal.alarm(0)
 
     # pastreaza doar adrese pe domeniul firmei (sau subdomenii)
     emails = {e for e in emails if e.split("@")[-1] == dom or e.split("@")[-1].endswith("." + dom)}
