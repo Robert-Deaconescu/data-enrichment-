@@ -243,3 +243,17 @@ id_firma,email,status,is_catch_all,credite
 76,hongu@romchimprotect.ro,unknown,,1
 76,eugenia.hongu@romchimprotect.ro,unknown,,1
 76,eugenia@romchimprotect.ro,unknown,,1
+76,hongueugenia@romchimprotect.ro,unknown,,1
+76,h.eugenia@romchimprotect.ro,unknown,,1
+78,gabor.daniel@rustrans.ro,invalid,False,1
+78,gabor@rustrans.ro,invalid,False,1
+78,daniel.gabor@rustrans.ro,safe,False,1
+81,palade.bogdan@salofarmlogistic.ro,invalid,False,1
+81,palade@salofarmlogistic.ro,invalid,False,1
+81,bogdan.palade@salofarmlogistic.ro,invalid,False,1
+81,bogdan@salofarmlogistic.ro,invalid,False,1
+81,paladebogdan@salofarmlogistic.ro,invalid,False,1
+81,p.bogdan@salofarmlogistic.ro,invalid,False,1
+83,alexandru.adrian@senal.ro,catch_all,True,1
+85,gavrila.sorin@simbainvest.ro,unknown,,1
+85,gavrila@simbainvest.ro,unknown,,1
