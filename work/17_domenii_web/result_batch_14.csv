@@ -1,0 +1,51 @@
+id_firma,domeniu,dovada
+946,,cautare indisponibila (buget WebSearch epuizat); probare directa: romserg.ro/romsergexim.ro inexistente (NXDOMAIN)
+947,rondocarton.ro,verificare directa: http://rondocarton.ro redirectioneaza la rondo-ganahl.com/ro (grupul Rondo Ganahl; brand Rondocarton)
+948,,probare directa: rosico.ro/rosicoimpex.ro inexistente (NXDOMAIN)
+949,rotaryclujnapoca.ro,verificare directa homepage: titlu "Acasa - Rotary Club Cluj-Napoca"
+921,,pro-nutrition.ro exista dar fara dovada Dej/CUI (posibil alt brand); pronutrition.ro blocat Cloudflare - neverificabil
+922,,niciun domeniu propriu verificabil; production-expert.com respins (site UK despre software Pro Tools)
+926,,probare directa: prompturg.ro inexistent (NXDOMAIN)
+928,,probare directa: punctual.ro/punctualcomimpex.ro inexistente (NXDOMAIN)
+929,purmo.com,verificare directa: purmo.ro redirectioneaza la purmo.com (pagina "Purmo RO"; nume in pagina)
+932,,radioterapiecluj.ro apartine brandului Medisprof; legatura cu entitatea "Radiotherapy Center Cluj" neconfirmata (posibil Amethyst) - exclus
+933,rdcons.eu,verificare directa homepage: titlu "RDCons Invest | Apartamente noi Cluj"
+939,remsimobiliare.ro,verificare directa homepage: titlu "Spatii comerciale... Cluj | REMS Imobiliare"; remsrealestate.com respins (firma SUA)
+908,,probare directa: padinvest.ro inexistent; padinvest.com parcat (HugeDomains)
+909,panemar.ro,verificare directa homepage: titlu "Home - Panemar"; mentioneaza Cluj
+913,pitas.ro,verificare directa pagina contact: adresa Cluj-Napoca str. Republicii 94; office@pitas.ro
+914,pizzarotti.it,verificare directa homepage: titlu "Impresa Pizzarotti" (grupul-mama al Pizzarotti SA)
+916,,probare directa: polusresidence.ro inexistent (NXDOMAIN)
+917,,probare directa: popamconsulting.ro/popam.ro inexistente (NXDOMAIN)
+920,premierem.ro,verificare directa homepage: titlu "Home - Premiere M"; mentioneaza Cluj
+993,telenav.com,verificare directa homepage: titlu "Telenav Connected Car Solutions" (Telenav Software SRL = filiala Cluj)
+994,,tellusinvest.ro inexistent; tellus.eu respins (mobilier Slovacia); tellusinvest.com parcat
+995,terapia.ro,verificare directa: www.terapia.ro activ; titlu "Ranbaxy" (Terapia Ranbaxy/Sun Pharma)
+996,terapia.ro,acelasi domeniu ca Terapia SA (995); www.terapia.ro titlu "Ranbaxy"
+997,terax.ro,verificare directa homepage: titlu "Terax"; mentioneaza Cluj
+1000,,probare directa: terrastructures.ro inexistent; terrastructures.com parcat (lander)
+1001,,probare directa: thomsons.com/thomsons.co.uk inexistente (NXDOMAIN); brand absorbit de Mercer - neverificabil
+1002,tigersomes.ro,verificare directa homepage: numele firmei si localitatea Dej in pagina
+984,foundever.com,verificare directa: sykes.com redirectioneaza la foundever.com (Sykes fuzionat in Foundever)
+985,,tsi.ro afiseaza "TOTAL SERV IMPEX - site in constructie"; identitate cu T S I. RO SRL neconfirmata - exclus
+986,takeofflabs.com,verificare directa: titlu "Take Off Labs"; pagina contact mentioneaza Cluj Romania
+987,,probare directa: targetnearshoring.ro/.com inexistente (NXDOMAIN)
+988,,tci.ro exista dar conexiune resetata (inaccesibil); continut neverificabil - exclus
+989,,tecsoftware.ro inexistent; tecsolutions.com.ar respins (firma Argentina)
+991,,probare directa: tehnoagro.ro/tehno-agro.ro inexistente (NXDOMAIN)
+992,tehnofavorit.ro,verificare directa homepage: numele firmei si localitatea Bontida in pagina
+972,,probare directa: solarisrealestate.ro/solaris-realestate.ro inexistente (NXDOMAIN)
+974,someg.ro,verificare directa someg.ro/en: mentioneaza SOMEG si Gherla
+975,,probare directa: somesulcald.ro/somesul-cald.ro inexistente (NXDOMAIN)
+977,,probare directa: sophiacapital.ro/sophiabusinesscapital.ro inexistente (NXDOMAIN)
+979,steelcase.com,verificare directa homepage: titlu Steelcase (Steelcase SRL = filiala Cluj a grupului)
+980,,probare directa: stormlogistic.ro/.com inexistente (NXDOMAIN)
+982,,probare directa: suciuanr.ro/.com inexistente (NXDOMAIN)
+983,rottaprint.com,verificare directa: titlu "Rottaprint"; pagina mentioneaza Sunimprof si Cluj; rottaprint.ro are certificat pentru rottaprint.com
+962,seko.com,verificare directa: seko.ro redirectioneaza la seko.com (grup SEKO; pagina mentioneaza Romania)
+964,servelect.ro,verificare directa homepage: numele firmei in pagina; mentioneaza Cluj; domeniul reflecta numele
+965,servuscluj.ro,verificare directa homepage: titlu "Stiri de Cluj - Servus Cluj" (portal Clever Media)
+967,,skiptrans.ro inexistent (NXDOMAIN); skiptrans.com parcat (lander)
+968,,smallfootprint.com DNS inexistent; www.smallfootprint.com serveste certificat *.globant.com expirat - neverificabil
+969,softech.ro,verificare directa homepage: titlu "Softech - Experienced Software Development Company Romania"; mentioneaza Cluj
+970,,probare directa: softingrom.ro/softingrom.eu inexistente (NXDOMAIN)

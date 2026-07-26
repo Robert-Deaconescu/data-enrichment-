@@ -1,0 +1,51 @@
+id_firma,domeniu,dovada
+808,,energoinstal.ro apartine altei firme (verificari gaze Bucuresti); fara alt candidat [verif. directa HTTP; websearch indisponibil]
+809,,niciun domeniu plauzibil; candidatii testati nu exista
+812,hasit.ro,site HASIT RO materiale constructii; mentioneaza Turda; verificat direct HTTP 200
+813,heco-schrauben.com,site global HECO Schrauben (suruburi); nume identic cu firma; subsidiara RO; verificat direct HTTP 200
+814,heisterkamp.eu,site Heisterkamp Transportation Solutions; nume identic grup; subsidiara Transport Romania; verificat direct HTTP 200
+816,,niciun domeniu plauzibil; candidatii testati nu exista
+817,,niciun domeniu plauzibil; candidatii testati nu exista
+892,brinel.ro,titlu BRINEL | IQANTO; brand Net Brinel Cluj; verificat direct HTTP 200
+897,norstal.ro,titlu Norstal steel structures; pagina contact mentioneaza Apahida Jud. Cluj; verificat direct HTTP 200
+898,novapg.ro,redirect spre vreaulanova.ro; continut Nova Power & Gas furnizor energie; verificat direct HTTP 200
+900,ro.nttdata.com,titlu NTT DATA Romania; verificat direct HTTP 200
+902,,niciun domeniu plauzibil; candidatii testati nu exista
+905,,nume prea generic; oxygen.ro fara continut relevant
+907,,niciun domeniu plauzibil; candidatii testati nu exista
+883,mcclabel.com,titlu Multi-Color Corporation (nume identic); site global al corporatiei; sucursala Cluj neconfirmata pe homepage
+884,,niciun domeniu plauzibil; candidatii testati nu exista
+885,nagarro.com,titlu Nagarro; nume identic (fosta iQuest devenita Nagarro); verificat direct HTTP 200
+886,,niciun domeniu plauzibil; candidatii testati nu exista
+887,napochim.ro,titlu Napochim (nume distinctiv Cluj); site grup Napochim (magazin produse plastice); entitatea imobiliara neconfirmata explicit
+888,nastimed.ro,titlu Nastimed aparatura stomatologica; nume identic; verificat direct HTTP 200
+889,,neomeq.com este in constructie (under construction); neomeq.ro inexistent
+890,,niciun domeniu plauzibil; candidatii testati nu exista
+870,mhp.com,titlu MHP - A Porsche Company; nume identic; subsidiara MHP Consulting Romania; verificat direct HTTP 200
+872,,niciun domeniu plauzibil; candidatii testati nu exista
+874,,nume prea generic; candidatii testati nu exista
+875,,modulo.ro apartine altei firme (IT consultancy); fara alt candidat
+876,molromania.ro,titlu MOL; site oficial MOL Romania; verificat direct HTTP 200
+877,moldovanfood.ro,redirect de la carmangeriamoldovan.ro; continut mentioneaza carmangerie si Sannicoara; verificat direct HTTP 200
+880,,nume prea generic; candidatii testati nu exista
+882,msg-systems.ro,domeniu activ cu nume identic msg-systems; continut neverificabil (HTTP 406 anti-bot)
+858,,niciun domeniu plauzibil; candidatii testati nu exista
+859,marelli.com,titlu Marelli; nume identic; site global al grupului cu fabrica Cluj; verificat direct HTTP 200
+860,mariflor.ro,titlu Mariflor Macelarie de bun gust; nume si sector identice (produse carne); verificat direct HTTP 200
+862,,niciun domeniu plauzibil; candidatii testati nu exista
+865,,niciun domeniu plauzibil; candidatii testati nu exista
+866,megamix.ro,redirect spre tubulatura-climatizare.ro; continut mentioneaza Megamix Comimpex si Cluj; verificat direct HTTP 200
+868,mmt.ro,titlu Metro Media Transilvania; nume identic; verificat direct HTTP 200
+869,,niciun domeniu plauzibil; candidatii testati nu exista
+951,routiertransport.com,titlu Routier Transport; continut mentioneaza Gilau si european; verificat direct HTTP 200
+952,rtz.ro,titlu RTZ & Partners SPRL insolventa; nume identic; verificat direct HTTP 200
+953,,niciun domeniu plauzibil; candidatii testati nu exista
+955,,niciun domeniu plauzibil; candidatii testati nu exista
+957,sanex.ro,site WordPress Sanex; continut mentioneaza Cluj; nume identic; verificat direct HTTP 200
+958,santomar.ro,domeniul redirectioneaza spre pagina laborator Santomar de pe reginamaria.ro (grupul detinator)
+960,sdcimobiliare.ro,domeniu existent cu nume identic SDC Imobiliare; continut neverificabil (eroare SSL 525 Cloudflare)
+961,secpralpro.ro,titlu Secpral Pro Instalatii; nume identic; verificat direct HTTP 200
+941,,niciun domeniu plauzibil; candidatii testati nu exista
+942,,niciun domeniu plauzibil; candidatii testati nu exista
+944,rodeapps.com,titlu Rodeapps (nume identic); aplicatie JS single-page; rodeapps.ro inexistent
+945,,niciun domeniu plauzibil; candidatii testati nu exista
