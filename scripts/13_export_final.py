@@ -29,9 +29,11 @@ def load_q(path):
         return pd.DataFrame(columns=["id_firma", "tipare"])
 
 q_mx = load_q("work/10_coada_mx_run.csv")
-# domenii descoperite prin cautare web (validate CUI/nume + MX)
-q_web = pd.concat([load_q("work/10_coada_domenii_noi.csv"),
-                   load_q("work/10_coada_domenii_noi2.csv")])
+# domenii descoperite prin cautare web (validate CUI/nume + MX) - toate cozile
+import glob as _glob
+q_web = pd.concat([load_q(p) for p in
+                   sorted(_glob.glob("work/10_coada_domenii_noi*.csv"))] or
+                  [pd.DataFrame(columns=["id_firma", "tipare"])])
 
 email_src = {}   # (id_firma, email) -> sursa, cu prioritate nominala
 for q, src in [(q_gen, "generic"), (q_web, "tipar-web"), (q_mx, "tipar-mx"),
