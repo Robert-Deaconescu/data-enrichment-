@@ -1,0 +1,51 @@
+id_firma,domeniu,dovada
+435,,doar directoare (kompass; emis; romanian-companies); niciun site propriu in rezultate
+436,,doar directoare (risco; romanian-companies; cylex); niciun site propriu in rezultate
+437,,doar firme omonime straine (rabbitmedia.ca / .net); nimic legat de Bucuresti
+415,,doar directoare (dnb; risco; emis; listafirme.eu); niciun site propriu in rezultate
+417,pg.com,ro.pg.com "Procter & Gamble Romania" in rezultate; site regional al grupului P&G
+420,prographic.ro,prographic.ro "PROGRAPHIC architecture studio" - site propriu; nume identic
+421,pst-romania.ro,rezultat indica site www.pst-romania.ro si email office@pst-romania.ro pentru firma
+422,propaganda.ro,propaganda.ro "Propaganda Creative Services" - titlu identic cu firma
+423,,doar directoare (termene; risco; topfirme; iqads catalog); site propriu neafisat in rezultate
+426,prutul.ro,prutul.ro "Peste 130 de ani de traditie | Prutul" - site oficial producator ulei
+427,publicis.ro,rezultat indica site-ul companiei www.publicis.ro (Publicis Groupe Media Bucharest)
+402,ppgromania.ro,ppgromania.ro site oficial PPG Romania (pagina contact in rezultate)
+404,premiumporc.com,premiumporc.com "Premium Porc Group" - site propriu cu pagina contact
+405,priaevents.ro,priaevents.ro "Pria Events" - site propriu (pagina despre-noi)
+407,primeinsolv.ro,primeinsolv.ro "Prime Insolv Practice" - site propriu; email office@primeinsolv.ro
+408,,doar directoare (risco; termene; kompass; confidas); niciun site propriu in rezultate
+410,printgroup.ro,printgroup.ro "Printgroup | Corporate gifts si Productie publicitara | Bucuresti" - activitate identica
+412,pminsolv.ro,pminsolv.ro "Pro Management Insolv" - site propriu
+414,,doar directoare (kompass; termene; lege5; topfirme); niciun site propriu in rezultate
+486,,doar directoare (kompass; termene; confidas); niciun site propriu in rezultate
+489,sanofi.ro,sanofi.ro "Sanofi Romania" - site oficial filiala
+491,sap.com,sap.com pagina office-locations Romania; email info.romania@sap.com in rezultate
+493,,doar directoare (efin; mfirme; risco; companii.ro); niciun site propriu in rezultate
+494,sbr.ro,sbr.ro "SBR Soletanche Bachy Romania" - site propriu; email sbr@sbr.ro
+495,scandinaviandesignhouse.ro,scandinaviandesignhouse.ro site propriu SDH; nume identic
+497,,doar directoare (termene; northdata; confidas; zoominfo); niciun site propriu in rezultate
+499,schindler.ro,schindler.ro "Schindler Romania" - site oficial (a doua cautare; prima doar directoare)
+473,romstal.ro,romstal.ro site oficial Romstal; email office@romstal.ro; adresa Vitan-Barzesti 11A identica
+474,romtehnica.com.ro,romtehnica.com.ro "ROMTEHNICA - Romanian company in National Defence Industry" - site propriu
+475,,doar profiluri (rocketreach; wikipedia; termene); niciun site propriu in rezultate
+476,,doar directoare (listafirme; cylex; risco; dnb); niciun site propriu in rezultate
+477,rovere.ro,rovere.ro "Amenajari Interioare | Design Italian | Rovere" - site propriu showroom mobila
+479,rowe-oil.ro,rezultat indica email info@rowe-oil.ro pentru firma; distribuitor ROWE oil in Romania
+480,,niciun rezultat despre firma; doar articole despre regiunea Oltenia
+484,safir94.ro,safir94.ro "Safir'94" - site propriu bijuterii; activitate identica (CAEN 3212)
+463,romenergy.ro,romenergy.ro "Romenergy - Solutii inteligente pentru sistemele de abur" - site propriu
+464,rogbc.org,rogbc.org "Romania Green Building Council" - site oficial asociatie
+465,,doar portalul de brand sothebysrealty.com si agregatoare imobiliare; site propriu neafisat
+466,romastru.ro,romastru.ro "Romastru Trading" - site propriu
+468,romeps.ro,romeps.ro "ROMEPS - Asociatia Producatorilor de Polistiren Expandat" - site propriu; email office@romeps.ro
+469,rominsolv.ro,rominsolv.ro "RomInsolv - prevenire insolventa" - site propriu; email home@rominsolv.ro
+470,romkatel.com,romkatel.com pagina "Despre noi" - site propriu reprezentant Kathrein
+471,rompetrol.ro,rompetrol.ro gazduieste documente oficiale Rompetrol Downstream; site grup Rompetrol Romania
+450,reff-associates.ro,reff-associates.ro "Reff & Associates" (fost Reff & Partners; Deloitte Legal) - site propriu
+451,reginamaria.ro,reginamaria.ro - Regina Maria este numele comercial al Centrul Medical Unirea SRL
+454,bosch.ro,bosch.ro pagina "Bucuresti | Bosch in Romania"; rezultat indica si www.bosch.com.ro
+456,roche.ro,roche.ro "Roche Romania" - site oficial filiala (pagina contact in rezultate)
+458,rockwool.com,rockwool.com/ro "Izolatia din vata bazaltica ROCKWOOL" - site oficial Romania
+460,rofmex.ro,rofmex.ro pagina "despre-rofma" - site oficial asociatia ROFMA (fallback DuckDuckGo)
+461,rogalskidamaschin.ro,rogalskidamaschin.ro site propriu agentie PR (fallback DuckDuckGo)
