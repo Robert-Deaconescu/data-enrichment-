@@ -7,7 +7,7 @@ id_firma,domeniu,dovada
 535,spectrumbrands.eu,listafirme indica explicit website-ul firmei https://spectrumbrands.eu; brand Remington in rezultate
 536,hidroelectrica.ro,pagina de contact hidroelectrica.ro apare direct in rezultate pentru SPEEH Hidroelectrica SA
 537,,doar profile bursiere (BVB; Yahoo; termene); site-ul propriu nu apare in rezultate
-539,,reginamaria.ro
+539,reginamaria.ro,site propriu www.reginamaria.ro (pagini spitale; Euroclinic; Baneasa) apare direct in rezultate
 521,,doar directoare (lege5; kompass; targetare; firmania); site propriu neafisat in rezultate
 522,,smartpoint.ai este firma straina de lockere fara legatura explicita cu SMART POINT SRL Bucuresti; niciun site propriu confirmat
 523,smart-sa.ro,smart-sa.ro pagina contact si organizare; SMART SA filiala Transelectrica cu sediu Bucuresti
@@ -38,7 +38,7 @@ id_firma,domeniu,dovada
 579,,doar directoare (targetare; termene; kompass; dnb) si econtact.ro; site propriu neafisat
 581,,doar profile (zoominfo; crunchbase; wikipedia; LinkedIn); site propriu Tiriac Group neafisat in rezultate
 582,,firma in insolventa; doar directoare si stiri (termene; lege5; agerpres; hotnews); niciun site propriu
-583,,tnt.com
+583,tnt.com,pagina TNT locations Romania pe tnt.com in rezultate; TNT Romania devenita FedEx Express Romania
 585,topline.ro,pagina de contact www.topline.ro/pro/contact in rezultate; email office@topline.ro in snippet
 566,echipamentestoma.ro,pagina Contact - Tehno Electro Medical Company pe echipamentestoma.ro apare in rezultate
 568,teletrans.ro,site propriu www.teletrans.ro (contact; despre noi) pentru Teletrans furnizor telecom Transelectrica
