@@ -22,22 +22,30 @@ ver = pd.read_csv("work/06_verificari.csv", dtype=str).fillna("")
 q_tip = pd.read_csv("work/10_coada_tipare.csv", dtype=str).fillna("")
 q_scr = pd.read_csv("work/10_coada_scrape_run.csv", dtype=str).fillna("")
 q_gen = pd.read_csv("work/10_coada_generice_run.csv", dtype=str).fillna("")
-try:
-    q_mx = pd.read_csv("work/10_coada_mx_run.csv", dtype=str).fillna("")
-except FileNotFoundError:
-    q_mx = pd.DataFrame(columns=["id_firma", "tipare"])
+def load_q(path):
+    try:
+        return pd.read_csv(path, dtype=str).fillna("")
+    except FileNotFoundError:
+        return pd.DataFrame(columns=["id_firma", "tipare"])
+
+q_mx = load_q("work/10_coada_mx_run.csv")
+# domenii descoperite prin cautare web (validate CUI/nume + MX)
+q_web = pd.concat([load_q("work/10_coada_domenii_noi.csv"),
+                   load_q("work/10_coada_domenii_noi2.csv")])
 
 email_src = {}   # (id_firma, email) -> sursa, cu prioritate nominala
-for q, src in [(q_gen, "generic"), (q_mx, "tipar-mx"), (q_scr, "site"), (q_tip, "tipar-verificat")]:
+for q, src in [(q_gen, "generic"), (q_web, "tipar-web"), (q_mx, "tipar-mx"),
+               (q_scr, "site"), (q_tip, "tipar-verificat")]:
     for _, r in q.iterrows():
         for e in r["tipare"].split(";"):
             if e:
-                if src == "tipar-mx" and e.startswith("office@"):
-                    email_src[(r["id_firma"], e)] = "office-mx"
+                if src in ("tipar-mx", "tipar-web") and e.startswith("office@"):
+                    email_src[(r["id_firma"], e)] = "office-mx" if src == "tipar-mx" else "office-web"
                 else:
                     email_src[(r["id_firma"], e)] = src
 
-SRC_PRIO = {"tipar-verificat": 0, "site": 1, "tipar-mx": 2, "generic": 3, "office-mx": 4}
+SRC_PRIO = {"tipar-verificat": 0, "site": 1, "tipar-web": 2, "tipar-mx": 3,
+            "generic": 4, "office-web": 5, "office-mx": 6}
 
 ver["src"] = ver.apply(lambda r: email_src.get((r["id_firma"], r["email"]), "necunoscut"), axis=1)
 ver["prio"] = ver["src"].map(SRC_PRIO).fillna(9)
@@ -62,10 +70,10 @@ for _, r in df.iterrows():
     ok = None
     if g is not None:
         ok = g[g["status"].isin(["valid", "safe"]) |
-               (g["status"].str.endswith("_del") & g["src"].isin(["generic", "office-mx"]))]
+               (g["status"].str.endswith("_del") & g["src"].isin(["generic", "office-mx", "office-web"]))]
     if ok is not None and len(ok):
         best = ok.iloc[0]
-        if best["src"] in ("tipar-verificat", "site", "tipar-mx"):
+        if best["src"] in ("tipar-verificat", "site", "tipar-web", "tipar-mx"):
             base.update(Email=best["email"], Status="Pending", Observatii=best["src"])
             rows.append(base); stats["Nominal"] = stats.get("Nominal", 0) + 1
             continue
@@ -77,6 +85,11 @@ for _, r in df.iterrows():
             base.update(Email=best["email"], Status="Incert-mx",
                         Observatii="office@ pe domeniu ghicit (MX activ, neconfirmat)")
             rows.append(base); stats["Incert-mx"] = stats.get("Incert-mx", 0) + 1
+            continue
+        if best["src"] == "office-web":
+            base.update(Email=best["email"], Status="Pending",
+                        Observatii="generic-web (office@ pe domeniu validat CUI/nume)")
+            rows.append(base); stats["Generic"] = stats.get("Generic", 0) + 1
             continue
     ca = g[g["status"].str.startswith("catch_all")] if g is not None else None
     if ca is not None and len(ca):
