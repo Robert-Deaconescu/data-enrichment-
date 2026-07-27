@@ -54,6 +54,19 @@ ver["prio"] = ver["src"].map(SRC_PRIO).fillna(9)
 
 by_firm = {fid: g.sort_values("prio") for fid, g in ver.groupby("id_firma")}
 
+# rezultate BounceBan (validare secundara catch-all): firma -> email deliverable
+BB_OK = {}
+try:
+    bb = pd.read_csv("work/19_bounceban_rezultate.csv", dtype=str).fillna("")
+    top = pd.read_csv("work/18_bounceban_top100.csv", dtype=str).fillna("")
+    email2firm = dict(zip(top.email_de_verificat, top.Companie))
+    for _, b in bb[bb.result == "deliverable"].iterrows():
+        firm = email2firm.get(b.email)
+        if firm:
+            BB_OK[firm] = b.email
+except FileNotFoundError:
+    pass
+
 rows = []
 stats = {}
 for _, r in df.iterrows():
@@ -93,6 +106,12 @@ for _, r in df.iterrows():
                         Observatii="generic-web (office@ pe domeniu validat CUI/nume)")
             rows.append(base); stats["Generic"] = stats.get("Generic", 0) + 1
             continue
+    # catch-all validat secundar cu BounceBan -> nominal verificat
+    if r["firma"] in BB_OK:
+        base.update(Email=BB_OK[r["firma"]], Status="Pending",
+                    Observatii="bounceban (catch-all validat secundar)")
+        rows.append(base); stats["Nominal"] = stats.get("Nominal", 0) + 1
+        continue
     ca = g[g["status"].str.startswith("catch_all")] if g is not None else None
     if ca is not None and len(ca):
         best = ca.iloc[0]

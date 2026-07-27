@@ -6,16 +6,16 @@ Data: 27 iulie 2026 · Livrabil: `output/contacte_final.csv` (2.495 firme, forma
 
 | Status | Firme | % din total | Ce inseamna |
 |---|---|---|---|
-| **Nominal verificat (Pending)** | **357** | **14,3%** | Adresa decidentului, confirmata tehnic SMTP (Reoon safe/valid) |
+| **Nominal verificat (Pending)** | **366** | **14,7%** | Adresa decidentului, confirmata tehnic SMTP (Reoon safe/valid) |
 | **Generic verificat (Pending)** | **407** | **16,3%** | Adresa generica (existenta sau office@ pe domeniu validat), confirmata livrabila |
-| Catch-all (segment separat) | 389 | 15,6% | Domeniul accepta orice adresa — neconfirmabil prin SMTP; NU intra in campanie fara validare secundara (BounceBan) |
+| Catch-all (segment separat) | 380 | 15,2% | Domeniul accepta orice adresa — neconfirmabil prin SMTP; NU intra in campanie fara validare secundara (BounceBan) |
 | Incert-mx | 61 | 2,4% | office@ pe domeniu ghicit (MX activ, neconfirmat) — clientul decide |
 | Exclus-fara-email | 1.274 | 51,1% | Nicio adresa verificabila |
 | Exclus-inactiv | 7 | 0,3% | Radiate/inactive la ANAF |
 
-**In campanie intra 764 de firme (30,6%) cu adrese 100% verificate tehnic** — tinta de bounce < 2% e protejata (trimitere doar pe Status Pending).
+**In campanie intra 773 de firme (31,0%) cu adrese 100% verificate tehnic** — tinta de bounce < 2% e protejata (trimitere doar pe Status Pending).
 
-### Sursele adreselor nominale (357)
+### Sursele adreselor nominale (366)
 
 | Sursa (coloana Observatii) | Firme |
 |---|---|
@@ -23,6 +23,7 @@ Data: 27 iulie 2026 · Livrabil: `output/contacte_final.csv` (2.495 firme, forma
 | `site` — adresa publicata pe site, verificata | 61 |
 | `tipar-web` — tipar pe domeniu descoperit prin cautare web + validat CUI/nume | 55 |
 | `tipar-mx` — tipar pe domeniu ghicit cu MX activ | 52 |
+| `bounceban` — catch-all validat secundar (100 credite client) | 9 |
 
 ### Costuri
 
@@ -51,9 +52,9 @@ decidentului — disponibil pentru 93% din firme, din ANAF). Pe definitia (b) li
 
 ## 4. Rezerva de crestere ramasa (necesita conturi create de client)
 
-1. **BounceBan free-forever** pe segmentul Catch-all (389 firme): verificari single
-   nelimitate gratuit la specialistul catch-all (94,6% acuratete in teste
-   independente). Estimat: **+100–200 nominale** la cost $0 (2–4h munca manuala).
+1. **BounceBan** — primele 100 de credite RULATE: 9 deliverable promovate ca nominale,
+   54 undeliverable (tipare eliminate definitiv), 27 risky. Pentru restul de 380 de
+   firme catch-all: verificarile single gratuite din planul free (manual) sau alte credite.
 2. **Free tiers findere** (Prospeo 75/luna, Dropcontact 50, GetProspect 50/luna
    s.a. — majoritatea taxeaza doar rezultatele valide) pe firmele cu domeniu fara
    nominala: estimat **+150–300 nominale**; cheia Prospeo intra in `.env` si rularea
