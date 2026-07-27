@@ -57,14 +57,25 @@ def write(fid, email, cal):
 if args.tool == "prospeo":
     KEY = os.environ["PROSPEO_API_KEY"]
     for _, r in todo.iterrows():
-        try:
-            resp = requests.post("https://api.prospeo.io/enrich-person",
-                                 headers={"X-KEY": KEY, "Content-Type": "application/json"},
-                                 json={"first_name": r.first_name, "last_name": r.last_name,
-                                       "company_website": r.domeniu}, timeout=60)
-            d = resp.json()
-        except Exception as e:
-            print(f"  ! {r.domeniu}: {type(e).__name__}", flush=True)
+        d = None
+        for attempt in range(4):
+            try:
+                resp = requests.post("https://api.prospeo.io/enrich-person",
+                                     headers={"X-KEY": KEY, "Content-Type": "application/json"},
+                                     json={"first_name": r.first_name, "last_name": r.last_name,
+                                           "company_website": r.domeniu}, timeout=60)
+                d = resp.json()
+            except Exception as e:
+                print(f"  ! {r.domeniu}: {type(e).__name__}", flush=True)
+                break
+            if resp.status_code == 429 or "Rate limit" in str(d.get("error_code", "")):
+                wait = 30 * (attempt + 1)
+                print(f"  rate limit - astept {wait}s", flush=True)
+                time.sleep(wait)
+                d = None
+                continue
+            break
+        if d is None:
             continue
         if d.get("error") and "INSUFFICIENT_CREDITS" in str(d.get("error_code", "")):
             print("  CREDITE PROSPEO EPUIZATE - stop", flush=True)
