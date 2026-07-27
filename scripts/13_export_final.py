@@ -54,6 +54,31 @@ ver["prio"] = ver["src"].map(SRC_PRIO).fillna(9)
 
 by_firm = {fid: g.sort_values("prio") for fid, g in ver.groupby("id_firma")}
 
+# rezultate findere (Dropcontact/GetProspect) cu dubla verificare:
+# vendor spune valid + Reoon safe/deliverabil/neutru -> nominal; altfel raman candidati
+FIND_OK, FIND_CA = {}, {}
+try:
+    fr = pd.read_csv("work/20_finders_rezultate.csv", dtype=str).fillna("")
+    fr = fr[fr.email != ""].groupby("id_firma").first().reset_index()
+    vmap = dict(zip(ver.email, ver.status))
+    id2firm = dict(zip(df.id_firma, df.firma))
+    for _, f in fr.iterrows():
+        firm = id2firm.get(f.id_firma)
+        if not firm:
+            continue
+        st = vmap.get(f.email, "")
+        vendor_ok = ("nominatif@pro" in f.calificare) or ("getprospect:valid" in f.calificare)
+        tool = f.calificare.split(":")[0].replace("dropcontact", "dropcontact").split("@")[0]
+        tool = "dropcontact" if "dropcontact" in f.calificare else "getprospect"
+        if st in ("valid", "safe"):
+            FIND_OK[firm] = (f.email, f"{tool} + reoon safe")
+        elif vendor_ok and (st.endswith("_del") or st == "unknown"):
+            FIND_OK[firm] = (f.email, f"{tool} verificat + reoon {st}")
+        else:
+            FIND_CA[firm] = (f.email, f"{tool}:{f.calificare.split(':',1)[-1]}")
+except FileNotFoundError:
+    pass
+
 # rezultate BounceBan (validare secundara catch-all): firma -> email deliverable
 BB_OK = {}
 try:
@@ -106,6 +131,12 @@ for _, r in df.iterrows():
                         Observatii="generic-web (office@ pe domeniu validat CUI/nume)")
             rows.append(base); stats["Generic"] = stats.get("Generic", 0) + 1
             continue
+    # findere cu dubla verificare -> nominal
+    if r["firma"] in FIND_OK:
+        em, obs = FIND_OK[r["firma"]]
+        base.update(Email=em, Status="Pending", Observatii=obs)
+        rows.append(base); stats["Nominal"] = stats.get("Nominal", 0) + 1
+        continue
     # catch-all validat secundar cu BounceBan -> nominal verificat
     if r["firma"] in BB_OK:
         base.update(Email=BB_OK[r["firma"]], Status="Pending",
@@ -115,8 +146,13 @@ for _, r in df.iterrows():
     ca = g[g["status"].str.startswith("catch_all")] if g is not None else None
     if ca is not None and len(ca):
         best = ca.iloc[0]
-        base.update(Email=best["email"], Status="Catch-all",
-                    Observatii=f"domeniu catch-all ({best['src']}); necesita validare secundara")
+        if r["firma"] in FIND_CA:   # candidat mai bun de la finder
+            em, cal = FIND_CA[r["firma"]]
+            base.update(Email=em, Status="Catch-all",
+                        Observatii=f"catch-all; candidat finder ({cal}); necesita validare secundara")
+        else:
+            base.update(Email=best["email"], Status="Catch-all",
+                        Observatii=f"domeniu catch-all ({best['src']}); necesita validare secundara")
         rows.append(base); stats["Catch-all"] = stats.get("Catch-all", 0) + 1
         continue
     base.update(Email="", Status="Exclus-fara-email",

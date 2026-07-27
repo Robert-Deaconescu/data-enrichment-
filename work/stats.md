@@ -189,3 +189,14 @@
 - Incert-mx: 61 (2.4%)
 - Nominal: 366 (14.7%)
 - Credite Reoon consumate: 9029
+
+## Pas 8 - Export final
+
+- Total firme: 2495
+- Catch-all: 371 (14.9%)
+- Exclus-fara-email: 1262 (50.6%)
+- Exclus-inactiv: 7 (0.3%)
+- Generic: 407 (16.3%)
+- Incert-mx: 61 (2.4%)
+- Nominal: 387 (15.5%)
+- Credite Reoon consumate: 9052
