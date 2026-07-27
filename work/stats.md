@@ -200,3 +200,9 @@
 - Incert-mx: 61 (2.4%)
 - Nominal: 387 (15.5%)
 - Credite Reoon consumate: 9052
+
+## Runda findere free-tier (finalizata)
+
+- Dropcontact: 22 adrese/50 credite; GetProspect: 24 adrese/cota; Prospeo: blocat de rate limit
+- Promovate dual-verificat: 21 nominale; candidati catch-all imbunatatiti: 22
+- FINAL: 794 contacte sigure (387 nominale 15.5% + 407 generice 16.3%)

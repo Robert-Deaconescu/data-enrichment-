@@ -6,16 +6,16 @@ Data: 27 iulie 2026 · Livrabil: `output/contacte_final.csv` (2.495 firme, forma
 
 | Status | Firme | % din total | Ce inseamna |
 |---|---|---|---|
-| **Nominal verificat (Pending)** | **366** | **14,7%** | Adresa decidentului, confirmata tehnic SMTP (Reoon safe/valid) |
+| **Nominal verificat (Pending)** | **387** | **15,5%** | Adresa decidentului, confirmata tehnic SMTP (Reoon safe/valid) |
 | **Generic verificat (Pending)** | **407** | **16,3%** | Adresa generica (existenta sau office@ pe domeniu validat), confirmata livrabila |
-| Catch-all (segment separat) | 380 | 15,2% | Domeniul accepta orice adresa — neconfirmabil prin SMTP; NU intra in campanie fara validare secundara (BounceBan) |
+| Catch-all (segment separat) | 371 | 14,9% | Domeniul accepta orice adresa — neconfirmabil prin SMTP; NU intra in campanie fara validare secundara (BounceBan) |
 | Incert-mx | 61 | 2,4% | office@ pe domeniu ghicit (MX activ, neconfirmat) — clientul decide |
-| Exclus-fara-email | 1.274 | 51,1% | Nicio adresa verificabila |
+| Exclus-fara-email | 1.262 | 50,6% | Nicio adresa verificabila |
 | Exclus-inactiv | 7 | 0,3% | Radiate/inactive la ANAF |
 
-**In campanie intra 773 de firme (31,0%) cu adrese 100% verificate tehnic** — tinta de bounce < 2% e protejata (trimitere doar pe Status Pending).
+**In campanie intra 794 de firme (31,8%) cu adrese 100% verificate tehnic** — tinta de bounce < 2% e protejata (trimitere doar pe Status Pending).
 
-### Sursele adreselor nominale (366)
+### Sursele adreselor nominale (387)
 
 | Sursa (coloana Observatii) | Firme |
 |---|---|
@@ -24,12 +24,13 @@ Data: 27 iulie 2026 · Livrabil: `output/contacte_final.csv` (2.495 firme, forma
 | `tipar-web` — tipar pe domeniu descoperit prin cautare web + validat CUI/nume | 55 |
 | `tipar-mx` — tipar pe domeniu ghicit cu MX activ | 52 |
 | `bounceban` — catch-all validat secundar (100 credite client) | 9 |
+| `dropcontact`/`getprospect` — findere free-tier, dubla verificare (vendor + Reoon) | 21 |
 
 ### Costuri
 
 - **Reoon: 9.029 credite** din pachetul de 10.000 ($11,90). Restul: $0.
 - Runda de imbunatatiri gratuite (cautare web domenii, retry unknown, re-validari):
-  +57 nominale si +48 generice fata de prima livrare (659 → 773 contacte sigure, incl. 9 din BounceBan).
+  +57 nominale si +48 generice fata de prima livrare (659 → 794 contacte sigure: 9 BounceBan, 21 findere, restul cautare web + retry).
 
 ## 2. Descoperirea de domenii prin cautare web (runda gratuita)
 
@@ -42,23 +43,23 @@ cu domeniu a crescut de la 44% la **~60%**. Tiparele pe aceste domenii au produs
 
 ## 3. Fata de tinta contractuala (50–70% nominale)
 
-**Rezultat: 14,7% pe totalul bazei.** Tinta de 50–70% ramane structural imposibila
+**Rezultat: 15,5% pe totalul bazei.** Tinta de 50–70% ramane structural imposibila
 pe acest univers (multe micro-IMM-uri nu au deloc mailbox nominal; benchmarkurile
 2026: 40–55% chiar pentru tool-uri comerciale pe SMB-uri UE, aplicat doar firmelor
 atacabile). Recomandare neschimbata: re-ancorarea metricii pe (a) firmele cu
 domeniu si/sau (b) "contact verificat" (nominal SAU generic verificat + numele
 decidentului — disponibil pentru 93% din firme, din ANAF). Pe definitia (b) livram
-31,0% + 15,2% recuperabil din catch-all.
+31,8% + 14,9% recuperabil din catch-all.
 
 ## 4. Rezerva de crestere ramasa (necesita conturi create de client)
 
 1. **BounceBan** — primele 100 de credite RULATE: 9 deliverable promovate ca nominale,
    54 undeliverable (tipare eliminate definitiv), 27 risky. Pentru restul de 380 de
    firme catch-all: verificarile single gratuite din planul free (manual) sau alte credite.
-2. **Free tiers findere** (Prospeo 75/luna, Dropcontact 50, GetProspect 50/luna
-   s.a. — majoritatea taxeaza doar rezultatele valide) pe firmele cu domeniu fara
-   nominala: estimat **+150–300 nominale**; cheia Prospeo intra in `.env` si rularea
-   e automatizata.
+2. **Findere free-tier RULATE**: Dropcontact (50 credite → 22 adrese, ~44% hit rate)
+   si GetProspect (cota intreaga → 24 adrese) au produs +21 nominale dual-verificate;
+   Prospeo e blocat de rate-limiterul planului gratuit — de reincercat dupa 24h
+   (cheia e in `.env`, scriptul `15_finders.py` reia automat de unde a ramas).
 3. Retry-ul pe "unknown" a fost deja executat (+9 firme; majoritatea unknown-urilor
    sunt structural neverificabile pe hosting-ul respectiv).
 
