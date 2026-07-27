@@ -29,7 +29,7 @@ Data: 27 iulie 2026 · Livrabil: `output/contacte_final.csv` (2.495 firme, forma
 
 - **Reoon: 9.029 credite** din pachetul de 10.000 ($11,90). Restul: $0.
 - Runda de imbunatatiri gratuite (cautare web domenii, retry unknown, re-validari):
-  +57 nominale si +48 generice fata de prima livrare (659 → 764 contacte sigure).
+  +57 nominale si +48 generice fata de prima livrare (659 → 773 contacte sigure, incl. 9 din BounceBan).
 
 ## 2. Descoperirea de domenii prin cautare web (runda gratuita)
 
@@ -42,13 +42,13 @@ cu domeniu a crescut de la 44% la **~60%**. Tiparele pe aceste domenii au produs
 
 ## 3. Fata de tinta contractuala (50–70% nominale)
 
-**Rezultat: 14,3% pe totalul bazei.** Tinta de 50–70% ramane structural imposibila
+**Rezultat: 14,7% pe totalul bazei.** Tinta de 50–70% ramane structural imposibila
 pe acest univers (multe micro-IMM-uri nu au deloc mailbox nominal; benchmarkurile
 2026: 40–55% chiar pentru tool-uri comerciale pe SMB-uri UE, aplicat doar firmelor
 atacabile). Recomandare neschimbata: re-ancorarea metricii pe (a) firmele cu
 domeniu si/sau (b) "contact verificat" (nominal SAU generic verificat + numele
 decidentului — disponibil pentru 93% din firme, din ANAF). Pe definitia (b) livram
-30,6% + 15,6% recuperabil din catch-all.
+31,0% + 15,2% recuperabil din catch-all.
 
 ## 4. Rezerva de crestere ramasa (necesita conturi create de client)
 
