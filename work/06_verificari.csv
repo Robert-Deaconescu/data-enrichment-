@@ -9028,3 +9028,9 @@ id_firma,email,status,is_catch_all,credite
 1919,office@betoanemures.ro,unknown,,1
 54,office@intertradegroup.ro,unknown,,1
 46,office@europrodfood.ro,unknown,,1
+1119,nalmpantoudis@muehlhan.com,catch_all_del,True,1
+1277,mihai.profire@salubris.com,catch_all_del,True,1
+1239,mihaela.palade@larafarm.net,catch_all_del,True,1
+1248,hesse@mennekes.de,safe,False,1
+1015,irina.pop@leier.ro,safe,False,1
+1877,florin.bercaru@maurerimobiliare.ro,catch_all_del,True,1
