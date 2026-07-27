@@ -1,2 +1,12 @@
 email,result,score,is_accept_all,smtp_provider,credits_remaining
 mihai.trifu@antibiotice.ro,deliverable,99,True,,98
+gheorghe.lazanu@icpiaf.ro,undeliverable,0,True,Google,94
+gerard.losson@formens.ro,deliverable,99,True,,94
+geza.boros@bmaautocenter.ro,deliverable,99,True,Microsoft,93
+diana.darmanescu@dmfpoliplast.ro,deliverable,99,True,Microsoft,95
+paula.mustafa@panimon.ro,undeliverable,0,True,,90
+dorel.vultur@redatronic.ro,deliverable,99,True,,90
+calin.husti@professionalrecycle.ro,deliverable,99,True,Microsoft,91
+sorin.miron@somaco.ro,undeliverable,0,True,Google,89
+laura.vultur@redatronic.ro,undeliverable,0,True,,89
+robert.cristian@3pillarglobal.com,undeliverable,0,True,Google,87
