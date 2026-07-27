@@ -1,7 +1,7 @@
 Companie,Persoana,Functie,Email,Status,Data_trimitere,Observatii
 ALFA CLUJ SRL,Osvath Zoltan,Contact,osvath.zoltan@gmail.com,Pending,,generic
 INMAACRO SRL,Dan Popescu,Contact,dan@inmaacro.com,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
-K BOX CONSTRUCT,,,,Exclus-fara-email,,nicio adresa cunoscuta
+K BOX CONSTRUCT,,,office@k-box.ro,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
 NEXXON SRL,Porkolab Ors Janos,Contact,porkolab@nexxon.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 NICOLAUS COM,Bogdan Nicolae,Contact,,Exclus-fara-email,,nicio adresa verificabila
 THYSSENKRUPP BILSTEIN SA,Nicoale Viasu,Contact,nicoale@bilstein.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
@@ -32,7 +32,7 @@ COMPANIA REGIONALA DE APA BACAU SA,Filip Bogdan,Contact,bogdan.filip@compania.ro
 CONBAC SA,Haraba Emilian,Contact,,Exclus-fara-email,,nicio adresa verificabila
 CONEXTRUST SA,Leana Marius,Contact,marius.leana@conextrust.ro,Pending,,tipar-verificat
 COPANEX SRL,Panzaru Costel,Contact,costel.panzaru@copanex.ro,Pending,,tipar-verificat
-CORIOLAN IMPEX SRL,Silav Ionel,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+CORIOLAN IMPEX SRL,Silav Ionel,Contact,,Exclus-fara-email,,nicio adresa verificabila
 CROCO SRL,Mereu Damian,Contact,,Exclus-fara-email,,nicio adresa verificabila
 CYBERNET AUTO CENTER SRL,Placinta Mircea Petru,Contact,mircea.placinta@cybernet.ro,Pending,,tipar-web
 DA BACCO SRL,Fudulache Ioan,Contact,,Exclus-fara-email,,nicio adresa verificabila
@@ -52,10 +52,10 @@ HELIOPOLIS PRESTSERV SRL,Hlihor Marian,Contact,,Exclus-fara-email,,nicio adresa 
 HS BACO PANELS SRL,Baltatescu Gheorghe,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 INDUSTRIES YIELD SRL,Bertato Sandro,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 INTERAGROALIMENT SRL,Oncioiu Andrei,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-INTERTRADE GROUP LTD SRL,Botezatu Petrica,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-INTERTRANSCOM IMPEX SRL,Teslaru Ioan,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+INTERTRADE GROUP LTD SRL,Botezatu Petrica,Contact,,Exclus-fara-email,,nicio adresa verificabila
+INTERTRANSCOM IMPEX SRL,Teslaru Ioan,Contact,ioan.teslaru@intertranscom.ro,Pending,,tipar-web
 LEADING TECHNOLOGY SOLUTIONS SRL,Ciobanu Bogdan Dumitru,Contact,,Exclus-fara-email,,nicio adresa verificabila
-LICURICI IMPEX SRL,Dan Marius,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+LICURICI IMPEX SRL,Dan Marius,Contact,marius.dan@licurici.com.ro,Pending,,tipar-web
 LUSI UNION SILUSI SRL,Cotugno Matteo,Contact,,Exclus-fara-email,,nicio adresa verificabila
 MAXIMA PROFIL NORD SRL,Zaharia Cleras Ionut,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 MOLDOVA FARMING SRL,Grigoriu Mihai,Contact,mihai.grigoriu@moldovafarming.ro,Pending,,tipar-verificat
@@ -387,7 +387,7 @@ PERNOD RICARD,Gen. Tudor Furir,Contact,tudor.gen@pernod-ricard.com,Catch-all,,do
 PFIZER ROMANIA SRL,Mirela Iordan,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 PHILIPS ROMANIA,,,,Exclus-fara-email,,nicio adresa cunoscuta
 PHM COMSERV,Eduard Georgescu,Contact,,Exclus-fara-email,,nicio adresa verificabila
-PIGNA ROMANIA,,,,Exclus-fara-email,,nicio adresa cunoscuta
+PIGNA ROMANIA,,,office@pigna.ro,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
 PINUM DOORS & WINDOWS SRL,Francesco Curcio,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 PLANA INNOVA,Hutanu Marius,reprezentant al persoanei juridice,,Exclus-fara-email,,nicio adresa verificabila
 PLENERG SRL,Athanasios Efthymiopoulos,Contact,,Exclus-fara-email,,nicio adresa verificabila
@@ -782,7 +782,7 @@ FERROSAN SRL,Dan Vasile Miron,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 FILOFI SI TRANDAFIR ARHITECTURA,Irina Filofi,Contact,,Exclus-fara-email,,nicio adresa verificabila
 FINDER ECHIPAMENTE SRL,Bilba Catalin,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 FIRST TECHNOLOGY SRL,Vali Lucia Dobrescu,Contact,lucia@first-technology.ro,Pending,,tipar-mx
-FLOR APARTMENTS,Gelu Cristian Florean,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+FLOR APARTMENTS,Gelu Cristian Florean,Contact,,Exclus-fara-email,,nicio adresa verificabila
 FORTECH BUSINESS DEVELOPMENT SRL,Calin Vaduva,Contact,calin@fortech.ro,Pending,,tipar-mx
 FORTECH SRL,Ana Silvia Banabic,Contact,,Exclus-fara-email,,nicio adresa verificabila
 FRANKISCHE ROMANIA SRL,Kirchner Otto Friedrich,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
@@ -816,11 +816,11 @@ HEISTERKAMP TRANSPORT ROMANIA SRL,Haafkes Jan Hendrikus,Contact,jan.haafkes@heis
 HELD FASHION,Stefan Andreas Laube,Contact,,Exclus-fara-email,,nicio adresa verificabila
 HERCE IMOBILIARE CLUJ SRL,Rubio Garces Francisco,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 HEXAGON EQUITY HOLDING SRL,Maris Florin,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-HIGH TECH TECNOSKY SRL,Bogdana Candale,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+HIGH TECH TECNOSKY SRL,Bogdana Candale,Contact,,Exclus-fara-email,,nicio adresa verificabila
 HIPERDIA CLUJ,Radu Voina,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 HIRSCH POROZELL SRL,Radu Costan,Contact,,Exclus-fara-email,,nicio adresa verificabila
 HOUDAM SRL,Sandager Rasmus,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-HUNNEBECK ROMANIA SRL,Mircea Georgescu,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+HUNNEBECK ROMANIA SRL,Mircea Georgescu,Contact,mircea.georgescu@huennebeck.com,Pending,,tipar-web
 IBC FOCUS,Andrei Spataru,Contact,andrei.spataru@ibcfocus.ro,Pending,,tipar-verificat
 ICIA CLUJ NAPOCA,Mircea Chintoanu,Contact,mircea.chintoanu@icia.ro,Pending,,tipar-verificat
 ICPIAF SA,Lazanu Gheorghe Tudor,Contact,lazanu.tudor@icpiaf.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
@@ -828,30 +828,30 @@ IMCOP SRL,Popa Calin,Contact,calin.popa@imcop.ro,Catch-all,,domeniu catch-all (t
 IMM HYDRO EST SRL,Alessandro Verratti,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 IMPERIAL DEVELOPMENT SRL,Lucian Mihai,Contact,,Exclus-fara-email,,nicio adresa verificabila
 IMPRO SRL,Mariusz Lach,Contact,,Exclus-fara-email,,nicio adresa verificabila
-IMSAT SERVICE CLUJ SA,Mircea Trif,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-INSTAL EXPERT SRL,Antal Tibor,Contact,,Exclus-fara-email,,nicio adresa verificabila
+IMSAT SERVICE CLUJ SA,Mircea Trif,Contact,,Exclus-fara-email,,nicio adresa verificabila
+INSTAL EXPERT SRL,Antal Tibor,Contact,tibor.antal@instal-expert.ro,Catch-all,,domeniu catch-all (tipar-web); necesita validare secundara
 INTER CARS ROMANIA SRL,Marius Mujdei,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 INTERSERVISAN,Anca Daniela Pop,Contact,contabilitate@interservisan.ro,Pending,,site
-INVEST SERVICII COMERCIALE SRL,Alexandrina Filimon,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+INVEST SERVICII COMERCIALE SRL,Alexandrina Filimon,Contact,office@invest-dej.com,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
 IQUEST TECHNOLOGIES,Ordean Mihaela Georgetta,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 IRCEM,Elena-Simina Lakatos,Contact,elena.lakatos@ircem.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
-KADRA TECH SRL,Monica Adriana Sagmar,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+KADRA TECH SRL,Monica Adriana Sagmar,Contact,adriana.monica@kadra.ro,Catch-all,,domeniu catch-all (tipar-web); necesita validare secundara
 KAZAL SRL,Cazan Ana,Contact,,Exclus-fara-email,,nicio adresa verificabila
 KESZ CONSTRUCTII ROMANIA SRL,Istvan Albu,Contact,,Exclus-fara-email,,nicio adresa verificabila
 KINETOTEAM,Ionela Nora Cucu,Contact,office@kinetoteam.ro,Incert-mx,,"office@ pe domeniu ghicit (MX activ, neconfirmat)"
 KLAIN DIGITAL MARKETING,Bolboaca Valentin,Contact,valentin@klain.ro,Pending,,tipar-verificat
 KNOX GROUP SRL,Salajean Daniel Mihai,Contact,,Exclus-fara-email,,nicio adresa verificabila
-KONCEPT ADVERTISING SRL,Raul Goada,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+KONCEPT ADVERTISING SRL,Raul Goada,Contact,office@kadd.ro,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
 KOVOSTROJ SRL,Paval Dragos,Contact,dragos.paval@kovostroj.ro,Pending,,tipar-verificat
-KPMG ROMANIA,Ramona Jurubita,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+KPMG ROMANIA,Ramona Jurubita,Contact,office@kpmg.com,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
 LA LORRAINE SRL,Minulescu Dan Cristian,Contact,,Exclus-fara-email,,nicio adresa verificabila
 LAPP INSULATORS,Lajos Veres,Contact,lajos.veres@lappinsulators.com,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 LECOM BIROTICA ARDEAL SRL,Darius Ciprian Centea,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 LEGOFRUCT EXPERT SRL,Pavel Daniel Cosmin,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-LEIER ROM SRL,Cristian Suciu,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+LEIER ROM SRL,Cristian Suciu,Contact,cristian.suciu@leier.ro,Pending,,tipar-web
 LEMNCONFEX SRL,Prozsa Istvan,Contact,p.istvan@lemnconfex.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 LOGIC SYSTEMS SRL,Iancu Sebastian,Contact,iancu.sebastian@logicsystems.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
-LOGISTIC E VAN WIJK SRL,Muresan Mircea,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+LOGISTIC E VAN WIJK SRL,Muresan Mircea,Contact,mircea.muresan@evanwijk.ro,Catch-all,,domeniu catch-all (tipar-web); necesita validare secundara
 LOGITRUST IMPACT SRL,Gheorghe Cristian Diviricean,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 LUXOR RESIDENCE SRL,Ionas Feurdean,Contact,,Exclus-fara-email,,nicio adresa verificabila
 LV AGRO PRODEXIM SRL,Liebscher Michael Thomas,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
@@ -1004,7 +1004,7 @@ TIGER SOMES IMPEX SA,Adrian Itu,Contact,office@tigersomes.ro,Pending,,generic-we
 TIRRENA SCAVI SPA,Dakoli Moren,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 TOP MARKET COMIMPEX SRL,Liviu Retegan,Contact,office@topmarket.ro,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
 TORA TRADING,Preda Razvan,Contact,razvan.preda@toratrading.com,Pending,,tipar-mx
-TOTAL QUALITY CONS SRL,Cotroaza Gheorghe,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+TOTAL QUALITY CONS SRL,Cotroaza Gheorghe,Contact,,Exclus-fara-email,,nicio adresa verificabila
 TRANS SESE SRL,Leo Cocoara,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 TRANSART SRL,Iurian Marius Florin,Contact,marius.iurian@transart.ro,Pending,,tipar-mx
 TRANSCARPATICA SA,Cimpean Gavril,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
@@ -1038,7 +1038,7 @@ VITACOM ELECTRONICS SRL,Vita Vasile Andrei,Contact,,Exclus-fara-email,,nicio adr
 VITI & SCOPE SRL,Mihaila Moldovan Vlad,Contact,,Exclus-fara-email,,nicio adresa verificabila
 VITRINA ADVERTISING,Mihaela Sorina Rus,Contact,mihaela.rus@vitrina.ro,Pending,,tipar-verificat
 VLG RO SRL,Domocos Alexandru,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-VOLVO TRUCKS ROMANIA,Dorin Capata,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+VOLVO TRUCKS ROMANIA,Dorin Capata,Contact,capata.dorin@volvotrucks.ro,Catch-all,,domeniu catch-all (tipar-web); necesita validare secundara
 VOS LOGISTICS CARGO SA,Marton Dozsa,Contact,marton.dozsa@voslogistics.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 WEBERBAU SRL,Weber Tibor Rudolf,Contact,,Exclus-fara-email,,nicio adresa verificabila
 WINCON SRL,Bogdan Irsik,Contact,bogdan.irsik@wincon.ro,Pending,,tipar-mx
@@ -1073,7 +1073,7 @@ ARCIF AG SRL,Petrea Dumitru Calin,Contact,,Exclus-fara-email,,nicio adresa verif
 AUTOGARA METROPOLI SRL,Ertagan Petru Flavius,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 BABY STAR COM IMPEX SRL,Banu Florin,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 BAUROM CONSTRUCT SRL,Ionescu Mariana,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-BELOR ROMANIA SA,Radu Florin,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+BELOR ROMANIA SA,Radu Florin,Contact,florin.radu@belor.ro,Catch-all,,domeniu catch-all (tipar-web); necesita validare secundara
 BENZENPEC IMPORT EXPORT SRL,Radu Serban Nita,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 BRIALBET SRL,Rusu Roxana Nicoleta,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 BULROM PETROLEUM SRL,Baltacov Dan,Contact,secretariat@bulrompetroleum.ro,Pending,,site
@@ -1091,9 +1091,9 @@ CRIOMEC SA,Serban Alexandru,Contact,alexandru.serban@criomec.ro,Catch-all,,domen
 DAVIDE CONSTRUCT SRL,Florea George,Contact,,Exclus-fara-email,,nicio adresa verificabila
 DEMCAR 2000 SRL,Tonita Dumitru Delu,Contact,delu.tonita@demcar.ro,Pending,,tipar-verificat
 DICOR LAND SRL,Diaconu Cosmin Razvan,Contact,razvan.diaconu@dicorland.ro,Pending,,tipar-verificat
-DMT MARINE EQUIPMENT SA,,,,Exclus-fara-email,,nicio adresa cunoscuta
+DMT MARINE EQUIPMENT SA,,,,Exclus-fara-email,,nicio adresa verificabila
 DOLADELA COMPANY SRL,Vasile Dobrin Oana Elena,Contact,,Exclus-fara-email,,nicio adresa verificabila
-DYNAMIC SELLING GROUP SA,Stoian Gabriel,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+DYNAMIC SELLING GROUP SA,Stoian Gabriel,Contact,,Exclus-fara-email,,nicio adresa verificabila
 ECO METAL RECYCLING SRL,Pruteanu Sorin,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 EUXIN SRL,Toader Bogdan Cristian,Contact,office@euxin.ro,Incert-mx,,"office@ pe domeniu ghicit (MX activ, neconfirmat)"
 EW LOGISTICS EXPRESS SRL,Devigne Jean Pierre Leon Robert,Contact,office@ewlogistics.net,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
@@ -1144,33 +1144,33 @@ UTCHIM STEEL SRL,Macrineanu Gabriela,Contact,gabriela.macrineanu@utchimsteel.ro,
 VALRO TRADE SRL,Fratita Valentin,Contact,fratita.valentin@valrotrade.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 VIDAFAN SRL,Florea Viorel,Contact,,Exclus-fara-email,,nicio adresa verificabila
 SOUTH LAND INVEST SRL,Kassianos Ioannis,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-A & S MED WAREHOUSE SRL,Oprea Mugurel Adrian,Contact,,Exclus-fara-email,,nicio adresa verificabila
-ACCORDING GROUP SRL,Gavrilas Bogdan,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+A & S MED WAREHOUSE SRL,Oprea Mugurel Adrian,Contact,office@aswarehouse.ro,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
+ACCORDING GROUP SRL,Gavrilas Bogdan,Contact,bogdan.gavrilas@according.ro,Pending,,tipar-web
 ADN PREFABRICATE SRL,Giurgiu Adrian,Contact,office@adnprefabricate.ro,Incert-mx,,"office@ pe domeniu ghicit (MX activ, neconfirmat)"
 AG STEEL BUILDING & CLADDING SRL,Covalciuc Ovidiu Dumitru Ciprian,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 AGRICOLA 96 SA,,,,Exclus-fara-email,,nicio adresa cunoscuta
 AGRICROPS CHIM SRL,Enache Ciprian,Contact,,Exclus-fara-email,,nicio adresa verificabila
 AGROCOMPLEX LUNCA PASCANI SA,Stanciu Bunescu Florin Gabriel,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-AGROPAN IMPEX SRL,Holicov Stefan,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+AGROPAN IMPEX SRL,Holicov Stefan,Contact,stefan.holicov@panifcom.ro,Catch-all,,domeniu catch-all (tipar-web); necesita validare secundara
 ALTEN DELIVERY CENTER EASTERN EUROPE SRL,Marchet Didier Rene Henri,Contact,,Exclus-fara-email,,nicio adresa verificabila
 AMAZON DEVELOPMENT CENTER SRL,Josan Cristian Ioan,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 ANTIBIOTICE SA,Trifu Mihai,Contact,trifu.mihai@antibiotice.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 APAVITAL SA,Dorus Mihail,Contact,dorus.mihail@apavital.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 ARCADIA HOSPITAL SRL,Fiterman Dan,Contact,dan.fiterman@arcadiahospital.ro,Catch-all,,domeniu catch-all (tipar-mx); necesita validare secundara
-ARCADIA POLICLINIC SRL,Fiterman Dan,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+ARCADIA POLICLINIC SRL,Fiterman Dan,Contact,dan.fiterman@arcadiamedical.ro,Pending,,tipar-web
 ARCADIS EXCELLENCE CENTER ROMANIA SA,Van Der Weerd Hendrik,Contact,,Exclus-fara-email,,nicio adresa verificabila
 ASAM SA,Patras Mihai,Contact,office@asam.ro,Incert-mx,,"office@ pe domeniu ghicit (MX activ, neconfirmat)"
-ATI MOTORS HOLDING SRL,Manolache Marius,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+ATI MOTORS HOLDING SRL,Manolache Marius,Contact,marius.manolache@ford-iasi.ro,Pending,,tipar-web
 ATTRIUS DEVELOPMENTS SRL,Mahu Sebastian,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 AUTO MARKET SRL,Timpu Ramona Monica,Contact,contact@automarket.ro,Catch-all,,domeniu catch-all (site); necesita validare secundara
 AUTO PADOVA SRL,Onofrei Gabriel,Contact,,Exclus-fara-email,,nicio adresa verificabila
 AVA STAR SRL,Plesca Vasile,Contact,vasile.plesca@avastar.ro,Pending,,tipar-verificat
-AVATTI INDUSTRIES SRL,Anania Anda Maria,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+AVATTI INDUSTRIES SRL,Anania Anda Maria,Contact,anda.anania@avatti.ro,Catch-all,,domeniu catch-all (tipar-web); necesita validare secundara
 AVI TOP SA,Antoci Ioan,Contact,,Exclus-fara-email,,nicio adresa verificabila
 AVIS TRANS SRL,Craciun Alexandru,Contact,alexandru.craciun@avis-trans.com,Catch-all,,domeniu catch-all (tipar-mx); necesita validare secundara
 AXA FARM SRL,Anton Sorin,Contact,,Exclus-fara-email,,nicio adresa verificabila
 BASWARE SRL,Kurtz Jason Mark,Contact,jason.kurtz@basware.com,Pending,,tipar-mx
-BCC AGREGATE BETOANE SRL,Radulescu Constantin,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+BCC AGREGATE BETOANE SRL,Radulescu Constantin,Contact,radulescu.constantin@bccbetoane.ro,Pending,,tipar-web
 BIO FERMA AGRICOLA SRL,Varzariu Oana,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 BMT AEROSPACE ROMANIA SRL,Pricope Corneliu,Contact,,Exclus-fara-email,,nicio adresa verificabila
 BRIKSTON CONSTRUCTION SOLUTIONS SA,Leier Michael,Contact,michael.leier@brikston.ro,Catch-all,,domeniu catch-all (tipar-mx); necesita validare secundara
@@ -1187,7 +1187,7 @@ CATENA SRL,Mihaita Lucian Ionut,Contact,,Exclus-fara-email,,nicio adresa verific
 CATOANTUD SRL,Haulica Gabriel,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 CENTRIC IT SOLUTIONS ROMANIA SRL,De Reus Bastiaan Jan,Contact,reus.de@centric.com,Catch-all,,domeniu catch-all (tipar-mx); necesita validare secundara
 CHIRO LTD SRL,Soric Mihaela,Contact,,Exclus-fara-email,,nicio adresa verificabila
-CITADIN SA,Postolache Adrian Gigi,Contact,,Exclus-fara-email,,nicio adresa verificabila
+CITADIN SA,Postolache Adrian Gigi,Contact,office@citadinis.ro,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
 CLIMA THERM CENTER SRL,Popovici Catalin George,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 COBYUL SRL,Ciaun Iulian,Contact,,Exclus-fara-email,,nicio adresa verificabila
 COLECT METAL SRL,Buzincu Petru,Contact,buzincu@colectmetal.ro,Pending,,tipar-verificat
@@ -1195,7 +1195,7 @@ COMPANIA DE TRANSPORT PUBLIC IASI SA,Grigoriu Ioan,Contact,ioan@compania.ro,Catc
 CONDUENT BUSINESS SERVICES ROMANIA SRL,Vasiliu Florentina,Contact,vasiliu.florentina@conduent.com,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 CONEST DACIA RESIDENCE SRL,Pistea Roxana Maria,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 CONEST SA,Pistea Roxana Maria,Contact,office@conest.com,Incert-mx,,"office@ pe domeniu ghicit (MX activ, neconfirmat)"
-CONEX DISTRIBUTION SA,Martonca Cristian Anton,Contact,,Exclus-fara-email,,nicio adresa verificabila
+CONEX DISTRIBUTION SA,Martonca Cristian Anton,Contact,cristian.martonca@conexdist.ro,Pending,,tipar-web
 CONSYS INTERNATIONAL SRL,Coman Dan Bogdan,Contact,dan.coman@consys-international.ro,Catch-all,,domeniu catch-all (tipar-mx); necesita validare secundara
 COTNARI SA,Deleanu Remus Ionut,Contact,,Exclus-fara-email,,nicio adresa verificabila
 COVIAL CVA SRL,Nechifor Vasile,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
@@ -1203,20 +1203,20 @@ CRAMELE COTNARI SA,Matei Ioan,Contact,matei.ioan@cramelecotnari.ro,Catch-all,,do
 DAMAREX SRL,Haulica Gabriel,Contact,,Exclus-fara-email,,nicio adresa verificabila
 DAROCONSTRUCT SRL,Fedoreac Nicoleta,Contact,nicoleta.fedoreac@daroconstruct.ro,Pending,,tipar-verificat
 DAS SRL,Solomon Ioan Iulian,Contact,iulian.solomon@das.ro,Pending,,tipar-verificat
-DEMO IDIL CONSTRUCT SRL,Baietrau Ion,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+DEMO IDIL CONSTRUCT SRL,Baietrau Ion,Contact,office@democonstruct.ro,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
 DEMO STRADE GROUP AG SRL,Serban Dan Manuel,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-DEROM DENTAL INTERNATIONAL SRL,Dohotariu Daniel Valeru,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+DEROM DENTAL INTERNATIONAL SRL,Dohotariu Daniel Valeru,Contact,,Exclus-fara-email,,nicio adresa verificabila
 DETENTE SOLUTIONS SRL,Mereuta Iuliana Carla,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 DR. DOBREA CLINIC SRL,Vetrila Vadim,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 EKY SAM SRL,Samoila Radu Marian,Contact,samoila.marian@ekysam.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
-ELECTROPUTERE VFU PASCANI SA,Ianus Gelu,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-ELEMATIS TECH SRL,Onofrei Razvan Gabriel,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+ELECTROPUTERE VFU PASCANI SA,Ianus Gelu,Contact,office@electroputerevfu.ro,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
+ELEMATIS TECH SRL,Onofrei Razvan Gabriel,Contact,,Exclus-fara-email,,nicio adresa verificabila
 ENVIRO CONSTRUCT SRL,Chihaia Dan,Contact,,Exclus-fara-email,,nicio adresa verificabila
 EUROTEX COMPANY SRL,Sandru Maria,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-EXPRESS CREDIT AMANET SRL,Miut Laurentiu,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+EXPRESS CREDIT AMANET SRL,Miut Laurentiu,Contact,laurentiu.miut@expresscredit.ro,Pending,,tipar-web
 FERMADOR SRL,Mihalache Anda Mihaiela,Contact,mihalache.mihaiela@fermador.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 FERTIL STAR SRL,Ursu Iulian,Contact,iulian@fertilstar.ro,Pending,,tipar-verificat
-FIDES EXPRESS SRL,Christescu Daniela Cristina,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+FIDES EXPRESS SRL,Christescu Daniela Cristina,Contact,office@estexpress.ro,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
 FITERMAN DISTRIBUTION SRL,Fiterman Patricia,Contact,patricia.fiterman@fitermandistribution.ro,Pending,,tipar-verificat
 FITERMAN PHARMA SRL,Fiterman Solomon,Contact,solomon@fitermanpharma.ro,Catch-all,,domeniu catch-all (tipar-mx); necesita validare secundara
 FOCALITY SRL,Rusu Cezar Dumitru,Contact,cezar.rusu@focality.ro,Pending,,tipar-mx
@@ -1231,16 +1231,16 @@ HD TRANS TEXTIL SRL,Hanu Laurentiu,Contact,hanu@hdtranstextil.com,Pending,,tipar
 HELP FLUX SRL,Ionascu Bogdan Alexandru,Contact,bogdan.ionascu@helpflux.ro,Pending,,tipar-mx
 HTR SPEDITION SRL,Schiopu Olesea,Contact,schiopu.olesea@htr-spedition.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 IASICON SA,Stoian Ioan,Contact,,Exclus-fara-email,,nicio adresa verificabila
-IG WATTEEUW ROMANIA SRL,Teodoru Cristian,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+IG WATTEEUW ROMANIA SRL,Teodoru Cristian,Contact,cristian.teodoru@igwpower.com,Pending,,tipar-web
 IMPORT CARS LEASING SRL,Bracaci Gigel,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-INDUSTRIALIZAREA CARNII KOSAROM SA,Antoci Ioan,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+INDUSTRIALIZAREA CARNII KOSAROM SA,Antoci Ioan,Contact,,Exclus-fara-email,,nicio adresa verificabila
 INOVALABEL SRL,Constantin Emanuel,Contact,,Exclus-fara-email,,nicio adresa verificabila
 INTER UNO SRL,Iancu Simon,Contact,,Exclus-fara-email,,nicio adresa verificabila
 IULIUS MANAGEMENT CENTER SRL,Iatco Radu Constantin,Contact,,Exclus-fara-email,,nicio adresa verificabila
 LARA FARM SRL,Palade Laura Mihaela,Contact,,Exclus-fara-email,,nicio adresa verificabila
 LINCOR TRANS SRL,Stici Galina,Contact,galina.stici@lincortrans.ro,Pending,,tipar-verificat
-LORIMER SRL,Pintilie Loredana Elena,Contact,,Exclus-fara-email,,nicio adresa verificabila
-MADO CORPORATION SRL,Gunbeyi Ibrahim,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+LORIMER SRL,Pintilie Loredana Elena,Contact,office@lorimermarket.ro,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
+MADO CORPORATION SRL,Gunbeyi Ibrahim,Contact,ibrahim@mado.ro,Pending,,tipar-web
 MAMBU TECH SRL,Zbereanu Ioan Ciprian,Contact,zbereanu.ciprian@mambu.com,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 MARCEL SRL,Iacob Marcel,Contact,marcel@marcel.ro,Pending,,tipar-mx
 MB DISTRIBUTION MED SRL,Rusu Mircea,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
@@ -1249,14 +1249,14 @@ MEDIA ROM GRUP SRL,Melinte Ioan,Contact,,Exclus-fara-email,,nicio adresa verific
 MENNEKES ELECTRIC SRL,Hesse Christoph,Contact,,Exclus-fara-email,,nicio adresa verificabila
 MIGDALIN SRL,Amarandei Emilia,Contact,office@migdalin.ro,Incert-mx,,"office@ pe domeniu ghicit (MX activ, neconfirmat)"
 MIHAK & TIBAK SRL,Acasandrei Mihai,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-MISAVAN TRADING SRL,Otea Ciprian Ionel,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+MISAVAN TRADING SRL,Otea Ciprian Ionel,Contact,office@misavan.ro,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
 MOLDOVA SEMINTE SRL,Douat Bruno Jean Christophe,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 MOLDOVA TIGANASI SA,Haraga Mihai,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 MOTEXCO SRL,Coman Ciprian,Contact,ciprian.coman@motexco.ro,Catch-all,,domeniu catch-all (tipar-mx); necesita validare secundara
 NERA COMPUTERS SRL,Chiriac Gabriela Valentina,Contact,,Exclus-fara-email,,nicio adresa verificabila
 NOVA MIRO SRL,Miron Constantin,Contact,,Exclus-fara-email,,nicio adresa verificabila
 OMCO ROMANIA SRL,Boghiu Gigi,Contact,,Exclus-fara-email,,nicio adresa verificabila
-PALAS 1 SRL,Iatco Radu Constantin,Contact,,Exclus-fara-email,,nicio adresa verificabila
+PALAS 1 SRL,Iatco Radu Constantin,Contact,radu.iatco@palasiasi.ro,Pending,,tipar-web
 PANIFCOM SRL,Gheorghica Doina Liliana,Contact,gheorghica.liliana@panifcom.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 PESTOS SRL,Chiriac Petru,Contact,,Exclus-fara-email,,nicio adresa verificabila
 PHARMA SA,Nicuta Constantin,Contact,constantin.nicuta@pharma.ro,Catch-all,,domeniu catch-all (tipar-mx); necesita validare secundara
@@ -1265,7 +1265,7 @@ POLIROM PACKAGING SRL,Virvea Elena Corina,Contact,corina.virvea@polirom-packagin
 PRIMA CONSTRUCT SRL,Enea Iustian Marius,Contact,,Exclus-fara-email,,nicio adresa verificabila
 PROINVEST GROUP SRL,Sandu Vasile,Contact,vasile.sandu@proinvestgroup.ro,Pending,,tipar-verificat
 QUARTZ MATRIX SRL,Suchar Mihai Valentin,Contact,mihai.suchar@quartzmatrix.ro,Catch-all,,domeniu catch-all (tipar-mx); necesita validare secundara
-QUATRO GRUP DISTRIBUTION SRL,Padurariu Mihaita,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+QUATRO GRUP DISTRIBUTION SRL,Padurariu Mihaita,Contact,,Exclus-fara-email,,nicio adresa verificabila
 RAL CONSTRUCT MANAGEMENT SRL,Etcu Stefan Silviu,Contact,,Exclus-fara-email,,nicio adresa verificabila
 RC BETON BAU SRL,Balan Radu,Contact,balan.radu@rcbetonbau.com,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 RESONANCE DISTRIBUTION SRL,Pocol Catalin Florin,Contact,catalin.pocol@resonance.ro,Catch-all,,domeniu catch-all (tipar-web); necesita validare secundara
@@ -1278,7 +1278,7 @@ RUTILLI ADOLFO SRL,Rutilli Guido,Contact,guido@rutilliadolfo.com,Pending,,tipar-
 SALUBRIS SA,Profire Mihai,Contact,,Exclus-fara-email,,nicio adresa verificabila
 SANDRA TRADING SRL,Gradinariu Sorel,Contact,,Exclus-fara-email,,nicio adresa verificabila
 SERVICES ROMANIA SRL,Bondar Adrian Mihai,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-SERVICII PUBLICE IASI SA,Hutanu Ion,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+SERVICII PUBLICE IASI SA,Hutanu Ion,Contact,office@spiasi.ro,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
 SIGNANT HEALTH SRL,Diaconu Vlad,Contact,diaconu.vlad@signanthealth.com,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 SIGNIVIS SRL,Acatrinei Sergiu Emanuel,Contact,sergiu.acatrinei@signivis.com,Pending,,tipar-mx
 SIOROM SRL,Vervaecke Bart Lieven,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
@@ -1291,9 +1291,9 @@ TOKYO MOTORS SRL,Vasilescu Stefan Bogdan,Contact,,Exclus-fara-email,,nicio adres
 TRANS OIL MOTORS SRL,Lungu Alis Teodora,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 TRANSGOR LOGISTIK SRL,Goriuc Mihai Arborel,Contact,,Exclus-fara-email,,nicio adresa verificabila
 URBIOLED SRL,Ciotir Ana Maria,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-USI365 DEVELOPMENT SRL,Lefter Stefan Marian,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+USI365 DEVELOPMENT SRL,Lefter Stefan Marian,Contact,,Exclus-fara-email,,nicio adresa verificabila
 VATICIP ADY SRL,Prisecariu Vasile,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-VETRO SOLUTIONS SA,Fodor Dumitru,Contact,,Exclus-fara-email,,nicio adresa verificabila
+VETRO SOLUTIONS SA,Fodor Dumitru,Contact,dumitru.fodor@vetro.vet,Pending,,tipar-web
 VIOSAND TRICOTEXT SRL,Sandu Vasile,Contact,,Exclus-fara-email,,nicio adresa verificabila
 ZEELANDIA SRL,Bocaniciu Ovidiu Sorin,Contact,bocaniciu.sorin@zeelandia.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 ZOORK SRL,Harhata Constantin Alin,Contact,constantin.harhata@zoork.ro,Catch-all,,domeniu catch-all (tipar-mx); necesita validare secundara
@@ -1400,7 +1400,7 @@ APA TERMIC TRANSPORT SA,Corman Ioan-Ciprian,administrator,attsasighisoara@yahoo.
 APIPRODEX SRL,Dogar Dorin-Ovidiu,administrator,,Exclus-fara-email,,nicio adresa verificabila
 ARAN EXFOR SRL,,,arpi.abodi@yahoo.com,Pending,,generic
 ARCOFLOR CONSTRUCT SRL,Stefan Florin,administrator,,Exclus-fara-email,,nicio adresa verificabila
-ARDEALE COSMETICS SRL,Pop Maria-Ancuţa,administrator,,Exclus-fara-email,,nicio adresa cunoscuta
+ARDEALE COSMETICS SRL,Pop Maria-Ancuţa,administrator,,Exclus-fara-email,,nicio adresa verificabila
 ARDON 4SAFETY SRL,Cuesdeanu Lucian Alin,Contact,ardon@ardon4safety.ro,Pending,,site
 ARKARA MOONLIGHT SRL,Katona Arnold,administrator,,Exclus-fara-email,,nicio adresa verificabila
 ARMINCO BMC SRL,Buţiu Florin Cosmin,administrator,,Exclus-fara-email,,nicio adresa verificabila
@@ -1561,9 +1561,9 @@ DAFCOCHIM AGRO SRL,Cojoc Iuliu Liviu,Contact,cojoc@dafcochim.ro,Pending,,tipar-v
 DAFCOCHIM DISTRIBUTION SRL,Cojoc Iuliu Liviu,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 DAGHEMANA COM SRL,Gheorghieş Dan,administrator,autogara_campia_turzii@yahoo.com,Pending,,generic
 DAMY ORTOMED SRL,Oprea Bogdan-Alexandru,administrator,policlinica.totalmed@gmail.com,Pending,,generic
-DAN BOMBON SRL,Dan Cristian,administrator,,Exclus-fara-email,,nicio adresa cunoscuta
+DAN BOMBON SRL,Dan Cristian,administrator,office@roz-bombon.ro,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
 DANBORCOM SRL,,,borda_dan@yahoo.com,Pending,,generic
-DANUBIAN MEAT INDUSTRY SRL,,,,Exclus-fara-email,,nicio adresa cunoscuta
+DANUBIAN MEAT INDUSTRY SRL,,,office@danubianmeat.ro,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
 DANUTRITION SRL,,,mariusvet@gmail.com,Pending,,generic
 DANYVAS AUTOTOTAL SRL,Chereches Daniel Florin,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 DARALEX TRANS SRL,Costin Alexandru-Teofil,administrator,daralextrans@yahoo.com,Pending,,generic
@@ -1724,7 +1724,7 @@ GIGANTI OIL SRL,Nașca Grigore,administrator,giganti.oil@yahoo.com,Pending,,gene
 GLIGA COMPANIES SA,Mureșan Cristian Cătălin,administrator,,Exclus-fara-email,,nicio adresa verificabila
 GLIGA INSTRUMENTE MUZICALE SA,Pop Hortensia-Amalia,administrator,,Exclus-fara-email,,nicio adresa verificabila
 GLOBAL ART PRODUCTION SRL,Serban Victor Petru,Contact,,Exclus-fara-email,,nicio adresa verificabila
-GLOBAL LICENCE SRL,Fulop Alexandru,administrator,,Exclus-fara-email,,nicio adresa cunoscuta
+GLOBAL LICENCE SRL,Fulop Alexandru,administrator,,Exclus-fara-email,,nicio adresa verificabila
 GLODENI ENERGY SRL,Lazar Laura Elena,Contact,lazar.elena@glodenienergy.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 GRALEMN JUNIOR SRL,Grama Ioan,administrator,,Exclus-fara-email,,nicio adresa verificabila
 GRAND SA,Pescar Anca Ioana,administrator,,Exclus-fara-email,,nicio adresa verificabila
@@ -1761,11 +1761,11 @@ HORN FOREST SRL,Gliga Rodica,administrator,hornforest@yahoo.com,Pending,,generic
 HUNI & SZIDI SRL,Moga Hunor,Contact,huniszidisrl@yahoo.com,Pending,,generic
 IANA PROD SRL,,,ianaprodiernut@gmail.com,Pending,,generic
 IBANESTI PADURE PROD SRL,Gliga Maria Silvia,administrator,primaria@ibanesti.ro,Pending,,site
-IDEAL FOODPACK SRL,Baruch Laszlo Aron,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+IDEAL FOODPACK SRL,Baruch Laszlo Aron,Contact,,Exclus-fara-email,,nicio adresa verificabila
 IDEVICE STORE & SERVICE SRL,Șandor Andrei Mihai,administrator,idevice.store.service@gmail.com,Pending,,generic
 IFN SABION SRL,Sabău Cosmin Ioan,administrator,,Exclus-fara-email,,nicio adresa verificabila
 IMA CONCEPT SRL,,,,Exclus-fara-email,,nicio adresa verificabila
-IMGP STAHLBAU SRL,Sideras Gheorghe Ciprian,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+IMGP STAHLBAU SRL,Sideras Gheorghe Ciprian,Contact,gheorghe.sideras@imgp-sb.ro,Catch-all,,domeniu catch-all (tipar-web); necesita validare secundara
 IMPREXIS BUILDING SRL,Aron Georgiana,administrator,,Exclus-fara-email,,nicio adresa cunoscuta
 INDFLOOR MURES SRL,,,office@indfloor.ro,Pending,,generic
 INDLACTO MURES SRL,Zanotti Alceo,Contact,zanotti.alceo@indlacto.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
@@ -1850,7 +1850,7 @@ MAGNETIC POWER SRL,Ilea Richard Virgil,administrator,officemagneticpower@gmail.c
 MAIA SISTERS TRADE SRL,,,,Exclus-fara-email,,nicio adresa cunoscuta
 MAIER COMPLEX SRL,,,,Exclus-fara-email,,nicio adresa cunoscuta
 MALU INDUSTRY SRL,Griesser Svetlana,Contact,malu.industry@yahoo.ro,Pending,,generic
-MAMMA MOOD CATERING SRL,Solovastru Ovidiu,administrator,,Exclus-fara-email,,nicio adresa cunoscuta
+MAMMA MOOD CATERING SRL,Solovastru Ovidiu,administrator,,Exclus-fara-email,,nicio adresa verificabila
 MAMMOTH TYRES SRL,Izsák Anna,administrator,,Exclus-fara-email,,nicio adresa verificabila
 MANDASZ SRL,,,,Exclus-fara-email,,nicio adresa cunoscuta
 MANSART CORPORATE SRL,Pop Şerban Alexandru,administrator,,Exclus-fara-email,,nicio adresa verificabila
@@ -1917,7 +1917,7 @@ MOTO E MOTION SRL,Pavel Emilian Petru,Contact,pavel.petru@motoemotion.ro,Catch-a
 MOUNTAIN VIEW ENGINEERING SRL,,,,Exclus-fara-email,,nicio adresa cunoscuta
 MRG FATADE SRL,Mora Victor Aron,administrator,victor.mora@mrgfatade.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 MS SPECIAL PROJECTS & TRANSPORTS SRL,Palcu Vasile Alexandru,Contact,,Exclus-fara-email,,nicio adresa verificabila
-MULTIBET TRANSILVANIA SRL,Nyilas Szilard,administrator,,Exclus-fara-email,,nicio adresa cunoscuta
+MULTIBET TRANSILVANIA SRL,Nyilas Szilard,administrator,,Exclus-fara-email,,nicio adresa verificabila
 MULTINVEST AG ANTREPRENORIAT GENERAL SRL,Gogolak Hrubecz Zsolt,Contact,gogolak.zsolt@multinvest.ro,Pending,,tipar-verificat
 MULTINVEST SRL,Gogolak Hrubecz Zsolt,Contact,,Exclus-fara-email,,nicio adresa verificabila
 MULTIPLAN ELECTRONICS SRL,Koloszvari Tibor,Contact,,Exclus-fara-email,,nicio adresa verificabila
@@ -1986,7 +1986,7 @@ PALLBOX AMBALAJE SRL,Moroianu Cosmin Catalin,Contact,,Exclus-fara-email,,nicio a
 PANI PLAST SRL,Botos Veronica,administrator,veronicabotos@yahoo.com,Pending,,generic
 PARAT TECHNOLOGY ROMANIA SRL,Siklodi Denes,Contact,info-ro@parat.eu,Pending,,generic
 PARCON FREIWALD SRL,Freiwald Franz Georg,Contact,,Exclus-fara-email,,nicio adresa verificabila
-PARTS BY TESSA SRL,Rus Adriana,administrator,,Exclus-fara-email,,nicio adresa cunoscuta
+PARTS BY TESSA SRL,Rus Adriana,administrator,adriana.rus@automag.ro,Pending,,tipar-web
 PASIFLORA FARM SRL,Săcălean Octavian,administrator,farmaciapasiflora@yahoo.ro,Pending,,generic
 PATICO DELICATESE SRL,Mera Maria,administrator,,Exclus-fara-email,,nicio adresa cunoscuta
 PEDROGROUP AGRO SRL,,,office@tractoare-ro.ro,Catch-all,,domeniu catch-all (generic); necesita validare secundara
@@ -2296,14 +2296,14 @@ AUGSBURG SRL,Matasa Lucia,Contact,office@augsburg.ro,Incert-mx,,"office@ pe dome
 AUTONOM SERVICES SA,Iacob Dan,Contact,iacob.dan@autonom.ro,Pending,,tipar-verificat
 BANESTO SRL,Balaiasa Daniel,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 BICO INDUSTRIES SA,Bindea Ioan Adrian,Contact,,Exclus-fara-email,,nicio adresa verificabila
-BRILIANT SRL,Cimpoesu Lucian Liviu,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+BRILIANT SRL,Cimpoesu Lucian Liviu,Contact,,Exclus-fara-email,,nicio adresa verificabila
 CERSANIT ROMANIA SA,Piotrowski Piotr Wojciech,Contact,,Exclus-fara-email,,nicio adresa verificabila
-CIBIBON SRL,Mancas Vasile,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+CIBIBON SRL,Mancas Vasile,Contact,vasile.mancas@cibi.ro,Pending,,tipar-web
 COMES SA,Vasiliu Ioan,Contact,,Exclus-fara-email,,nicio adresa verificabila
 COMPANIA JUDETEANA APA SERV SA,Dominte Mihai,Contact,dominte.mihai@compania.ro,Catch-all,,domeniu catch-all (tipar-mx); necesita validare secundara
 CUIUL SRL,Cojocariu Paul,Contact,,Exclus-fara-email,,nicio adresa verificabila
 DANLIN XXL SRL,Amuraritei Dan,Contact,,Exclus-fara-email,,nicio adresa verificabila
-DINAMIC 92 DISTRIBUTION SRL,Tofan Viorel,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+DINAMIC 92 DISTRIBUTION SRL,Tofan Viorel,Contact,viorel.tofan@dinamic92.ro,Pending,,tipar-web
 DOLINEX SRL,Capitanu Dorin Nicolae,Contact,dorin.capitanu@dolinex.ro,Pending,,tipar-mx
 ETURIA SRL,Soria Advisors Srl,administrator,office@eturia.ro,Incert-mx,,"office@ pe domeniu ghicit (MX activ, neconfirmat)"
 FARMACIA ARDEALUL SRL,Echim George Mihail,Contact,,Exclus-fara-email,,nicio adresa verificabila
@@ -2311,7 +2311,7 @@ G & T TRANS SRL,Nour Constantin,Contact,,Exclus-fara-email,,nicio adresa cunoscu
 JIFFY PACKAGING SA,Gavriliu Petru Dan,Contact,,Exclus-fara-email,,nicio adresa verificabila
 KOBER SRL,Kober Aurel Vasile,Contact,aurel.kober@kober.ro,Pending,,tipar-mx
 LANDSTAR CAPITAL SRL,Nemerenco Anatolie,Contact,,Exclus-fara-email,,nicio adresa verificabila
-LOGITRANS SRL,Costache Andreea Cristiana,Contact,,Exclus-fara-email,,nicio adresa verificabila
+LOGITRANS SRL,Costache Andreea Cristiana,Contact,andreea@logitrans-romania.com,Pending,,tipar-web
 MARALEX COM SRL,Tomuleasa Marius,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 MARSAT SA,Tarata Andreea,Contact,,Exclus-fara-email,,nicio adresa verificabila
 MEDASIMPEX SRL,Drelciuc Eliade Daniel,Contact,,Exclus-fara-email,,nicio adresa verificabila
@@ -2329,7 +2329,7 @@ TERMOPLAST SRL,Neculai Catalin,Contact,catalin.neculai@termoplast.com,Catch-all,
 TRUST EURO THERM SRL,Anicai Gabriel Mihai,Contact,,Exclus-fara-email,,nicio adresa verificabila
 TRW AIRBAG SYSTEMS SRL,Gheorghita Vlad Andrei,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 ULTRA TOTAL INVEST SRL,Ioan Ciprian,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-USEDFUL EUROPE SRL,Stathis Ioannis,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+USEDFUL EUROPE SRL,Stathis Ioannis,Contact,ioannis.stathis@usedful.eu,Catch-all,,domeniu catch-all (tipar-web); necesita validare secundara
 VOLTA GRUP SRL,Velescu Catalin Vasile,Contact,velescu.vasile@volta.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 VOLTA X SOLAR SYSTEMS SRL,Velescu Catalin Vasile,Contact,depozit.iasi@volta.ro,Pending,,site
 YARNEA SRL,Strambu Capitanu Ana Clarisa,Contact,,Exclus-fara-email,,nicio adresa verificabila
@@ -2339,7 +2339,7 @@ MINCO IMPEX SRL,Theocharis Nikolaos,Contact,mincoimpex@yahoo.com,Pending,,generi
 THRACE GREINER PACKAGING SRL,Cojocariu Steluta Alina,Contact,office@thracegreiner.ro,Pending,,generic
 TRANS NEF SRL,Popa Daniela,Contact,popa.daniela@transnef.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 ACET SA,Groza Stefan,Contact,stefan.groza@acet.com,Catch-all,,domeniu catch-all (tipar-mx); necesita validare secundara
-AGROLINEVOL SRL,Pitu George,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+AGROLINEVOL SRL,Pitu George,Contact,,Exclus-fara-email,,nicio adresa verificabila
 ALBERTEMMA SRL,Wendling Adela Olga,Contact,,Exclus-fara-email,,nicio adresa verificabila
 ALBERTINO STAR SRL,Andronic Gheorghe Adrian,Contact,,Exclus-fara-email,,nicio adresa verificabila
 ALEXIANA GROUP SRL,Golimbiovschi Angel Constantin,Contact,,Exclus-fara-email,,nicio adresa verificabila
@@ -2389,7 +2389,7 @@ MARTISORUL COM SRL,Boloca Gheorghe,Contact,,Exclus-fara-email,,nicio adresa cuno
 MIND GAMES SRL,Cretu Bogdan Constantin,Contact,b.cretu@mindgames.ro,Catch-all,,domeniu catch-all (tipar-mx); necesita validare secundara
 MOPAN SUCEAVA SA,Haba Elena Anca,Contact,,Exclus-fara-email,,nicio adresa verificabila
 OLINT COM SRL,Cusiac Liviu Marius,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-ORIENT SRL,,,,Exclus-fara-email,,nicio adresa cunoscuta
+ORIENT SRL,,,,Exclus-fara-email,,nicio adresa verificabila
 PHARMAPLUS SRL,Slutu Eugen,Contact,,Exclus-fara-email,,nicio adresa verificabila
 PRIMAGRA ROMANIA SRL,Tudosa Costica,Contact,,Exclus-fara-email,,nicio adresa verificabila
 PRO MOBILA SRL,Covasa Catalin George,Contact,,Exclus-fara-email,,nicio adresa verificabila
@@ -2454,7 +2454,7 @@ AGROBOG STAR SRL,Preda Gelu Marian,Contact,,Exclus-fara-email,,nicio adresa cuno
 ALTDORF TEHNIK SRL,Dragomir Romeo Iulian,Contact,,Exclus-fara-email,,nicio adresa verificabila
 ANNABELLA SRL,Mutu Dorina,Contact,,Exclus-fara-email,,nicio adresa verificabila
 ARTIFEX SRL,Raileanu Mariana Lorela,Contact,,Exclus-fara-email,,nicio adresa verificabila
-AURORA COM SRL,Bordea Vasile,Contact,,Exclus-fara-email,,nicio adresa verificabila
+AURORA COM SRL,Bordea Vasile,Contact,vasile.bordea@aurora-odobesti.ro,Pending,,tipar-web
 AUTO BEST CENTER SRL,Bercuci Gheorghe,Contact,,Exclus-fara-email,,nicio adresa verificabila
 AVICOLA FOCSANI SA,Vicol Danut,Contact,danut.vicol@avicolafocsani.ro,Pending,,tipar-verificat
 AVIPUTNA SRL,Balaban Aurelia,Contact,aurelia.balaban@aviputna.ro,Catch-all,,domeniu catch-all (tipar-mx); necesita validare secundara
@@ -2465,7 +2465,7 @@ COMPANIA DE UTILITATI PUBLICE SA,Vulpe Gheorghe Lucian,Contact,gheorghe.vulpe@co
 CONBETA SRL,Stoian Ciupilan Paul,Contact,stoian.paul@conbeta.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 CONSINTERFIN SRL,Lars Vesten Drescher,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 CRISTILORY PROD SRL,Cristian Deniza Irena,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-DEEP SERV 2000 SRL,Spinu Marin,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+DEEP SERV 2000 SRL,Spinu Marin,Contact,office@deep-serv.ro,Pending,,generic-web (office@ pe domeniu validat CUI/nume)
 DEGARO SRL,Lars Vesten Drescher,Contact,,Exclus-fara-email,,nicio adresa verificabila
 DMF POLIPLAST SRL,Darmanescu Diana Andreina,Contact,darmanescu.andreina@dmfpoliplast.ro,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 DUBLU LIC & SIC SRL,Dan Razvan,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
@@ -2482,10 +2482,10 @@ PANDORA PROD SRL,Simiz Dorel Boris,Contact,,Exclus-fara-email,,nicio adresa veri
 PERFECT ELMA DISTRIBUTION SRL,Fenesiu Laura,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 PINIMOB EXPRES SRL,Pintilie Lucian,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
 POLICALITA SRL,,,office@policalita.ro,Incert-mx,,"office@ pe domeniu ghicit (MX activ, neconfirmat)"
-PREMIUM PORC FEED SRL,Lars Vesten Drescher,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+PREMIUM PORC FEED SRL,Lars Vesten Drescher,Contact,vesten.lars@premiumporc.com,Catch-all,,domeniu catch-all (tipar-web); necesita validare secundara
 PREMIUM PORC SRL,Lars Vesten Drescher,Contact,lars.drescher@premiumporc.com,Catch-all,,domeniu catch-all (tipar-verificat); necesita validare secundara
 PROGRES DISTRIBUTIE SRL,Stefanescu Liliana,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
-SCORPION EXIM SRL,Scinteanu Vasile Constantin,Contact,,Exclus-fara-email,,nicio adresa cunoscuta
+SCORPION EXIM SRL,Scinteanu Vasile Constantin,Contact,vasile.scinteanu@scorpion.ro,Pending,,tipar-web
 SIMIZ FASHION SRL,Simiz Silviu,Contact,silviu.simiz@simizfashion.ro,Pending,,tipar-mx
 SMART EST PROIECT SRL,Ivascu Marian,Contact,marian.ivascu@smartestproiect.ro,Pending,,tipar-verificat
 TEXDATA SRL,Solomon Liviu Corneliu,Contact,liviu.solomon@texdata.ro,Catch-all,,domeniu catch-all (tipar-mx); necesita validare secundara

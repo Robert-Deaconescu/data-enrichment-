@@ -1,64 +1,91 @@
 # Raport final — Imbogatire baza de date B2B Transilvania Business
 
-Data: 25 iulie 2026 · Livrabil: `output/contacte_final.csv` (2.495 firme, format fix tab Contacte)
+Data: 27 iulie 2026 · Livrabil: `output/contacte_final.csv` (2.495 firme, format fix tab Contacte)
 
-## 1. Rezultate
+## 1. Rezultate finale
 
 | Status | Firme | % din total | Ce inseamna |
 |---|---|---|---|
-| **Nominal verificat (Pending)** | **300** | **12,0%** | Adresa decidentului, confirmata tehnic SMTP (Reoon safe/valid) |
-| **Generic verificat (Pending)** | **359** | **14,4%** | Adresa generica existenta, confirmata livrabila |
-| Catch-all (segment separat) | 325 | 13,0% | Domeniul accepta orice adresa — neconfirmabil prin SMTP; NU intra in campanie fara validare secundara |
-| Incert-mx | 58 | 2,3% | office@ pe domeniu ghicit (MX activ) — clientul decide |
-| Exclus-fara-email | 1.446 | 58,0% | Nicio adresa verificabila (majoritatea: firme fara domeniu propriu, generice invalide/moarte) |
+| **Nominal verificat (Pending)** | **357** | **14,3%** | Adresa decidentului, confirmata tehnic SMTP (Reoon safe/valid) |
+| **Generic verificat (Pending)** | **407** | **16,3%** | Adresa generica (existenta sau office@ pe domeniu validat), confirmata livrabila |
+| Catch-all (segment separat) | 389 | 15,6% | Domeniul accepta orice adresa — neconfirmabil prin SMTP; NU intra in campanie fara validare secundara (BounceBan) |
+| Incert-mx | 61 | 2,4% | office@ pe domeniu ghicit (MX activ, neconfirmat) — clientul decide |
+| Exclus-fara-email | 1.274 | 51,1% | Nicio adresa verificabila |
 | Exclus-inactiv | 7 | 0,3% | Radiate/inactive la ANAF |
 
-**In campanie intra 659 de firme (26,4%) cu adrese 100% verificate tehnic** — tinta de bounce < 2% este protejata (trimitere doar pe Status Pending).
+**In campanie intra 764 de firme (30,6%) cu adrese 100% verificate tehnic** — tinta de bounce < 2% e protejata (trimitere doar pe Status Pending).
 
-### Sursele adreselor nominale (300)
+### Sursele adreselor nominale (357)
 
 | Sursa (coloana Observatii) | Firme |
 |---|---|
-| `tipar-verificat` — tipar generat pe domeniul validat al firmei | 187 |
+| `tipar-verificat` — tipar pe domeniul cunoscut al firmei | 189 |
 | `site` — adresa publicata pe site, verificata | 61 |
-| `tipar-mx` — tipar pe domeniu descoperit (MX activ, filtru de siguranta) | 52 |
+| `tipar-web` — tipar pe domeniu descoperit prin cautare web + validat CUI/nume | 55 |
+| `tipar-mx` — tipar pe domeniu ghicit cu MX activ | 52 |
 
-### Credite consumate
+### Costuri
 
-- **Reoon: 8.366 credite** din pachetul de 10.000 ($11,90) — raman ~1.634 pentru re-verificari inainte de campanie.
-- Toate celelalte surse (ANAF/demoanaf, scraping site-uri, descoperire domenii): gratuite.
+- **Reoon: 9.029 credite** din pachetul de 10.000 ($11,90). Restul: $0.
+- Runda de imbunatatiri gratuite (cautare web domenii, retry unknown, re-validari):
+  +57 nominale si +48 generice fata de prima livrare (659 → 764 contacte sigure).
 
-## 2. Fata de tinta contractuala (50–70% nominale)
+## 2. Descoperirea de domenii prin cautare web (runda gratuita)
 
-**Rezultat: 12,0% pe totalul bazei / 27,4% pe firmele cu domeniu propriu (1.103).**
+Toate cele **1.385 de firme fara domeniu** au fost cautate pe web (28 de loturi de
+agenti, cautare + validare stricta): **533 candidati** → **392 domenii validate**
+(CUI-ul sau numele firmei confirmate pe site + server de email activ). Acoperirea
+cu domeniu a crescut de la 44% la **~60%**. Tiparele pe aceste domenii au produs
+55 nominale si zeci de generice noi; restul domeniilor noi raman in fisierele
+`work/17_domenii_web/` pentru rundele viitoare (findere, BounceBan).
 
-Tinta de 50–70% este structural imposibila pe acest univers de firme, indiferent de unealta sau buget:
+## 3. Fata de tinta contractuala (50–70% nominale)
 
-1. **Doar 44% din firme au domeniu propriu** (1.103 dupa descoperirea si auditarea a 626 domenii noi). Fara domeniu propriu nu exista adresa nominala — firmele folosesc yahoo/gmail. Plafonul teoretic era deci 44%, nu 100%.
-2. Benchmarkurile 2026 verificate live (Anymail Finder, SyncGTM, Leadbomb): tool-urile comerciale ating **40–55% pe SMB-uri din piete UE secundare** — pe firmele *atacabile*, nu pe total. Rezultatul nostru de 27,4% pe firmele cu domeniu e in norma pietei pentru micro-IMM-uri, obtinut la ~1/30 din costul finderelor comerciale.
-3. Multe IMM-uri mici pur si simplu **nu au cutii postale nominale** — exista doar office@.
+**Rezultat: 14,3% pe totalul bazei.** Tinta de 50–70% ramane structural imposibila
+pe acest univers (multe micro-IMM-uri nu au deloc mailbox nominal; benchmarkurile
+2026: 40–55% chiar pentru tool-uri comerciale pe SMB-uri UE, aplicat doar firmelor
+atacabile). Recomandare neschimbata: re-ancorarea metricii pe (a) firmele cu
+domeniu si/sau (b) "contact verificat" (nominal SAU generic verificat + numele
+decidentului — disponibil pentru 93% din firme, din ANAF). Pe definitia (b) livram
+30,6% + 15,6% recuperabil din catch-all.
 
-**Recomandare pentru discutia cu clientul** (de purtat acum, nu la livrare): re-ancorarea metricii pe (a) firmele cu domeniu propriu si/sau (b) "contact verificat" (nominal SAU generic verificat + numele decidentului pentru personalizare — numele exista pentru 93% din firme, din ANAF). Pe definitia (b), livram deja 26,4% adrese sigure + 13% recuperabile din catch-all.
+## 4. Rezerva de crestere ramasa (necesita conturi create de client)
 
-## 3. Rezerva de crestere: segmentul Catch-all (325 firme, 317 cu decident cunoscut)
+1. **BounceBan free-forever** pe segmentul Catch-all (389 firme): verificari single
+   nelimitate gratuit la specialistul catch-all (94,6% acuratete in teste
+   independente). Estimat: **+100–200 nominale** la cost $0 (2–4h munca manuala).
+2. **Free tiers findere** (Prospeo 75/luna, Dropcontact 50, GetProspect 50/luna
+   s.a. — majoritatea taxeaza doar rezultatele valide) pe firmele cu domeniu fara
+   nominala: estimat **+150–300 nominale**; cheia Prospeo intra in `.env` si rularea
+   e automatizata.
+3. Retry-ul pe "unknown" a fost deja executat (+9 firme; majoritatea unknown-urilor
+   sunt structural neverificabile pe hosting-ul respectiv).
 
-Consensul industriei 2026 (cercetare live, surse in `work/research_live/04_metodologie.md`): catch-all nu se arunca — se valideaza cu servicii specializate si se trimite in segment separat.
+Proiectia cu tot planul executat: **~900–1.200 contacte sigure (36–48%)**, din care
+450–650 nominale.
 
-- **BounceBan** (~$34/luna, teste independente: 0,2% bounce observat; arbitrul de catch-all in benchmarkul Anymail Finder): validarea celor ~325 de adrese ar recupera realist **50–150 nominale suplimentare** → total nominale 350–450 (14–18% din total, 32–41% din firmele cu domeniu).
-- Alternativ, gratuit dar partial: campanie-pilot separata (50–100 emailuri, domeniu incalzit, oprire automata la 2–3% bounce).
+## 5. Avertisment: infrastructura de trimitere (Make.com)
 
-## 4. Avertisment important: infrastructura de trimitere (Make.com)
+Cerintele Gmail/Yahoo/Microsoft in vigoare: SPF+DKIM+DMARC aliniat, one-click
+unsubscribe RFC 8058, spam rate < 0,3%. "Gmail personal + Make.com" risca
+suspendarea si plafonul sigur e ~25/zi. Necesare: Google Workspace pe domeniu
+dedicat, DMARC p=none, warmup 14–21 zile, 30–50/zi/inbox, procesare automata a
+bounce-urilor. Daca lista sta > 30–60 zile: re-verificare Reoon (creditele ramase
+acopera).
 
-Cerintele Gmail/Yahoo/Microsoft in vigoare (verificate live, enforcement din nov. 2025): SPF+DKIM+DMARC aliniat, one-click unsubscribe RFC 8058, spam rate < 0,3% (tinta practica < 0,1%). Configuratia "Gmail personal + Make.com" risca suspendarea contului si plafonul sigur e ~25 emailuri/zi.
+## 6. Nota GDPR
 
-**Necesare inainte de campanie:** Google Workspace pe domeniu dedicat (nu domeniul principal TB), DMARC minim p=none aliniat, warmup 14–21 zile, 30–50 emailuri/zi/inbox, procesare automata a bounce-urilor in Make.com (hard bounce → suprimare imediata). Daca lista sta > 30–60 zile, re-verificare Reoon inainte de trimitere (creditele ramase acopera).
+Adresele nominale sunt date personale. Pozitia proiectului: surse publice
+(administratori ONRC/ANAF, site-ul firmei), interes legitim B2B, opt-out per mesaj,
+sursa fiecarei adrese in coloana Observatii. De evitat: liste nominale cumparate.
 
-## 5. Nota GDPR
+## 7. Metodologie si trasabilitate
 
-Adresele nominale sunt date personale. Pozitia proiectului e apărabila: surse publice (administratori ONRC/ANAF, site-ul propriu al firmei), interes legitim B2B, opt-out in fiecare mesaj, iar coloana Observatii pastreaza sursa fiecarei adrese (exact ce ar cere o verificare ANSPDCP). De evitat: liste nominale cumparate de la terti (temei fragil, art. 14).
-
-## 6. Metodologie (pe scurt) si reproducere
-
-Consolidare 5 fisiere (2.518 randuri) → dedup CUI + fuzzy (2.495 firme) → ANAF/demoanaf (1.958 CUI rezolvate, 412 administratori adaugati, 7 radiate) → descoperire + audit domenii (650 → 1.103 firme cu domeniu validat) → scraping pagini contact (1.178 domenii, robots.txt respectat, 1 req/s) → tipare nominale RO (6 variante/persoana) → **verificare Reoon mod power, waterfall cu oprire la primul valid** (8.366 credite, 0 erori nerecuperate) → runda de recuperare MX cu filtru de siguranta nume-domeniu (558 firme, 30 domenii riscante excluse) → export cu trasabilitate completa (fiecare adresa Pending are dovada verificarii in `work/06_verificari.csv`).
-
-Scripturile 01–13 din `scripts/` reproduc integral pipeline-ul; `work/stats.md` logheaza fiecare pas.
+Consolidare 5 fisiere (2.518 randuri) → dedup (2.495 firme) → ANAF (1.958 CUI, 412
+administratori, 7 radiate) → descoperire domenii in 2 etape (audit subagenti +
+cautare web cu validare CUI/nume: 1.105 → ~1.500 firme cu domeniu) → scraping
+pagini contact → tipare nominale RO → verificare Reoon mod power, waterfall paralel
+cu checkpoint → export cu trasabilitate completa (fiecare adresa Pending are dovada
+in `work/06_verificari.csv`). QA automatizat: format, trasabilitate, statistici —
+trecut integral. Scripturile 01–13 + `work/stats.md` reproduc pipeline-ul.
+Cercetarea (7 rapoarte cu surse citate) e in `work/research_live/`.

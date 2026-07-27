@@ -160,3 +160,21 @@
 - Incert-mx: 61 (2.4%)
 - Nominal: 337 (13.5%)
 - Credite Reoon consumate: 8816
+
+## Pas 8 - Export final
+
+- Total firme: 2495
+- Catch-all: 389 (15.6%)
+- Exclus-fara-email: 1274 (51.1%)
+- Exclus-inactiv: 7 (0.3%)
+- Generic: 407 (16.3%)
+- Incert-mx: 61 (2.4%)
+- Nominal: 357 (14.3%)
+- Credite Reoon consumate: 9029
+
+## Runda de imbunatatiri gratuite (finalizata)
+
+- Cautare web: 1.385 firme fara domeniu -> 533 candidati -> 392 domenii validate
+- Retry unknown: +9 firme; re-verificare generice ambigue: +6
+- Rezultat: 659 -> 764 contacte sigure (357 nominale, 407 generice)
+- Credite Reoon: 9.029/10.000; restul actiunilor: $0
