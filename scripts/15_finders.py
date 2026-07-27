@@ -21,9 +21,10 @@ OUT = "work/20_finders_rezultate.csv"
 ap = argparse.ArgumentParser()
 ap.add_argument("--tool", required=True, choices=["prospeo", "dropcontact", "getprospect"])
 ap.add_argument("--max", type=int, default=0)
+ap.add_argument("--input", default="work/20_finders_tinta.csv")
 args = ap.parse_args()
 
-t = pd.read_csv("work/20_finders_tinta.csv", dtype=str).fillna("")
+t = pd.read_csv(args.input, dtype=str).fillna("")
 found_ids, tried = set(), set()
 if os.path.exists(OUT):
     prev = pd.read_csv(OUT, dtype=str).fillna("")
