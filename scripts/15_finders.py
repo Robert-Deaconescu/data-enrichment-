@@ -89,31 +89,43 @@ if args.tool == "prospeo":
 
 elif args.tool == "getprospect":
     KEY = os.environ["GETPROSPECT_API_KEY"]
-    for _, r in todo.iterrows():
+    import threading
+    from concurrent.futures import ThreadPoolExecutor
+    glock = threading.Lock()
+    gstate = {"stop": False}
+
+    def gp_one(r):
+        if gstate["stop"]:
+            return
         try:
             resp = requests.get("https://api.getprospect.com/public/v1/email/find",
                                 params={"name": f"{r.first_name} {r.last_name}", "company": r.domeniu},
-                                headers={"apiKey": KEY}, timeout=60)
+                                headers={"apiKey": KEY}, timeout=20)
         except Exception as e:
             print(f"  ! {r.domeniu}: {type(e).__name__}", flush=True)
-            continue
+            return
         if resp.status_code in (402, 429):
             print(f"  CREDITE/RATA GETPROSPECT ({resp.status_code}) - stop", flush=True)
-            break
-        if resp.status_code == 404:
-            write(r.id_firma, "", "negasit")
-        elif resp.status_code == 200:
-            d = resp.json()
-            em = d.get("email") or (d.get("contact") or {}).get("email") or ""
-            if isinstance(em, dict):
-                em = em.get("email", "")
-            st = str(d.get("status", d.get("emailStatus", "")))
-            write(r.id_firma, str(em).lower() if em else "", f"getprospect:{st}" if em else "negasit")
-        else:
-            print(f"  ? HTTP {resp.status_code} la {r.domeniu}: {resp.text[:120]}", flush=True)
-            if resp.status_code == 401:
-                break
-        time.sleep(0.7)
+            gstate["stop"] = True
+            return
+        with glock:
+            if resp.status_code == 404:
+                write(r.id_firma, "", "negasit")
+            elif resp.status_code == 200:
+                d = resp.json()
+                em = d.get("email") or (d.get("contact") or {}).get("email") or ""
+                if isinstance(em, dict):
+                    em = em.get("email", "")
+                st = str(d.get("status", d.get("emailStatus", "")))
+                write(r.id_firma, str(em).lower() if em else "", f"getprospect:{st}" if em else "negasit")
+            else:
+                print(f"  ? HTTP {resp.status_code} la {r.domeniu}: {resp.text[:120]}", flush=True)
+                if resp.status_code == 401:
+                    gstate["stop"] = True
+        time.sleep(0.3)
+
+    with ThreadPoolExecutor(max_workers=3) as ex:
+        list(ex.map(gp_one, (r for _, r in todo.iterrows())))
 
 elif args.tool == "dropcontact":
     KEY = os.environ["DROPCONTACT_API_KEY"]
